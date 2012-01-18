@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: vn.com.hkt.product.extW52
+OpenIDE-Module-Localizing-Bundle: vn/com/hkt/product/extW52/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

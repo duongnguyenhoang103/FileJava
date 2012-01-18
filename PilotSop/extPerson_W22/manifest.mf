@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: vn.com.hkt.generic.spi
+OpenIDE-Module-Localizing-Bundle: vn/com/hkt/generic/spi/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
