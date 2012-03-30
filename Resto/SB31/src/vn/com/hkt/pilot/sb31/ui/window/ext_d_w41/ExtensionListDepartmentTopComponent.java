@@ -1,0 +1,680 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package vn.com.hkt.pilot.sb31.ui.window.ext_d_w41;
+
+import com.vn.hkt.core.cookie.api.FilterCokieTable;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Font;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionListener;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTable;
+import javax.swing.RowFilter;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableCellRenderer;
+import javax.swing.table.TableModel;
+import javax.swing.table.TableRowSorter;
+import org.japura.gui.LinkLabel;
+import org.openide.util.NbBundle;
+import org.openide.windows.TopComponent;
+import org.netbeans.api.settings.ConvertAsProperties;
+import org.openide.awt.ActionID;
+import org.openide.awt.ActionReference;
+import org.openide.util.Exceptions;
+import org.openide.util.Lookup;
+import org.openide.util.lookup.ServiceProvider;
+import org.openide.windows.WindowManager;
+import vn.com.hkt.basic.api.IDepartmentBN;
+import vn.com.hkt.basic.api.ISystemSotfwareBN;
+import vn.com.hkt.basic.api.IWidthTableBN;
+import vn.com.hkt.basic.toolbar.BasicToolbarManager;
+import vn.com.hkt.pilot.department.viewer.api.IDepartmentCreater;
+import vn.com.hkt.pilot.department.viewer.api.IDepartmentExtCreater;
+import vn.com.hkt.pilot.sb31.deparment.extW41.entity.DepartmentExt_W41;
+import vn.com.hkt.pilot.sb31.department.extW41.dao.DepartmentExtW41_DAO;
+import vn.com.hkt.pilot.department.viewer.api.IDepartmentExtViewer;
+import vn.com.hkt.pilot.enterprise.viewer.api.EditCookieList;
+import vn.com.hkt.pilot.enterprise.viewer.api.IEnableButton;
+import vn.com.hkt.pilot.enterprise.viewer.api.IGetObject;
+import vn.com.hkt.pilot.enterprise.viewer.api.RemoveCookieDepartment;
+import vn.com.hkt.pilot.enterprise.viewer.api.ResetCookieList;
+import vn.com.hkt.pilot.enterprise.viewer.api.SaveCookieList;
+import vn.com.hkt.pilot.enterprise.viewer.api.ViewCookieList;
+import vn.com.hkt.pilot.entities.Department;
+import vn.com.hkt.pilot.entities.Enterprise;
+import vn.com.hkt.pilot.entities.system.SystemSoftware;
+import vn.com.hkt.pilot.report.api.IReportListGUI;
+import vn.com.hkt.pilot.report.api.IReportManager;
+import vn.com.hkt.pilot.sb31.deparment.extW41.entity.ProjectStatus;
+import vn.com.hkt.pilot.sb31.ui.panel.ext_d_w41.ExtListDepartmentW41Cell;
+import vn.com.hkt.pilot.ui.colortable.StripedTableCellRenderer;
+import vn.com.hkt.pilot.sb31.ui.panel.ext_d_w41.ExtensionListDepartmentPanel;
+import vn.com.hkt.pilot.toobar.api.IResetFontSize;
+
+/**
+ * Top component which displays something.
+ */
+@ConvertAsProperties(dtd = "-//vn.com.hkt.ui.window.ext_d_w41//ExtensionListDepartment//EN",
+autostore = false)
+@TopComponent.Description(preferredID = "ExtensionListDepartmentTopComponent",
+//iconBase="SET/PATH/TO/ICON/HERE", 
+persistenceType = TopComponent.PERSISTENCE_ALWAYS)
+@TopComponent.Registration(mode = "editor", openAtStartup = false)
+@ActionID(category = "Window", id = "vn.com.hkt.ui.window.ext_d_w41.ExtensionListDepartmentTopComponent")
+@ActionReference(path = " " /*
+ * , position = 333
+ */)
+@TopComponent.OpenActionRegistration(displayName = "#CTL_ExtensionListDepartmentAction",
+preferredID = "ExtensionListDepartmentTopComponent")
+@ServiceProvider(service = IDepartmentExtViewer.class)
+public final class ExtensionListDepartmentTopComponent extends TopComponent implements MouseMotionListener, IDepartmentExtViewer, ViewCookieList,
+        RemoveCookieDepartment, ResetCookieList, FilterCokieTable, EditCookieList, SaveCookieList, IResetFontSize, IReportListGUI {
+
+    private DefaultTableModel model, modelEdit;
+    private DepartmentExtW41_DAO departmentExtW41_DAO;
+    private ExtensionListDepartmentPanel departmentPanel = new ExtensionListDepartmentPanel();
+    private int itsRow = 0;
+    private int itsColumn = 0;
+    private boolean isEdit = false;
+    private int size;
+    private String font;
+    private ISystemSotfwareBN sotfwareBN = Lookup.getDefault().lookup(ISystemSotfwareBN.class);
+    private List<SystemSoftware> listS = new ArrayList<SystemSoftware>();
+    private TableRowSorter<TableModel> tableRowSorter;
+
+    public ExtensionListDepartmentTopComponent() {
+        initComponents();
+        setName(NbBundle.getMessage(ExtensionListDepartmentTopComponent.class, "CTL_ExtensionListDepartmentTopComponent"));
+        setToolTipText(NbBundle.getMessage(ExtensionListDepartmentTopComponent.class, "HINT_ExtensionListDepartmentTopComponent"));
+
+        departmentPanel.getTableExtDepartment().addMouseMotionListener(this);
+
+        departmentExtW41_DAO = new DepartmentExtW41_DAO();
+
+
+    }
+
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+    }// </editor-fold>//GEN-END:initComponents
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // End of variables declaration//GEN-END:variables
+    @Override
+    public void componentOpened() {
+        // TODO add custom code on component opening
+        departmentPanel.getTableExtDepartment().addMouseMotionListener(this);
+        loadData();
+    }
+
+    @Override
+    public void componentClosed() {
+        // TODO add custom code on component closing
+    }
+
+    void writeProperties(java.util.Properties p) {
+        // better to version settings since initial version as advocated at
+        // http://wiki.apidesign.org/wiki/PropertyFiles
+        p.setProperty("version", "1.0");
+        // TODO store your settings
+    }
+
+    void readProperties(java.util.Properties p) {
+        String version = p.getProperty("version");
+        // TODO read your settings according to their version
+    }
+
+    protected void loadData() {
+        model = getModel();
+        departmentPanel.getTableExtDepartment().removeAll();
+        departmentPanel.getTableExtDepartment().setModel(model);
+        resetTable();
+        setupTable();
+        filterTable(getTable(), model);
+    }
+
+    public void loadDataEdit() {
+        modelEdit = getModel();
+        departmentPanel.getTableExtDepartment().removeAll();
+        departmentPanel.getTableExtDepartment().setModel(modelEdit);
+        resetTableEdit();
+        setupTable();
+    }
+
+    public DefaultTableModel getModel() {
+        IDepartmentBN departmentBN = Lookup.getDefault().lookup(IDepartmentBN.class);
+        Enterprise enterpriseChoise = null;
+        DefaultTableModel m = new DefaultTableModel();
+        String[] header = {"Mã dự án", "Logo", "Tên thường gọi",
+            "Tình trạng", "Khách hàng", "Dự kiến triển khai", "Đã triển khai", "Ngày triển khai", "Dự kiến OK", "Đã ok", "Ngày hoàn thành"};
+        m = new DefaultTableModel(header, 0);
+        enterpriseChoise = BasicToolbarManager.getBasicToolbar().getEnterprise();
+
+        List<DepartmentExt_W41> list = new ArrayList<DepartmentExt_W41>();
+        if (enterpriseChoise == null) {
+            list = departmentExtW41_DAO.selectAll();
+        } else {
+            list = departmentExtW41_DAO.getByEnterpriser(enterpriseChoise);
+        }
+
+        int n = list.size();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+        String date1, date2, date3, date4;
+        int i;
+        for (i = 0; i < n; i++) {
+            DepartmentExt_W41 d = list.get(i);
+            Department department = departmentBN.getById(d.getDepartmentIdActual());
+
+            if (d.getDeployedDate() != null) {
+                Calendar c1 = d.getDeployedDate();
+                Date d1 = new Date();
+                d1 = c1.getTime();
+                date1 = sdf.format(d1);
+            } else {
+                date1 = "";
+            }
+
+            if (d.getDeploymentDate() != null) {
+                Calendar c2 = d.getDeploymentDate();
+                Date d2 = new Date();
+                d2 = c2.getTime();
+                date2 = sdf.format(d2);
+            } else {
+                date2 = "";
+            }
+
+            if (d.getFinishDate() != null) {
+                Calendar c3 = d.getFinishDate();
+                Date d3 = new Date();
+                d3 = c3.getTime();
+                date3 = sdf.format(d3);
+            } else {
+                date3 = "";
+            }
+            if (d.getFinishedDate() != null) {
+                Calendar c4 = d.getFinishedDate();
+                Date d4 = new Date();
+                d4 = c4.getTime();
+                date4 = sdf.format(d4);
+            } else {
+                date4 = "";
+            }
+
+
+            Object[] row = {department.getDepartmentId(), "Logo", department, d.getStateDepartmentIdActual(), "Khach Hang", date1, date2, date3, date4, "Da OK", date4};
+            m.addRow(row);
+        }
+        return m;
+    }
+
+    public void resetTable() {
+        listS = sotfwareBN.selectAll();
+        Color colorL = new Color(listS.get(0).getColorLight().getRed(), listS.get(0).getColorLight().getGreen(), listS.get(0).getColorLight().getBlue());
+        Color colorD = new Color(listS.get(0).getColorDark().getRed(), listS.get(0).getColorDark().getGreen(), listS.get(0).getColorDark().getBlue());
+        TableCell tableCell = new TableCell(colorL, colorD);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(2).setCellRenderer(tableCell);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(2).setPreferredWidth(200);
+        departmentPanel.getTableExtDepartment().setRowHeight(26);
+    }
+
+    public void resetTableEdit() {
+        // Add ComboBox neu co
+        ExtListDepartmentW41Cell cell = new ExtListDepartmentW41Cell();
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(3).setCellEditor(cell);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(5).setCellEditor(cell);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(6).setCellEditor(cell);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(7).setCellEditor(cell);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(8).setCellEditor(cell);
+    }
+
+    public void SaveData() {
+        int n = departmentPanel.getTableExtDepartment().getRowCount();
+        if (n >= 1) {
+            for (int i = 0; i < n; i++) {
+                Department department = (Department) departmentPanel.getTableExtDepartment().getValueAt(i, 2);
+                // Logo lay tu enterprise -> co dinh . 
+                int status;
+                ProjectStatus projectStatus;
+                if (departmentPanel.getTableExtDepartment().getValueAt(1, 3) != null) {
+                    projectStatus = (ProjectStatus) departmentPanel.getTableExtDepartment().getValueAt(0, 1);
+                    status = projectStatus.getId();
+                } else {
+                    status = 0;
+                }
+                Calendar c1 = Calendar.getInstance();
+                Calendar c2 = Calendar.getInstance();
+                Calendar c3 = Calendar.getInstance();
+                Calendar c4 = Calendar.getInstance();
+
+                SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+                Date d1 = new Date();
+                Date d2 = new Date();
+                Date d3 = new Date();
+                Date d4 = new Date();
+
+                try {
+                    String dkTrienKhai = departmentPanel.getTableExtDepartment().getValueAt(i, 5).toString();
+                    d1 = sdf.parse(dkTrienKhai);
+                    c1.setTime(d1);
+                } catch (Exception e) {
+                    d1 = null;
+                }
+                try {
+                    String dkHoanThanh = departmentPanel.getTableExtDepartment().getValueAt(i, 6).toString();
+                    d2 = sdf.parse(dkHoanThanh);
+                    c2.setTime(d2);
+                } catch (Exception e) {
+                    d2 = null;
+                }
+                try {
+                    String daTrienKhai = departmentPanel.getTableExtDepartment().getValueAt(i, 7).toString();
+                    d3 = sdf.parse(daTrienKhai);
+                    c3.setTime(d3);
+                } catch (Exception e) {
+                    d3 = null;
+                }
+                try {
+                    String daHoanThanh = departmentPanel.getTableExtDepartment().getValueAt(i, 8).toString();
+                    d4 = sdf.parse(daHoanThanh);
+                    c4.setTime(d4);
+                } catch (Exception e) {
+                    d4 = null;
+                }
+
+                int id = department.getId();
+                List<DepartmentExt_W41> list = departmentExtW41_DAO.select(DepartmentExt_W41.FIELD_DEPARTMENT_ID_ACTUAL, String.valueOf(id));
+                DepartmentExt_W41 bean;
+                if (!list.isEmpty()) {
+                    bean = list.get(0);
+                } else {
+                    bean = new DepartmentExt_W41();
+                }
+                bean.setStateDepartmentIdActual(status);
+                if (d1 != null) {
+                    bean.setDeployedDate(c1);
+                } else {
+                    bean.setDeployedDate(null);
+                }
+                if (d2 != null) {
+                    bean.setDeploymentDate(c2);
+                } else {
+                    bean.setDeploymentDate(null);
+                }
+                if (d3 != null) {
+                    bean.setFinishDate(c3);
+                } else {
+                    bean.setFinishDate(null);
+                }
+                if (d4 != null) {
+                    bean.setFinishedDate(c4);
+                } else {
+                    bean.setFinishedDate(null);
+                }
+                departmentExtW41_DAO.update(bean);
+
+            }
+        }
+
+    }
+
+    private void setupTable() {
+        IWidthTableBN widthTableBN = Lookup.getDefault().lookup(IWidthTableBN.class);
+        departmentPanel.getTableExtDepartment().setSelectionBackground(new Color(192, 210, 224));
+        StripedTableCellRenderer.installInColumn(departmentPanel.getTableExtDepartment(), new Color(220, 228, 231), null, new Color(235, 239, 242), null);
+
+        int sizeId = widthTableBN.getWidth1();
+        int sizeLogo = widthTableBN.getWidth2();
+        int sizeName = widthTableBN.getWidth3();
+
+
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(0).setMaxWidth(sizeId);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(0).setPreferredWidth(sizeId);
+
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(1).setMaxWidth(sizeLogo);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(1).setPreferredWidth(sizeLogo);
+
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(2).setMaxWidth(sizeName);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(2).setPreferredWidth(sizeName);
+
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(0).setResizable(false);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(1).setResizable(false);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(2).setResizable(false);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(3).setResizable(false);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(4).setResizable(false);
+        departmentPanel.getTableExtDepartment().getColumnModel().getColumn(5).setResizable(false);
+        departmentPanel.getTableExtDepartment().getTableHeader().setReorderingAllowed(false);
+    }
+
+    @Override
+    public JPanel getDepartmentExtViewer() {
+        return this.departmentPanel;
+    }
+
+    @Override
+    public Lookup getDepartmentExtViewerLookup() {
+        return null;
+    }
+
+    @Override
+    public double getLevelNumber() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public JTable getTable() {
+        return this.departmentPanel.getTableExtDepartment();
+    }
+
+    @Override
+    public String toString() {
+        return "Thông tin chi tiết";
+    }
+
+    @Override
+    public void ViewCookieList() {
+        if (isEdit == true) {
+            loadDataEdit();
+        } else {
+            loadData();
+        }
+    }
+
+    @Override
+    public void remove() throws IOException {
+        int row = departmentPanel.getTableExtDepartment().getSelectedRow();
+        if (row > 0) {
+            Department bean = (Department) departmentPanel.getTableExtDepartment().getValueAt(row, 2);
+            Collection<? extends RemoveCookieDepartment> allRemoveCookie = Lookup.getDefault().lookupAll(RemoveCookieDepartment.class);
+            for (RemoveCookieDepartment r : allRemoveCookie) {
+                r.removeObject(bean.getId());
+            }
+        }
+    }
+
+    @Override
+    public void removeObject(int i) throws IOException {
+        try {
+            List<DepartmentExt_W41> list = departmentExtW41_DAO.select(DepartmentExt_W41.FIELD_DEPARTMENT_ID_ACTUAL, String.valueOf(i));
+            DepartmentExt_W41 bean = list.get(0);
+            departmentExtW41_DAO.delete(bean.getId());
+        } catch (Exception e) {
+        }
+
+    }
+
+    @Override
+    public void resetCookie() throws IOException {
+        ViewCookieList();
+    }
+
+    @Override
+    public void EditCookieList(boolean b) throws IOException {
+        isEdit = b;
+
+        if (isEdit == true) {
+            loadDataEdit();
+        } else {
+            loadData();
+        }
+    }
+
+    @Override
+    public void SaveCookieList() throws IOException {
+        TopComponent tc = WindowManager.getDefault().findTopComponent("DepartmentViewerTopComponent");
+        if (tc.isShowing()) {
+            SaveData();
+        }
+    }
+
+    @Override
+    public void mouseDragged(MouseEvent e) {
+    }
+
+    @Override
+    public void mouseMoved(MouseEvent e) {
+        if (isEdit == false) {
+            JTable aTable = (JTable) e.getSource();
+            itsRow = aTable.rowAtPoint(e.getPoint());
+            itsColumn = aTable.columnAtPoint(e.getPoint());
+            aTable.repaint();
+        }
+    }
+
+    // Liên thông font cỡ chữ, màu
+    @Override
+    public void resetFont() {
+        listS = sotfwareBN.selectAll();
+        size = departmentPanel.getTableExtDepartment().getFont().getSize();
+        font = listS.get(0).getFont().getFontName();
+        departmentPanel.getTableExtDepartment().setFont(new Font(font, 0, size));
+    }
+
+    @Override
+    public void resetColorRowTable() {
+        listS = sotfwareBN.selectAll();
+        Color colorL = new Color(listS.get(0).getColorLight().getRed(), listS.get(0).getColorLight().getGreen(), listS.get(0).getColorLight().getBlue());
+        Color colorD = new Color(listS.get(0).getColorDark().getRed(), listS.get(0).getColorDark().getGreen(), listS.get(0).getColorDark().getBlue());
+        StripedTableCellRenderer.installInColumn(departmentPanel.getTableExtDepartment(), colorL, null, colorD, null);
+        departmentPanel.getTableExtDepartment().repaint();
+    }
+
+    @Override
+    public void resetSize() {
+        listS = sotfwareBN.selectAll();
+        font = departmentPanel.getTableExtDepartment().getFont().getFontName();
+        size = listS.get(0).getSizeWord();
+        departmentPanel.getTableExtDepartment().setFont(new Font(font, 0, size));
+
+    }
+
+    @Override
+    public void resetColorWord() {
+        listS = sotfwareBN.selectAll();
+        Color color = new Color(listS.get(0).getColorWord().getRed(), listS.get(0).getColorWord().getGreen(), listS.get(0).getColorWord().getBlue());
+        departmentPanel.getTableExtDepartment().setForeground(color);
+        departmentPanel.getTableExtDepartment().repaint();
+    }
+
+    @Override
+    public void resetColorTitle() {
+        listS = sotfwareBN.selectAll();
+        Color color = new Color(listS.get(0).getColorTitle().getRed(), listS.get(0).getColorTitle().getGreen(), listS.get(0).getColorTitle().getBlue());
+        departmentPanel.getTableExtDepartment().getTableHeader().setForeground(color);
+        departmentPanel.getTableExtDepartment().repaint();
+    }
+
+    @Override
+    public void resetColorMouse() {
+        listS = sotfwareBN.selectAll();
+        Color color = new Color(listS.get(0).getColorMouseClick().getRed(), listS.get(0).getColorMouseClick().getGreen(), listS.get(0).getColorMouseClick().getBlue());
+        departmentPanel.getTableExtDepartment().setSelectionBackground(color);
+        departmentPanel.getTableExtDepartment().repaint();
+    }
+
+    @Override
+    public void filterTable(JTable table, DefaultTableModel tableModel) {
+        tableRowSorter = new TableRowSorter<TableModel>(tableModel);
+        table.setRowSorter(tableRowSorter);
+    }
+
+    @Override
+    public void filterTable(String stringKey, int column) {
+        tableRowSorter.setRowFilter(RowFilter.regexFilter("(?i)" + stringKey, column));
+        tableRowSorter.setSortKeys(null);
+    }
+
+    @Override
+    public Hashtable getTableHeader() {
+        Hashtable hashtable = new Hashtable();
+        int n = getTable().getColumnCount();
+        int i;
+        for (i = 0; i < n; i++) {
+            hashtable.put(i, getTable().getColumnName(i).toString());
+        }
+
+        return hashtable;
+    }
+
+    @Override
+    public void exportReport() {
+        IReportManager reportManager = Lookup.getDefault().lookup(IReportManager.class);
+
+        if (reportManager
+                == null) {
+            return;
+        }
+        String[] keys1 = {"prTenDoanhNghiep", "prDiaChi", "prTenBaoCao", "prNgayLap", "prNguoiLapBaoCao"};
+        String[] values1 = {"HKT Consultant", "66 Trần Thái Tông Hà Nội", "", "16/03/2012", "Đồng Thị Tâm"};
+        String keys2[] = new String[getTable().getColumnCount()];
+        String values2[] = new String[getTable().getColumnCount()];
+        for (int i = 0; i < getTable().getColumnCount(); i++) {
+            keys2[i] = "prColumn_" + i;
+            values2[i] = getTable().getColumnName(i).toString();
+        }
+        String[] keys = new String[keys1.length + keys2.length];
+        String[] values = new String[values1.length + values2.length];
+        System.arraycopy(keys1, 0, keys, 0, keys1.length);
+        System.arraycopy(keys2, 0, keys, keys1.length, keys2.length);
+        System.arraycopy(values1, 0, values, 0, values1.length);
+        System.arraycopy(values2, 0, values, values1.length, values2.length);
+        HashMap map = reportManager.getHashMap(keys, values);
+        DefaultTableModel md = reportManager.getModel(getTable());
+        reportManager.setReportManager(map, md);
+        reportManager.exportReport();
+    }
+
+    public class TableCell extends JLabel implements TableCellRenderer {
+
+        private Color colorL;
+        private Color colorD;
+
+        public TableCell(Color colorL, Color colorD) {
+            this.colorL = colorL;
+            this.colorD = colorD;
+            setOpaque(true);
+        }
+        private LinkLabel label = new LinkLabel();
+
+        @Override
+        public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
+
+            table.addMouseListener(new java.awt.event.MouseAdapter() {
+
+                @Override
+                public void mousePressed(java.awt.event.MouseEvent evt) {
+                    mouseEvent(evt);
+                }
+            });
+            if (row == itsRow && column == itsColumn) {
+                if (itsColumn == 2) {
+                    if (table.getValueAt(itsRow, 2) != null) {
+                        label.setText(table.getValueAt(itsRow, 2).toString());
+                    } else {
+                        label.setText(" ");
+                    }
+                }
+
+                return label;
+            } else {
+                if (value != null) {
+                    this.setText(value.toString());
+                } else {
+                    this.setText(" ");
+                }
+                if (row == 0) {
+                    this.setBackground(colorL);
+                    return this;
+                }
+                if (row == 1) {
+                    this.setBackground(colorD);
+                    return this;
+                }
+                if (row % 2 == 0) {
+                    this.setBackground(colorL);
+                    return this;
+                }
+                if (row % 2 != 0) {
+                    this.setBackground(colorD);
+                    return this;
+                }
+                return this;
+            }
+            //
+        }
+        // Xử lý click đúp lấy dữ liệu từ list sang form nhap
+
+        public void mouseEvent(MouseEvent e) {
+            if (isEdit == true) {
+                return;
+            }
+            JTable aTable = (JTable) e.getSource();
+            int selct = aTable.getSelectedRow();
+            int sectcol = aTable.getSelectedColumn();
+            if (selct == itsRow && sectcol == 2) {
+                if (aTable.getValueAt(selct, sectcol) != null) {
+                    Department d1 = (Department) aTable.getValueAt(selct, sectcol);
+                    openCloseComponent("DepartmentViewerTopComponent", "DepartmentCreatorTopComponent");
+                    getObject(d1.getDepartmentId());
+                }
+
+            }
+            aTable.clearSelection();
+        }
+
+        public void openCloseComponent(String s1, String s2) {
+            TopComponent tc1 = WindowManager.getDefault().findTopComponent(s1);
+            if (tc1.isOpened()) {
+                tc1.close();
+            }
+            TopComponent tc = WindowManager.getDefault().findTopComponent(s2);
+            if (tc.isOpened() == false) {
+                tc.open();
+                tc.requestActive();
+            } else {
+                tc.requestActive();
+            }
+            
+            if(tc instanceof IEnableButton){
+                try {
+                    ((IEnableButton)tc).enableButton();
+                } catch (IOException ex) {
+                    Exceptions.printStackTrace(ex);
+                }
+            }
+        }
+    }
+
+    private void getObject(String id) {
+        Collection<? extends IGetObject> allSave = Lookup.getDefault().lookupAll(IGetObject.class);
+        for (IGetObject getObject : allSave) {
+            if (getObject instanceof IDepartmentCreater || getObject instanceof IDepartmentExtCreater) {
+                getObject.getObject(id);
+            }
+        }
+    }
+
+    
+}

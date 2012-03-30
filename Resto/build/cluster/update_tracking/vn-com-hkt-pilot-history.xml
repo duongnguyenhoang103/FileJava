@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.pilot.history">
+    <module_version install_time="1333091266879" last="true" origin="installer" specification_version="1.0">
+        <file crc="3880735567" name="config/Modules/vn-com-hkt-pilot-history.xml"/>
+        <file crc="61254841" name="modules/ext/jcalendar-1.4.jar"/>
+        <file crc="1181764101" name="modules/ext/poi-3.5-FINAL.jar"/>
+        <file crc="888233306" name="modules/vn-com-hkt-pilot-history.jar"/>
+    </module_version>
+</module>

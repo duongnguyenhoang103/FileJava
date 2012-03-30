@@ -1,0 +1,9 @@
+vn.com.hkt.pilot.promotion.entity.ClassifiedByDepartment
+vn.com.hkt.pilot.promotion.entity.ClassifiedByEnterprise
+vn.com.hkt.pilot.promotion.entity.ClassifiedByOperation
+vn.com.hkt.pilot.promotion.entity.ClassifiedByPerson
+vn.com.hkt.pilot.promotion.entity.ClassifiedByProduct
+vn.com.hkt.pilot.promotion.entity.Promotion
+vn.com.hkt.pilot.promotion.entity.SaleOff
+vn.com.hkt.pilot.promotion.entity.SaleOffOption
+vn.com.hkt.pilot.promotion.entity.SaleOffProduct

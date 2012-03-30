@@ -1,0 +1,155 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="21" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="491" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="491" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="168" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="157" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tblContractDetail">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="9">
+                    <Column editable="true" title="" type="java.lang.Object">
+                      <Data value="C&#xf4;ng ty"/>
+                      <Data value="Ch&#x1ee9;c v&#x1ee5;"/>
+                      <Data value="H&#x1ec7; s&#x1ed1; t&#x1ed1;i thi&#x1ec3;u"/>
+                      <Data value="H&#x1ec7; s&#x1ed1; t&#x1ed1;i &#x111;a"/>
+                      <Data value="Pay frequency"/>
+                      <Data value="Chu k&#xec;"/>
+                      <Data value="B&#x1ed3;i th&#x1b0;&#x1edd;ng &#x111;u&#x1ed5;i vi&#x1ec7;c"/>
+                      <Data value="Ng&#xe0;y k&#xed; k&#x1ebf;t"/>
+                      <Data value="Ng&#xe0;y thay &#x111;&#x1ed5;i"/>
+                    </Column>
+                    <Column editable="true" title="" type="java.lang.Object">
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                    </Column>
+                    <Column editable="true" title="" type="java.lang.Object">
+                      <Data value="Lo&#x1ea1;i h&#x1ee3;p &#x111;&#x1ed3;ng"/>
+                      <Data value="Auto renew h&#x1ebf;t h&#x1ea1;n"/>
+                      <Data value="L&#x1b0;&#x1a1;ng t&#x1ed1;i thi&#x1ec3;u"/>
+                      <Data value="L&#x1b0;&#x1a1;ng t&#x1ed1;i &#x111;a"/>
+                      <Data value="H&#xec;nh th&#x1ee9;c t&#x103;ng th&#x1b0;&#x1edd;ng ni&#xea;n"/>
+                      <Data value=" "/>
+                      <Data value="B&#x1ed3;i th&#x1b0;&#x1edd;ng b&#x1ecf; vi&#x1ec7;c"/>
+                      <Data value="Ng&#xe0;y b&#x1eaf;t &#x111;&#x1ea7;u"/>
+                      <Data value="null"/>
+                    </Column>
+                    <Column editable="true" title="" type="java.lang.Object">
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                      <Data value=" "/>
+                    </Column>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                        <ResourceString bundle="vn/com/hkt/pilot/sb23/ui/panel/Bundle.properties" key="ExtentionSB23PanelHopDongChiTiet.tblContractDetail.columnModel.title0" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                      </Title>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                        <ResourceString bundle="vn/com/hkt/pilot/sb23/ui/panel/Bundle.properties" key="ExtentionSB23PanelHopDongChiTiet.tblContractDetail.columnModel.title1" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                      </Title>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                        <ResourceString bundle="vn/com/hkt/pilot/sb23/ui/panel/Bundle.properties" key="ExtentionSB23PanelHopDongChiTiet.tblContractDetail.columnModel.title2" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                      </Title>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                        <ResourceString bundle="vn/com/hkt/pilot/sb23/ui/panel/Bundle.properties" key="ExtentionSB23PanelHopDongChiTiet.tblContractDetail.columnModel.title3" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                      </Title>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

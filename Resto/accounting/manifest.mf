@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: vn.com.hkt.ap
+OpenIDE-Module-Install: vn/com/hkt/ap/Installer.class
+OpenIDE-Module-Localizing-Bundle: vn/com/hkt/ap/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

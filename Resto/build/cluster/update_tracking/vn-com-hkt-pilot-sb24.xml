@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.pilot.sb24">
+    <module_version install_time="1333091272241" last="true" origin="installer" specification_version="1.0">
+        <file crc="1484871633" name="config/Modules/vn-com-hkt-pilot-sb24.xml"/>
+        <file crc="3948203170" name="modules/vn-com-hkt-pilot-sb24.jar"/>
+    </module_version>
+</module>

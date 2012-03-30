@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.extension">
+    <module_version install_time="1333091264961" last="true" origin="installer" specification_version="1.0">
+        <file crc="1879094464" name="config/Modules/vn-com-hkt-extension.xml"/>
+        <file crc="203268237" name="modules/ext/japura-1.14.3.jar"/>
+        <file crc="1548256976" name="modules/vn-com-hkt-extension.jar"/>
+    </module_version>
+</module>

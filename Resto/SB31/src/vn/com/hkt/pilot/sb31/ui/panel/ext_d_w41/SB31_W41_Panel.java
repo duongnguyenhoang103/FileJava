@@ -1,0 +1,246 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/*
+ * ExtensionEnterprisePanel.java
+ *
+ * Created on Dec 21, 2011, 4:35:59 PM
+ */
+package vn.com.hkt.pilot.sb31.ui.panel.ext_d_w41;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.event.MouseEvent;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import javax.swing.JLabel;
+import javax.swing.JTable;
+import org.openide.util.Lookup;
+import vn.com.hkt.basic.api.ISystemSotfwareBN;
+import vn.com.hkt.pilot.enterprise.viewer.api.ResetCookie;
+import vn.com.hkt.pilot.entities.system.SystemSoftware;
+import vn.com.hkt.pilot.identity.presentation.api.IUserInterface;
+import vn.com.hkt.pilot.sb31.Installer;
+import vn.com.hkt.pilot.ui.colortable.StripedTableCellRenderer;
+
+/**
+ *
+ * @author longnt
+ */
+public class SB31_W41_Panel extends javax.swing.JPanel implements ResetCookie,IUserInterface {
+
+    private ExtDepartmentW41Cell cell = new ExtDepartmentW41Cell();
+    private ISystemSotfwareBN sotfwareBN = Lookup.getDefault().lookup(ISystemSotfwareBN.class);
+    private List<SystemSoftware> listS = new ArrayList<SystemSoftware>();
+
+    public ExtDepartmentW41Cell getCell() {
+        return cell;
+    }
+
+    /**
+     * Creates new form ExtensionEnterprisePanel
+     */
+    public SB31_W41_Panel() {
+        initComponents();
+        listS = sotfwareBN.selectAll();
+        Color colorL = new Color(listS.get(0).getColorLight().getRed(), listS.get(0).getColorLight().getGreen(), listS.get(0).getColorLight().getBlue());
+        Color colorD = new Color(listS.get(0).getColorDark().getRed(), listS.get(0).getColorDark().getGreen(), listS.get(0).getColorDark().getBlue());
+        Color color = new Color(listS.get(0).getColorWord().getRed(), listS.get(0).getColorWord().getGreen(), listS.get(0).getColorWord().getBlue());
+        tableExtensionD.getColumnModel().getColumn(1).setCellEditor(cell);
+        tableExtensionD.getColumnModel().getColumn(3).setCellEditor(cell);
+        tableExtensionD.getColumnModel().getColumn(0).setPreferredWidth(100);
+        tableExtensionD.getColumnModel().getColumn(0).setMaxWidth(100);
+        tableExtensionD.getColumnModel().getColumn(2).setPreferredWidth(100);
+        tableExtensionD.getColumnModel().getColumn(2).setMaxWidth(100);
+        tableExtensionD.setRowSelectionAllowed(true);
+        tableExtensionD.setColumnSelectionAllowed(false);
+        tableExtensionD.setSelectionBackground(new Color(192, 210, 224));
+        tableExtensionD.setForeground(color);
+        StripedTableCellRenderer.installInColumn(tableExtensionD, colorL, null, colorD, null);
+
+        tableExtensionD.setTableHeader(null);
+
+        jScrollPane1.setViewportBorder(null);
+
+        panelTong.removeAll();
+        panelTong.setBackground(new Color(242, 241, 240));
+        panelTong.setLayout(new GridLayout());
+        panelTong.add(tableExtensionD);
+        this.removeAll();
+        this.setLayout(new BorderLayout());
+        this.add(jPanel1, BorderLayout.CENTER);
+        this.setBackground(new Color(242, 241, 240));
+        JLabel label = new JLabel("           Thông tin chi tiết");
+        label.setBackground(new Color(242, 241, 240));
+        label.setFont((new Font(" ", Font.BOLD, 14)));
+        label.setPreferredSize(new Dimension(WIDTH, 30));
+        this.add(label, BorderLayout.NORTH);
+
+
+        tableExtensionD.addMouseListener(new java.awt.event.MouseAdapter() {
+
+            @Override
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                tableMousePressed(evt);
+            }
+
+            private void tableMousePressed(MouseEvent evt) {
+                Collection<? extends ResetCookie> allResetCookie = Lookup.getDefault().lookupAll(ResetCookie.class);
+                for (ResetCookie rc : allResetCookie) {
+                    try {
+                        rc.resetSelectTable(3.11);
+                    } catch (IOException ex) {
+                    }
+                }
+            }
+        });
+    }
+
+    public void reset() {
+        cell.reset();
+        tableExtensionD.setValueAt("", 0, 1);
+        tableExtensionD.setValueAt("", 0, 3);
+        tableExtensionD.setValueAt("", 1, 1);
+        tableExtensionD.setValueAt("", 1, 3);
+        tableExtensionD.setValueAt("", 2, 1);
+        tableExtensionD.setValueAt("", 2, 3);
+        tableExtensionD.setValueAt("", 3, 1);
+        tableExtensionD.setValueAt("", 3, 3);
+    }
+
+    @Override
+    public String toString() {
+        return "Thông tin chi tiết";
+    }
+
+    public JTable getTableExtensionE() {
+        return this.tableExtensionD;
+    }
+
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        jPanel1 = new javax.swing.JPanel();
+        panelTong = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        tableExtensionD = new javax.swing.JTable();
+
+        panelTong.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        panelTong.setPreferredSize(new java.awt.Dimension(827, 165));
+
+        tableExtensionD.setBackground(new java.awt.Color(242, 241, 240));
+        tableExtensionD.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Tình trạng dự án", " ", "Máy in", " "},
+                {"Dự kiến triển khai", " ", "Đã triển khai", " "},
+                {"Dự kiến hoàn thành", " ", "Đã hoàn thành", " "},
+                {"Mô tả ghi chú", " ", "Tiến độ", " "},
+                {" ", " ", " ", " "},
+                {" ", " ", " ", " "}
+            },
+            new String [] {
+                "", "", "", ""
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true, false, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                if (rowIndex >3) return false ;
+                return canEdit [columnIndex];
+            }
+        });
+        tableExtensionD.setRowHeight(26);
+        tableExtensionD.setShowHorizontalLines(false);
+        tableExtensionD.setShowVerticalLines(false);
+        jScrollPane1.setViewportView(tableExtensionD);
+
+        javax.swing.GroupLayout panelTongLayout = new javax.swing.GroupLayout(panelTong);
+        panelTong.setLayout(panelTongLayout);
+        panelTongLayout.setHorizontalGroup(
+            panelTongLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelTongLayout.createSequentialGroup()
+                .addGap(92, 92, 92)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(277, Short.MAX_VALUE))
+        );
+        panelTongLayout.setVerticalGroup(
+            panelTongLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelTongLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(146, 146, 146))
+        );
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(panelTong, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(panelTong, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
+                .addContainerGap(347, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+    }// </editor-fold>//GEN-END:initComponents
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JPanel panelTong;
+    private javax.swing.JTable tableExtensionD;
+    // End of variables declaration//GEN-END:variables
+
+    @Override
+    public void resetCookie() throws IOException {
+        reset();
+    }
+
+    @Override
+    public void resetSelectTable(double d) throws IOException {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public String getUserInterfaceName() {
+        return getClass().getSimpleName();
+    }
+
+    @Override
+    public String getUserInterfaceDescription() {
+        return "Giao diện thông tin chi tiết dự án";
+    }
+
+    @Override
+    public String getModuleName() {
+        return Installer.MODULE_NAME;
+    }
+}

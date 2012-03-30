@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.ap">
+    <module_version install_time="1333091264244" last="true" origin="installer" specification_version="1.0">
+        <file crc="635714931" name="config/Modules/vn-com-hkt-ap.xml"/>
+        <file crc="3669619786" name="modules/vn-com-hkt-ap.jar"/>
+    </module_version>
+</module>

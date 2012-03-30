@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: vn.com.hkt.pilot.calendaroption.ui
+OpenIDE-Module-Install: vn/com/hkt/pilot/calendaroption/Installer.class
+OpenIDE-Module-Localizing-Bundle: vn/com/hkt/pilot/calendaroption/ui/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+

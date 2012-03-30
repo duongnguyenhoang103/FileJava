@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.pilot.promotion">
+    <module_version install_time="1333091275523" last="true" origin="installer" specification_version="1.0">
+        <file crc="3427175439" name="config/Modules/vn-com-hkt-pilot-promotion.xml"/>
+        <file crc="61254841" name="modules/ext/jcalendar-1.4.jar"/>
+        <file crc="2780975779" name="modules/vn-com-hkt-pilot-promotion.jar"/>
+    </module_version>
+</module>

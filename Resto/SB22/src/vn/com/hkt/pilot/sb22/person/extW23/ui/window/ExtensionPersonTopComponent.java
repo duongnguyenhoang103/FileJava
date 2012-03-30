@@ -1,0 +1,460 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package vn.com.hkt.pilot.sb22.person.extW23.ui.window;
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.event.MouseEvent;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import javax.swing.JPanel;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+import org.openide.util.Lookup;
+import org.openide.util.NbBundle;
+import org.openide.windows.TopComponent;
+import org.netbeans.api.settings.ConvertAsProperties;
+import org.openide.awt.ActionID;
+import org.openide.awt.ActionReference;
+import org.openide.util.lookup.ServiceProvider;
+import vn.com.hkt.basic.api.ICityBN;
+import vn.com.hkt.basic.api.ICountryBN;
+import vn.com.hkt.basic.api.IPersonBN;
+import vn.com.hkt.basic.api.ISystemSotfwareBN;
+import vn.com.hkt.pilot.enterprise.viewer.api.IEnableTable;
+import vn.com.hkt.pilot.sb22.person.extW23.dao.SubPersonSB22BN;
+import vn.com.hkt.pilot.sb22.person.extW23.entity.SubPersonSB22;
+import vn.com.hkt.pilot.sb22.person.extW23.ui.panel.ExtensionPersonPanel;
+import vn.com.hkt.pilot.enterprise.viewer.api.IGetObject;
+import vn.com.hkt.pilot.entities.City;
+import vn.com.hkt.pilot.entities.Country;
+import vn.com.hkt.pilot.entities.Person;
+import vn.com.hkt.pilot.entities.system.SystemSoftware;
+import vn.com.hkt.pilot.identity.entitiy.api.IEntity;
+import vn.com.hkt.pilot.operation.viewer.api.ILoadComboCountry;
+import vn.com.hkt.pilot.person.viewer.api.HelpTutorialPerson;
+import vn.com.hkt.pilot.person.viewer.api.IPersonExtCreater;
+import vn.com.hkt.pilot.sb22.person.extW23.dao.AddressInfoBN;
+import vn.com.hkt.pilot.sb22.person.extW23.entity.AddressInfo;
+import vn.com.hkt.pilot.sb22.person.extW23.ui.panel.PersonExtSB22Cell;
+import vn.com.hkt.pilot.sb22.person.extW23.ui.panel.SB22Tutorial;
+import vn.com.hkt.pilot.toobar.api.IResetFontSize;
+import vn.com.hkt.pilot.ui.colortable.StripedTableCellRenderer;
+import vn.com.hkt.ui.main.ui.api.creater.ISaveExtention;
+
+/**
+ * Top component which displays something.
+ */
+@ConvertAsProperties(dtd = "-//vn.com.hkt.person.extw23.ui.window//ExtensionPerson//EN",
+autostore = false)
+@TopComponent.Description(preferredID = "ExtensionPersonTopComponent",
+//iconBase="SET/PATH/TO/ICON/HERE", 
+persistenceType = TopComponent.PERSISTENCE_ALWAYS)
+@TopComponent.Registration(mode = "editor", openAtStartup = false)
+@ActionID(category = "Window", id = "vn.com.hkt.person.extw23.ui.window.ExtensionPersonTopComponent")
+@ActionReference(path = " " /*
+ * , position = 333
+ */)
+@TopComponent.OpenActionRegistration(displayName = "#CTL_ExtensionPersonAction",
+preferredID = "ExtensionPersonTopComponent")
+@ServiceProvider(service = IPersonExtCreater.class)
+public final class ExtensionPersonTopComponent extends TopComponent implements IPersonExtCreater,
+        ISaveExtention, IEnableTable, IResetFontSize, IGetObject, ILoadComboCountry {
+
+    private ExtensionPersonPanel extensionPersonPanel = new ExtensionPersonPanel();
+    private SubPersonSB22BN dao = new SubPersonSB22BN();
+    private int size;
+    private String font;
+    private ISystemSotfwareBN sotfwareBN = Lookup.getDefault().lookup(ISystemSotfwareBN.class);
+    private List<SystemSoftware> listS = new ArrayList<SystemSoftware>();
+    private int i = 3;
+    private DefaultTableModel modelDiaChi;
+    private AddressInfoBN addressInfoBN = new AddressInfoBN();
+    private int idPerson = 0;
+    private PersonExtSB22Cell personExtSB22Cell;
+
+    public ExtensionPersonTopComponent() {
+        initComponents();
+        setName(NbBundle.getMessage(ExtensionPersonTopComponent.class, "CTL_ExtensionPersonTopComponent"));
+        setToolTipText(NbBundle.getMessage(ExtensionPersonTopComponent.class, "HINT_ExtensionPersonTopComponent"));
+
+        personExtSB22Cell = new PersonExtSB22Cell(3);
+        extensionPersonPanel.getTableDiaChi().getColumnModel().getColumn(1).setCellEditor(personExtSB22Cell);
+        extensionPersonPanel.getTableDiaChi().getColumnModel().getColumn(2).setCellEditor(personExtSB22Cell);
+        extensionPersonPanel.getTableDiaChi().getColumnModel().getColumn(3).setCellEditor(personExtSB22Cell);
+        //Bắt sự kiện select row của table 
+        extensionPersonPanel.getTableDiaChi().addMouseListener(new java.awt.event.MouseAdapter() {
+
+            @Override
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                tableMousePressed(evt);
+            }
+        });
+        extensionPersonPanel.getTablePerson().addMouseListener(new java.awt.event.MouseAdapter() {
+
+            @Override
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                tableMousePressedP(evt);
+            }
+        });
+    }
+
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+    }// </editor-fold>//GEN-END:initComponents
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // End of variables declaration//GEN-END:variables
+    @Override
+    public void componentOpened() {
+        // TODO add custom code on component opening
+    }
+
+    @Override
+    public void componentClosed() {
+        // TODO add custom code on component closing
+    }
+
+    void writeProperties(java.util.Properties p) {
+        // better to version settings since initial version as advocated at
+        // http://wiki.apidesign.org/wiki/PropertyFiles
+        p.setProperty("version", "1.0");
+        // TODO store your settings
+    }
+
+    void readProperties(java.util.Properties p) {
+        String version = p.getProperty("version");
+        // TODO read your settings according to their version
+    }
+
+    @Override
+    public JPanel getPersonExtCreater() {
+        return this.extensionPersonPanel;
+    }
+
+    @Override
+    public Lookup getPersonExtLookup() {
+        return null;
+    }
+
+    @Override
+    public double getLevelNumber() {
+        return 2.2;
+    }
+
+    @Override
+    public void reset() {
+        idPerson = 0;
+
+        extensionPersonPanel.reset(i);
+        extensionPersonPanel.getTablePerson().getColumnModel().getColumn(0).setPreferredWidth(100);
+        extensionPersonPanel.getTablePerson().getColumnModel().getColumn(0).setMaxWidth(100);
+        extensionPersonPanel.getTablePerson().getColumnModel().getColumn(2).setPreferredWidth(100);
+        extensionPersonPanel.getTablePerson().getColumnModel().getColumn(2).setMaxWidth(100);
+        extensionPersonPanel.getTablePerson().setRowSelectionAllowed(true);
+        extensionPersonPanel.getTablePerson().setColumnSelectionAllowed(false);
+
+        extensionPersonPanel.getTablePerson().setTableHeader(null);
+
+        extensionPersonPanel.getTableDiaChi().setTableHeader(null);
+        extensionPersonPanel.getTableDiaChi().getColumnModel().getColumn(0).setPreferredWidth(100);
+        extensionPersonPanel.getTableDiaChi().getColumnModel().getColumn(0).setMaxWidth(100);
+        extensionPersonPanel.getTableDiaChi().getColumnModel().getColumn(2).setPreferredWidth(100);
+        extensionPersonPanel.getTableDiaChi().getColumnModel().getColumn(2).setMaxWidth(100);
+        extensionPersonPanel.getTableDiaChi().setRowSelectionAllowed(true);
+        extensionPersonPanel.getTableDiaChi().setColumnSelectionAllowed(false);
+    }
+
+    // Liên thông font cỡ chữ, màu
+    @Override
+    public void resetFont() {
+        listS = sotfwareBN.selectAll();
+        size = extensionPersonPanel.getTableDiaChi().getFont().getSize();
+        font = listS.get(0).getFont().getFontName();
+        extensionPersonPanel.getTableDiaChi().setFont(new Font(font, 0, size));
+        extensionPersonPanel.getTablePerson().setFont(new Font(font, 0, size));
+    }
+
+    @Override
+    public void resetColorRowTable() {
+        listS = sotfwareBN.selectAll();
+        Color colorL = new Color(listS.get(0).getColorLight().getRed(), listS.get(0).getColorLight().getGreen(), listS.get(0).getColorLight().getBlue());
+        Color colorD = new Color(listS.get(0).getColorDark().getRed(), listS.get(0).getColorDark().getGreen(), listS.get(0).getColorDark().getBlue());
+        StripedTableCellRenderer.installInColumn(extensionPersonPanel.getTableDiaChi(), colorL, null, colorD, null);
+        StripedTableCellRenderer.installInColumn(extensionPersonPanel.getTablePerson(), colorL, null, colorD, null);
+        extensionPersonPanel.getTableDiaChi().repaint();
+        extensionPersonPanel.getTablePerson().repaint();
+    }
+
+    @Override
+    public void resetSize() {
+        listS = sotfwareBN.selectAll();
+        font = extensionPersonPanel.getTableDiaChi().getFont().getFontName();
+        size = listS.get(0).getSizeWord();
+        extensionPersonPanel.getTableDiaChi().setFont(new Font(font, 0, size));
+        extensionPersonPanel.getTablePerson().setFont(new Font(font, 0, size));
+    }
+
+    @Override
+    public void resetColorWord() {
+        listS = sotfwareBN.selectAll();
+        Color color = new Color(listS.get(0).getColorWord().getRed(), listS.get(0).getColorWord().getGreen(), listS.get(0).getColorWord().getBlue());
+        extensionPersonPanel.getTableDiaChi().setForeground(color);
+        extensionPersonPanel.getTablePerson().setForeground(color);
+        extensionPersonPanel.getTablePerson().repaint();
+        extensionPersonPanel.getTableDiaChi().repaint();
+
+
+    }
+
+    @Override
+    public void resetColorTitle() {
+//        listS = sotfwareBN.selectAll();
+//        Color color = new Color(listS.get(0).getColorTitle().getRed(), listS.get(0).getColorTitle().getGreen(), listS.get(0).getColorTitle().getBlue());
+//        extensionPersonPanel.getTableDiaChi().getTableHeader().setForeground(color);
+//         extensionPersonPanel.getTablePerson().getTableHeader().setForeground(color);
+//        extensionPersonPanel.getTableDiaChi().repaint();
+//        extensionPersonPanel.getTablePerson().repaint();
+    }
+
+    @Override
+    public void resetColorMouse() {
+        listS = sotfwareBN.selectAll();
+        Color color = new Color(listS.get(0).getColorMouseClick().getRed(), listS.get(0).getColorMouseClick().getGreen(), listS.get(0).getColorMouseClick().getBlue());
+        extensionPersonPanel.getTableDiaChi().setSelectionBackground(color);
+        extensionPersonPanel.getTablePerson().setSelectionBackground(color);
+        extensionPersonPanel.getTableDiaChi().repaint();
+        extensionPersonPanel.getTablePerson().repaint();
+    }
+
+    private void tableMousePressed(MouseEvent evt) {
+        if (extensionPersonPanel.getTableDiaChi().getSelectedColumn() == 2 || extensionPersonPanel.getTableDiaChi().getSelectedColumn() == 3) {
+            addFormEditID(2.06, " ");
+        }
+        if (extensionPersonPanel.getTableDiaChi().getSelectedRow() == i) {
+            modelDiaChi = (DefaultTableModel) extensionPersonPanel.getTableDiaChi().getModel();
+            i++;
+            String str = "                 " + i + "";
+            Object[] rows1 = {str, " ", " "};
+            modelDiaChi.addRow(rows1);
+
+            extensionPersonPanel.getTableDiaChi().repaint();
+        }
+    }
+
+    private void tableMousePressedP(MouseEvent evt) {
+        SB22Tutorial sB22Tutorial = new SB22Tutorial();
+        if (extensionPersonPanel.getTablePerson().getSelectedRow() == 0 && extensionPersonPanel.getTablePerson().getSelectedColumn() == 1) {
+            addFormEditID(2.201, sB22Tutorial.getTxtTell().getText());
+        }
+        if (extensionPersonPanel.getTablePerson().getSelectedRow() == 0 && extensionPersonPanel.getTablePerson().getSelectedColumn() == 3) {
+            addFormEditID(2.203, sB22Tutorial.getTxtFax().getText());
+        }
+        if (extensionPersonPanel.getTablePerson().getSelectedRow() == 1 && extensionPersonPanel.getTablePerson().getSelectedColumn() == 1) {
+            addFormEditID(2.211, sB22Tutorial.getTxtEmail().getText());
+        }
+        if (extensionPersonPanel.getTablePerson().getSelectedRow() == 1 && extensionPersonPanel.getTablePerson().getSelectedColumn() == 3) {
+            addFormEditID(2.213, sB22Tutorial.getTxtWebName().getText());
+        }
+    }
+
+    private void addFormEditID(double i, String str) {
+        Collection<? extends HelpTutorialPerson> allSave = Lookup.getDefault().lookupAll(HelpTutorialPerson.class);
+        for (HelpTutorialPerson editCookie : allSave) {
+            editCookie.getTutorial(i, str);
+        }
+    }
+
+    @Override
+    public void getObject(String id) {
+        IPersonBN personBN = Lookup.getDefault().lookup(IPersonBN.class);
+        ICityBN cityBN = Lookup.getDefault().lookup(ICityBN.class);
+        ICountryBN countryBN = Lookup.getDefault().lookup(ICountryBN.class);
+        Person person = personBN.getByObjectId(id);
+        if (person != null) {
+            SubPersonSB22 subPersonSB22 = dao.getByObjectId(String.valueOf(person.getId()));
+            extensionPersonPanel.getTablePerson().setValueAt(subPersonSB22.getTel(), 0, 1);
+            extensionPersonPanel.getTablePerson().setValueAt(subPersonSB22.getFax(), 0, 3);
+            extensionPersonPanel.getTablePerson().setValueAt(subPersonSB22.getEmail(), 1, 1);
+            extensionPersonPanel.getTablePerson().setValueAt(subPersonSB22.getWeb(), 1, 3);
+
+            List<Integer> listAddr = subPersonSB22.getAddressIdActual();
+            if (listAddr != null && listAddr.size() != -1) {
+                if (listAddr.size() < 3) {
+                    AddressInfo addressInfo[] = new AddressInfo[4];
+                    for (int j = 0; j < listAddr.size(); j++) {
+                        addressInfo[j] = addressInfoBN.getById(listAddr.get(j));
+                        Country country = countryBN.getById(addressInfo[j].getCountryIdActual());
+                        City city = cityBN.getById(addressInfo[j].getCityIdActual());
+                        extensionPersonPanel.getTableDiaChi().setValueAt(addressInfo[j].getAddressInfoName(), j + 1, 1);
+                        extensionPersonPanel.getTableDiaChi().setValueAt(country, j, 2);
+                        extensionPersonPanel.getTableDiaChi().setValueAt(city, j, 3);
+                    }
+                    for (int j = listAddr.size(); j < 3; j++) {
+
+                        extensionPersonPanel.getTableDiaChi().setValueAt(" ", j, 1);
+                        extensionPersonPanel.getTableDiaChi().setValueAt(" ", j, 2);
+                        extensionPersonPanel.getTableDiaChi().setValueAt(" ", j, 3);
+                    }
+                } else {
+                    AddressInfo addressInfo[] = new AddressInfo[listAddr.size()];
+                    for (int j = 0; j < 3; j++) {
+                        addressInfo[j] = addressInfoBN.getById(listAddr.get(j));
+                        Country country = countryBN.getById(addressInfo[j].getCountryIdActual());
+                        City city = cityBN.getById(addressInfo[j].getCityIdActual());
+                        extensionPersonPanel.getTableDiaChi().setValueAt(addressInfo[j].getAddressInfoName(), j, 1);
+                        extensionPersonPanel.getTableDiaChi().setValueAt(country, j, 2);
+                        extensionPersonPanel.getTableDiaChi().setValueAt(city, j, 3);
+                    }
+                    modelDiaChi = (DefaultTableModel) extensionPersonPanel.getTableDiaChi().getModel();
+                    for (int j = 3; j < listAddr.size(); j++) {
+                        Country country = null;
+                        City city = null;
+                        boolean ok = true;
+                        try {
+                            if (addressInfo[j].getCountryIdActual() != -1) {
+                                country = countryBN.getById(addressInfo[j].getCountryIdActual());
+                            } else {
+                                country = new Country();
+                            }
+                        } catch (Exception ex) {
+                            ok = false;
+                        }
+                        try {
+                            if (addressInfo[j].getCityIdActual() != -1) {
+                                city = cityBN.getById(addressInfo[j].getCityIdActual());
+                            } else {
+                                city = new City();
+                            }
+                        } catch (Exception ex) {
+                            ok = false;
+                        }
+
+                        try {
+                            if (ok) {
+                                Object[] row = {addressInfo[j].getAddressInfoName(), country, city};
+                                modelDiaChi.addRow(row);
+                            } else {
+                                Object[] row = {addressInfo[j].getAddressInfoName(), " ", " "};
+                                modelDiaChi.addRow(row);
+                            }
+                        } catch (Exception ex) {
+                            Object[] row = {" ", " ", " "};
+                            modelDiaChi.addRow(row);
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    @Override
+    public void enableTable(boolean ok) throws IOException {
+        extensionPersonPanel.getTableDiaChi().setEnabled(ok);
+        extensionPersonPanel.getTablePerson().setEnabled(ok);
+    }
+
+    @Override
+    public void loadCombo() {
+        personExtSB22Cell.loadCboCountry();
+    }
+
+    @Override
+    public List<JTable> getTables() {
+        List<JTable> lt = new ArrayList<JTable>();
+        lt.add(extensionPersonPanel.getTableDiaChi());
+        lt.add(extensionPersonPanel.getTablePerson());
+        return lt;
+    }
+
+    @Override
+    public void setEntity(IEntity entity) {
+        idPerson = entity.getId();
+    }
+
+    @Override
+    public IEntity save() {
+        if (idPerson == 0) {
+            return null;
+        }
+
+        String tel = "";
+        String fax = "";
+        String email = "";
+        String web = "";
+        try {
+            tel = extensionPersonPanel.getTablePerson().getValueAt(0, 1).toString().trim();
+            fax = extensionPersonPanel.getTablePerson().getValueAt(0, 3).toString().trim();
+            email = extensionPersonPanel.getTablePerson().getValueAt(1, 1).toString().trim();
+            web = extensionPersonPanel.getTablePerson().getValueAt(1, 3).toString().trim();
+        } catch (Exception e) {
+        }
+        int row = extensionPersonPanel.getTableDiaChi().getRowCount();
+        List<Integer> listAddress = new ArrayList<Integer>();
+        for (int i = 0; i < row; i++) {
+            AddressInfo aie = new AddressInfo();
+            String address;
+            try {
+                address = extensionPersonPanel.getTableDiaChi().getValueAt(i, 1).toString();
+            } catch (Exception ex) {
+                address = " ";
+            }
+            int idCountry;
+            try {
+                Country country = (Country) extensionPersonPanel.getTableDiaChi().getValueAt(i, 2);
+                idCountry = country.getId();
+            } catch (Exception ex) {
+                idCountry = 0;
+            }
+            int idCity;
+            try {
+                City city = (City) extensionPersonPanel.getTableDiaChi().getValueAt(i, 3);
+                idCity = city.getId();
+            } catch (Exception ex) {
+                idCity = 0;
+            }
+
+            aie.setAddressInfoName(address);
+            aie.setCountryIdActual(idCountry);
+            aie.setCityIdActual(idCity);
+            addressInfoBN.insert(aie);
+            listAddress.add(aie.getId());
+        }
+
+        SubPersonSB22 bean;
+        bean = dao.getByObjectId(String.valueOf(idPerson));
+        if (bean == null) {
+            bean = new SubPersonSB22();
+        }
+        bean.setPersonIdActual(idPerson);
+        bean.setAddressIdActual(listAddress);
+        bean.setTel(tel);
+        bean.setFax(fax);
+        bean.setEmail(email);
+        bean.setWeb(web);
+
+        dao.update(bean);
+        return bean;
+    }
+}

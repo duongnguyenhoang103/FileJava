@@ -1,0 +1,5 @@
+C:\Program Files\NetBeans 7.0.1\platform=1322216241229
+E:\File lam Java\Danh le\danhle\PilotSop\build\cluster=1333091280000
+C:\Program Files\NetBeans 7.0.1\platform=1322216241229
+E:\File lam Java\Danh le\danhle\PilotSop\build\testuserdir=1333091280000
+crc=7

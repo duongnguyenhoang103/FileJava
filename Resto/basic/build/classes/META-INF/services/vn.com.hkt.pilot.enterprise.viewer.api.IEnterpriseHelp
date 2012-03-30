@@ -1,0 +1,8 @@
+vn.com.hkt.bom.operation.ui.EditClassificationPanel
+vn.com.hkt.bom.operation.ui.EditKindOfTaxPanel
+vn.com.hkt.bom.product.ui.ProductEditIDPanel
+vn.com.hkt.erm.department.ui.DepartmentEditIDPanel
+vn.com.hkt.erm.enterprise.ui.EnterpriseEditIDPanel
+vn.com.hkt.hrm.person.ui.EditChucVuPanel
+vn.com.hkt.hrm.person.ui.PanelAddress
+vn.com.hkt.hrm.person.ui.PersonEditIDPanel

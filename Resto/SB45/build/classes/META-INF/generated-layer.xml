@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="vn_com_hkt_pilot_promotion_ui_window">
+                <file name="OperationSaleCreator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.promotion.ui.window.OperationSaleCreatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.pilot.promotion.ui.window//OperationSaleCreator//EN"/>
+                </file>
+                <file name="PromotionCreator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.promotion.ui.window.PromotionCreatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.pilot.promotion.ui.window//PromotionCreator//EN"/>
+                </file>
+                <file name="PromotionViewer" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.promotion.ui.window.PromotionViewerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.pilot.promotion.ui.window//PromotionViewer//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="vn">
+                <folder name="com">
+                    <folder name="hkt">
+                        <folder name="pilot">
+                            <folder name="promotion">
+                                <folder name="ui">
+                                    <folder name="window">
+                                    <file name="OperationSaleCreatorTopComponent">
+                                    <!--vn.com.hkt.pilot.promotion.ui.window.OperationSaleCreatorTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_pilot_promotion_ui_window/OperationSaleCreator.instance"/>
+                                    </file>
+                                    <file name="PromotionCreatorTopComponent">
+                                    <!--vn.com.hkt.pilot.promotion.ui.window.PromotionCreatorTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_pilot_promotion_ui_window/PromotionCreator.instance"/>
+                                    </file>
+                                    <file name="PromotionViewerTopComponent">
+                                    <!--vn.com.hkt.pilot.promotion.ui.window.PromotionViewerTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_pilot_promotion_ui_window/PromotionViewer.instance"/>
+                                    </file>
+                                    </folder>
+                                </folder>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="vn_com_hkt_pilot_promotion_ui_window">
+                <file name="OperationSaleCreator.instance">
+                    <!--vn.com.hkt.pilot.promotion.ui.window.OperationSaleCreatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.promotion.ui.window.OperationSaleCreatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.promotion.ui.window.OperationSaleCreatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="PromotionCreator.instance">
+                    <!--vn.com.hkt.pilot.promotion.ui.window.PromotionCreatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.promotion.ui.window.PromotionCreatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.promotion.ui.window.PromotionCreatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="PromotionViewer.instance">
+                    <!--vn.com.hkt.pilot.promotion.ui.window.PromotionViewerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.promotion.ui.window.PromotionViewerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.promotion.ui.window.PromotionViewerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="vn-com-hkt-pilot-promotion-ui-window-OperationSaleCreatorTopComponent.shadow">
+                <!--vn.com.hkt.pilot.promotion.ui.window.OperationSaleCreatorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-pilot-promotion-ui-window-OperationSaleCreatorTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-pilot-promotion-ui-window-PromotionCreatorTopComponent.shadow">
+                <!--vn.com.hkt.pilot.promotion.ui.window.PromotionCreatorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-pilot-promotion-ui-window-PromotionCreatorTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-pilot-promotion-ui-window-PromotionViewerTopComponent.shadow">
+                <!--vn.com.hkt.pilot.promotion.ui.window.PromotionViewerTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-pilot-promotion-ui-window-PromotionViewerTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="OperationSaleCreatorTopComponent.settings">
+                <!--vn.com.hkt.pilot.promotion.ui.window.OperationSaleCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.promotion.ui.window.OperationSaleCreatorTopComponent"/>
+</settings>
+]]></file>
+            <file name="PromotionCreatorTopComponent.settings">
+                <!--vn.com.hkt.pilot.promotion.ui.window.PromotionCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.promotion.ui.window.PromotionCreatorTopComponent"/>
+</settings>
+]]></file>
+            <file name="PromotionViewerTopComponent.settings">
+                <!--vn.com.hkt.pilot.promotion.ui.window.PromotionViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.promotion.ui.window.PromotionViewerTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="OperationSaleCreatorTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.promotion.ui.window.OperationSaleCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="OperationSaleCreatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="PromotionCreatorTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.promotion.ui.window.PromotionCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="PromotionCreatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="PromotionViewerTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.promotion.ui.window.PromotionViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="PromotionViewerTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="vn-com-hkt-pilot-promotion-ui-window-OperationSaleCreatorTopComponent.instance">
+                <!--vn.com.hkt.pilot.promotion.ui.window.OperationSaleCreatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.promotion.ui.window.OperationSaleCreatorTopComponent"/>
+                <attr name="preferredID" stringvalue="OperationSaleCreatorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.promotion.ui.window.Bundle#CTL_OperationSaleCreatorAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-pilot-promotion-ui-window-PromotionCreatorTopComponent.instance">
+                <!--vn.com.hkt.pilot.promotion.ui.window.PromotionCreatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.promotion.ui.window.PromotionCreatorTopComponent"/>
+                <attr name="preferredID" stringvalue="PromotionCreatorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.promotion.ui.window.Bundle#CTL_PromotionCreatorAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-pilot-promotion-ui-window-PromotionViewerTopComponent.instance">
+                <!--vn.com.hkt.pilot.promotion.ui.window.PromotionViewerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.promotion.ui.window.PromotionViewerTopComponent"/>
+                <attr name="preferredID" stringvalue="PromotionViewerTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.promotion.ui.window.Bundle#CTL_PromotionViewerAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

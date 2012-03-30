@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="bottomSlidingSide">
+        <attr name="WinSys-TCRef-Order" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000178"/>
+    </fileobject>
+    <fileobject name="editor">
+        <attr name="WinSys-TCRef-Order" stringvalue="authorTopComponent/TreeEnterpriseThuChiTopComponent/TreeProductThuAllTopComponent/ListPersonTopComponent/ListDepartmentTopComponent/MainMenuTopComponent/HistoryManagerTopComponent/PersonViewerTopComponent/BackupDatabaseTopComponent/EnterpriseCreatorTopComponent/TreeEnterpriseThuChiAllTopComponent/PromotionViewerTopComponent/CalendarOptionCreatorTopComponent/ExtensionListEnterprise2ndTopComponent/OperationCreatorTopComponent/MenuFoodTableTopComponent/DepartmentSearchTopComponent/ThuChiTopComponent/EnterpriseSearchTopComponent/ProductViewerTopComponent/TreeEnterpriseTopComponent/TreeDepartmentTopComponent/TreeEnterpriseThuAllTopComponent/HistoryTopComponent/MenuKitchenManagerTopComponent/TreeDepartmentCanBangAllTopComponent/OperationViewerTopComponent/MenuSalesTopComponent/OperationSaleCreatorTopComponent/DepartmentViewerTopComponent/ExtensionEnterpriseTopComponent/EnterpriseViewerTopComponent/TreeEnterpriseCanBangAllTopComponent/OrganizationTopComponent/ExtensionProductTopComponent/EnterpriseTopComponent/RestoreDatabaseTopComponent/ImportHistoryTopComponent/TreeProductCanBangAllTopComponent/WareHouseTopComponent/TreeDepartmentThuChiAllTopComponent/TreeProductChiAllTopComponent/ExportHistoryTopComponent/DepartmentTopComponent/HelpTopComponent/ListEnterpriseTopComponent/ExtensionDepartmentTopComponent/TestTopComponent/TreeDepartmentChiAllTopComponent/TreeEnterpriseThuChiByYearTopComponent/BackUpDataTopComponent/TreeDepartmentAllTopComponent/ExtensionListDepartmentTopComponent/TreeProductThuChiAllTopComponent/IntroductionTopComponent/ListProductTopComponent/DemoExtenstionSB23TopComponent/NghiepVuTopComponent/BieuDoTopComponent/PersonTopComponent/PersonSearchTopComponent/TreeEnterpriseChiAllTopComponent/ProductCreatorTopComponent/PriceSheetCreatorTopComponent/TreeProductTopComponent/ExtensionListProductTopComponent/PriceSheetViewerTopComponent/TreeOperationTopComponent/AccountManagerTotalTopComponent/ExtensionListPersonTopComponent/DepartmentCreatorTopComponent/TreeDepartmentThuAllTopComponent/TreeEnterpriseAllTopComponent/PersonCreatorTopComponent/ExtensionPersonTopComponent/PromotionCreatorTopComponent/RestoreDataTopComponent/ProductTopComponent/BackupManagerTopComponent/OperationsSearchTopComponent/ProductSearchTopComponent"/>
+    </fileobject>
+    <fileobject name="explorer">
+        <attr name="WinSys-TCRef-Order" stringvalue="favorites"/>
+    </fileobject>
+    <fileobject name="leftSlidingSide">
+        <attr name="WinSys-TCRef-Order" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000178"/>
+    </fileobject>
+    <fileobject name="output">
+        <attr name="WinSys-TCRef-Order" stringvalue="output"/>
+    </fileobject>
+    <fileobject name="properties">
+        <attr name="WinSys-TCRef-Order" stringvalue="EnterpriseTutorialCreatorTopComponent/OperationTutorialTopComponent/PersonTutorialCreatorTopComponent/properties/DepartmentTutorialCreatorTopComponent/ProductTutorialCreatorTopComponent"/>
+    </fileobject>
+    <fileobject name="rightSlidingSide">
+        <attr name="WinSys-TCRef-Order" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000178"/>
+    </fileobject>
+</attributes>

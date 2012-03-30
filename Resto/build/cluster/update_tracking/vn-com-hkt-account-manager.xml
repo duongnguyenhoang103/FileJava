@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.account.manager">
+    <module_version install_time="1333091265477" last="true" origin="installer" specification_version="1.0">
+        <file crc="656455546" name="config/Modules/vn-com-hkt-account-manager.xml"/>
+        <file crc="3026347089" name="modules/vn-com-hkt-account-manager.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.pilot.resto">
+    <module_version install_time="1333091276042" last="true" origin="installer" specification_version="1.0">
+        <file crc="14607017" name="config/Modules/vn-com-hkt-pilot-resto.xml"/>
+        <file crc="2004147356" name="modules/ext/AbsoluteLayout.jar"/>
+        <file crc="2687465618" name="modules/vn-com-hkt-pilot-resto.jar"/>
+    </module_version>
+</module>

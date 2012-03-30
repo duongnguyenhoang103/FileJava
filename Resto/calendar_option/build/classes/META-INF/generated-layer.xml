@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="vn_com_hkt_pilot_calendaroption_ui">
+                <file name="CalendarOptionCreator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.calendaroption.ui.CalendarOptionCreatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.pilot.calendaroption.ui//CalendarOptionCreator//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="vn">
+                <folder name="com">
+                    <folder name="hkt">
+                        <folder name="pilot">
+                            <folder name="calendaroption">
+                                <folder name="ui">
+                                    <file name="CalendarOptionCreatorTopComponent">
+                                    <!--vn.com.hkt.pilot.calendaroption.ui.CalendarOptionCreatorTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_pilot_calendaroption_ui/CalendarOptionCreator.instance"/>
+                                    </file>
+                                </folder>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="vn_com_hkt_pilot_calendaroption_ui">
+                <file name="CalendarOptionCreator.instance">
+                    <!--vn.com.hkt.pilot.calendaroption.ui.CalendarOptionCreatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.calendaroption.ui.CalendarOptionCreatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.calendaroption.ui.CalendarOptionCreatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="vn-com-hkt-pilot-calendaroption-ui-CalendarOptionCreatorTopComponent.shadow">
+                <!--vn.com.hkt.pilot.calendaroption.ui.CalendarOptionCreatorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-pilot-calendaroption-ui-CalendarOptionCreatorTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="CalendarOptionCreatorTopComponent.settings">
+                <!--vn.com.hkt.pilot.calendaroption.ui.CalendarOptionCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.calendaroption.ui.CalendarOptionCreatorTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="CalendarOptionCreatorTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.calendaroption.ui.CalendarOptionCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="CalendarOptionCreatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="vn-com-hkt-pilot-calendaroption-ui-CalendarOptionCreatorTopComponent.instance">
+                <!--vn.com.hkt.pilot.calendaroption.ui.CalendarOptionCreatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.calendaroption.ui.CalendarOptionCreatorTopComponent"/>
+                <attr name="preferredID" stringvalue="CalendarOptionCreatorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.calendaroption.ui.Bundle#CTL_CalendarOptionCreatorAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

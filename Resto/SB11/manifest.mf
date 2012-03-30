@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: vn.com.hkt.pilot.sbenterprise
+OpenIDE-Module-Install: vn/com/hkt/pilot/sbenterprise/Installer.class
+OpenIDE-Module-Localizing-Bundle: vn/com/hkt/pilot/sbenterprise/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

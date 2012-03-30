@@ -1,0 +1,1548 @@
+-------------------------------------------------------------------------------
+>Log Session: Friday, March 30, 2012 2:08:12 PM ICT
+>System Info: 
+  Product Version         = EnterpriseManager 201107282000
+  Operating System        = Windows 7 version 6.1 running on x86
+  Java; VM; Vendor        = 1.6.0_29; Java HotSpot(TM) Server VM 20.4-b02; Sun Microsystems Inc.
+  Runtime                 = Java(TM) SE Runtime Environment 1.6.0_29-b11
+  Java Home               = C:\Program Files\Java\jdk1.6.0_29\jre
+  System Locale; Encoding = en_US (pilotsop); Cp1252
+  Home Directory          = C:\Users\duong
+  Current Directory       = E:\File lam Java\Danh le\danhle\PilotSop
+  User Directory          = E:\File lam Java\Danh le\danhle\PilotSop\build\testuserdir
+  Installation            = E:\File lam Java\Danh le\danhle\PilotSop\build\cluster
+                            C:\Program Files\NetBeans 7.0.1\platform
+                            C:\Program Files\NetBeans 7.0.1\platform
+  Boot & Ext. Classpath   = C:\Program Files\Java\jdk1.6.0_29\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_29\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_29\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_29\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_29\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_29\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_29\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_29\jre\classes;C:\Program Files\Java\jdk1.6.0_29\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.6.0_29\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.6.0_29\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.6.0_29\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.6.0_29\jre\lib\ext\sunpkcs11.jar
+  Application Classpath   = C:\Program Files\NetBeans 7.0.1\platform\lib\boot.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\org-openide-modules.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\org-openide-util-lookup.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\org-openide-util.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\boot_ja.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\boot_pt_BR.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\boot_ru.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\boot_zh_CN.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\org-openide-modules_ja.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\org-openide-modules_pt_BR.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\org-openide-modules_ru.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\org-openide-modules_zh_CN.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\org-openide-util-lookup_ja.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\org-openide-util-lookup_pt_BR.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\org-openide-util-lookup_ru.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\org-openide-util-lookup_zh_CN.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\org-openide-util_ja.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\org-openide-util_pt_BR.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\org-openide-util_ru.jar;C:\Program Files\NetBeans 7.0.1\platform\lib\locale\org-openide-util_zh_CN.jar;C:\Program Files\Java\jdk1.6.0_29\lib\dt.jar;C:\Program Files\Java\jdk1.6.0_29\lib\tools.jar
+  Startup Classpath       = C:\Program Files\NetBeans 7.0.1\platform\core\core.jar;C:\Program Files\NetBeans 7.0.1\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 7.0.1\platform\core\locale\core_ja.jar;C:\Program Files\NetBeans 7.0.1\platform\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 7.0.1\platform\core\locale\core_ru.jar;C:\Program Files\NetBeans 7.0.1\platform\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 7.0.1\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 7.0.1\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 7.0.1\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files\NetBeans 7.0.1\platform\core\locale\org-openide-filesystems_zh_CN.jar;E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\core\locale\core_pilotsop.jar
+-------------------------------------------------------------------------------
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\japura-1.14.3.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-erm.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-extension.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\jcalendar-1.4.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\com-vn-hkt-core.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-history.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\poi-3.5-FINAL.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-backup.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-history.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\japura-1.14.3.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb22.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-erm.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-extension.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\jcalendar-1.4.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\com-vn-hkt-core.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-history.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb23.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\japura-1.14.3.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-extension.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-erm.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb22.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\jcalendar-1.4.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-history.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\com-vn-hkt-core.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb23.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\japura-1.14.3.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-extension.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-erm.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb22.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb32.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\japura-1.14.3.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb41.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-extension.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-erm.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb22.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb32.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\jcalendar-1.4.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb41.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-history.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\com-vn-hkt-core.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb23.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\jcalendar-1.4.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb41.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb42-pricesheet.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-history.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\com-vn-hkt-core.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb23.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\jcalendar-1.4.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb42-pricesheet.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\com-vn-hkt-core.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-promotion.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb41.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-history.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb23.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\japura-1.14.3.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb43.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb22.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-erm.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-extension.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb41.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb32.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\japura-1.14.3.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb43.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb22.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-erm.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-extension.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb41.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb32.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb51.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\japura-1.14.3.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb43.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb22.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-erm.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-extension.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb41.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sbenterprise.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb32.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb51.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\jcalendar-1.4.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb42-pricesheet.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\com-vn-hkt-core.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-promotion.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb41.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-history.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sbenterprise.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb23.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\japura-1.14.3.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb43.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb22.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-erm.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-extension.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-subenterprise13.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb41.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sbenterprise.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb32.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb51.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\japura-1.14.3.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb43.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb22.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-erm.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-extension.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-subenterprise13.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-subperson.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb41.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sbenterprise.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb32.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb51.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+WARNING [org.netbeans.core.startup.NbEvents]: The extension E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\ext\jcalendar-1.4.jar may be multiply loaded by modules: [E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb42-pricesheet.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb31.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\com-vn-hkt-core.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-promotion.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-subperson.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb41.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-history.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sbenterprise.jar, E:\File lam Java\Danh le\danhle\PilotSop\build\cluster\modules\vn-com-hkt-pilot-sb23.jar]; see: http://www.netbeans.org/download/dev/javadoc/org-openide-modules/org/openide/modules/doc-files/classpath.html#class-path
+[EL Info]: 2012-03-30 14:08:46.939--ServerSession(24230975)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:53.131--ServerSession(24230975)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-account-manager.jar_Account_Manager login successful
+[EL Warning]: 2012-03-30 14:08:53.22--ServerSession(24230975)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "ACCOUNT" already exists; SQL statement:
+CREATE TABLE ACCOUNT (ID INTEGER IDENTITY NOT NULL, ACCOUNTTYPEIDACTUAL INTEGER, PASSWORD VARCHAR, PERSONIDACTUAL INTEGER, USERNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE ACCOUNT (ID INTEGER IDENTITY NOT NULL, ACCOUNTTYPEIDACTUAL INTEGER, PASSWORD VARCHAR, PERSONIDACTUAL INTEGER, USERNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE ACCOUNT (ID INTEGER IDENTITY NOT NULL, ACCOUNTTYPEIDACTUAL INTEGER, PASSWORD VARCHAR, PERSONIDACTUAL INTEGER, USERNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.227--ServerSession(24230975)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "ACCOUNTTYPE" already exists; SQL statement:
+CREATE TABLE ACCOUNTTYPE (ID INTEGER IDENTITY NOT NULL, ACCOUNTTYPENAME VARCHAR, DESCRIPTION VARCHAR, INTERFACEPERMISSTIONSIDACTUAL LONGVARBINARY, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE ACCOUNTTYPE (ID INTEGER IDENTITY NOT NULL, ACCOUNTTYPENAME VARCHAR, DESCRIPTION VARCHAR, INTERFACEPERMISSTIONSIDACTUAL LONGVARBINARY, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE ACCOUNTTYPE (ID INTEGER IDENTITY NOT NULL, ACCOUNTTYPENAME VARCHAR, DESCRIPTION VARCHAR, INTERFACEPERMISSTIONSIDACTUAL LONGVARBINARY, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.231--ServerSession(24230975)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "INTERFACEPERMISSION" already exists; SQL statement:
+CREATE TABLE INTERFACEPERMISSION (ID INTEGER IDENTITY NOT NULL, ACCOUNTTYPEIDACTUAL INTEGER, PERMISSIONIDACTUAL INTEGER, USERINTERFACEIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE INTERFACEPERMISSION (ID INTEGER IDENTITY NOT NULL, ACCOUNTTYPEIDACTUAL INTEGER, PERMISSIONIDACTUAL INTEGER, USERINTERFACEIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE INTERFACEPERMISSION (ID INTEGER IDENTITY NOT NULL, ACCOUNTTYPEIDACTUAL INTEGER, PERMISSIONIDACTUAL INTEGER, USERINTERFACEIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.235--ServerSession(24230975)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "MODULE" already exists; SQL statement:
+CREATE TABLE MODULE (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, MODULENAME VARCHAR, USERINTERFACESID LONGVARBINARY, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE MODULE (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, MODULENAME VARCHAR, USERINTERFACESID LONGVARBINARY, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE MODULE (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, MODULENAME VARCHAR, USERINTERFACESID LONGVARBINARY, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.238--ServerSession(24230975)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PERMISSION" already exists; SQL statement:
+CREATE TABLE PERMISSION (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PERMISSIONFUNCTION INTEGER, PERMISSIONNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PERMISSION (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PERMISSIONFUNCTION INTEGER, PERMISSIONNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PERMISSION (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PERMISSIONFUNCTION INTEGER, PERMISSIONNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.24--ServerSession(24230975)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "USERINTERFACE" already exists; SQL statement:
+CREATE TABLE USERINTERFACE (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, INTERFACENAME VARCHAR, MODULEIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE USERINTERFACE (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, INTERFACENAME VARCHAR, MODULEIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE USERINTERFACE (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, INTERFACENAME VARCHAR, MODULEIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:53.89--ServerSession(9921725)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:53.907--ServerSession(9921725)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-license.jar_License login successful
+[EL Warning]: 2012-03-30 14:08:53.911--ServerSession(9921725)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "KEYINSTALL" already exists; SQL statement:
+CREATE TABLE KEYINSTALL (ID INTEGER IDENTITY NOT NULL, DATEACTIVATE VARCHAR, KEYINSTALL VARCHAR, KEYLICENSEID INTEGER, MODULE VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE KEYINSTALL (ID INTEGER IDENTITY NOT NULL, DATEACTIVATE VARCHAR, KEYINSTALL VARCHAR, KEYLICENSEID INTEGER, MODULE VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE KEYINSTALL (ID INTEGER IDENTITY NOT NULL, DATEACTIVATE VARCHAR, KEYINSTALL VARCHAR, KEYLICENSEID INTEGER, MODULE VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.914--ServerSession(9921725)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "KEYLICENSE" already exists; SQL statement:
+CREATE TABLE KEYLICENSE (ID INTEGER IDENTITY NOT NULL, KEYMACHINE VARCHAR, KEYUSER VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE KEYLICENSE (ID INTEGER IDENTITY NOT NULL, KEYMACHINE VARCHAR, KEYUSER VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE KEYLICENSE (ID INTEGER IDENTITY NOT NULL, KEYMACHINE VARCHAR, KEYUSER VARCHAR, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:53.931--ServerSession(23848942)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:53.946--ServerSession(23848942)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-erm.jar_EnterpriseManagerService login successful
+[EL Warning]: 2012-03-30 14:08:53.954--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "DEPARTMENT" already exists; SQL statement:
+CREATE TABLE DEPARTMENT (ID INTEGER IDENTITY NOT NULL, DEPARTMENTID VARCHAR, DEPARTMENTNAME VARCHAR, DEPARTMENTPARENTIDACUTAL INTEGER, ENTERPRISEIDACTUAL INTEGER, PERSONIDACTUAL INTEGER, PICTURE LONGVARBINARY, PRODUCTIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE DEPARTMENT (ID INTEGER IDENTITY NOT NULL, DEPARTMENTID VARCHAR, DEPARTMENTNAME VARCHAR, DEPARTMENTPARENTIDACUTAL INTEGER, ENTERPRISEIDACTUAL INTEGER, PERSONIDACTUAL INTEGER, PICTURE LONGVARBINARY, PRODUCTIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE DEPARTMENT (ID INTEGER IDENTITY NOT NULL, DEPARTMENTID VARCHAR, DEPARTMENTNAME VARCHAR, DEPARTMENTPARENTIDACUTAL INTEGER, ENTERPRISEIDACTUAL INTEGER, PERSONIDACTUAL INTEGER, PICTURE LONGVARBINARY, PRODUCTIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.958--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "ENTERPRISE" already exists; SQL statement:
+CREATE TABLE ENTERPRISE (ID INTEGER IDENTITY NOT NULL, DIRECTORIDACTUAL INTEGER, ENTERPRISEID VARCHAR, ENTERPRISENAME VARCHAR, ENTERPRISEPARENTIDACTUAL INTEGER, PICTURE LONGVARBINARY, SLOGAN VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE ENTERPRISE (ID INTEGER IDENTITY NOT NULL, DIRECTORIDACTUAL INTEGER, ENTERPRISEID VARCHAR, ENTERPRISENAME VARCHAR, ENTERPRISEPARENTIDACTUAL INTEGER, PICTURE LONGVARBINARY, SLOGAN VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE ENTERPRISE (ID INTEGER IDENTITY NOT NULL, DIRECTORIDACTUAL INTEGER, ENTERPRISEID VARCHAR, ENTERPRISENAME VARCHAR, ENTERPRISEPARENTIDACTUAL INTEGER, PICTURE LONGVARBINARY, SLOGAN VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.961--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "OPERATION" already exists; SQL statement:
+CREATE TABLE OPERATION (ID INTEGER IDENTITY NOT NULL, CALCULATIONUNIT VARCHAR, CHANGEDMONEY DOUBLE, CLASSIFICATIONIDACTUAL INTEGER, DATETIME DATE, DEBT DOUBLE, DEPARTMENTIDACTUAL INTEGER, ENTERPRISEIDACTUAL INTEGER, OPERATIONID VARCHAR, OPERATIONNAME VARCHAR, PAYMENT DOUBLE, PERSONIDACTUAL INTEGER, SALEOFFREALVALUE INTEGER, SALEOFFVALUE DOUBLE, SUMPRICE DOUBLE, TAXESVALUE INTEGER, TYPEOFTAXES DOUBLE, UNITOFMEASUREIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE OPERATION (ID INTEGER IDENTITY NOT NULL, CALCULATIONUNIT VARCHAR, CHANGEDMONEY DOUBLE, CLASSIFICATIONIDACTUAL INTEGER, DATETIME DATE, DEBT DOUBLE, DEPARTMENTIDACTUAL INTEGER, ENTERPRISEIDACTUAL INTEGER, OPERATIONID VARCHAR, OPERATIONNAME VARCHAR, PAYMENT DOUBLE, PERSONIDACTUAL INTEGER, SALEOFFREALVALUE INTEGER, SALEOFFVALUE DOUBLE, SUMPRICE DOUBLE, TAXESVALUE INTEGER, TYPEOFTAXES DOUBLE, UNITOFMEASUREIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE OPERATION (ID INTEGER IDENTITY NOT NULL, CALCULATIONUNIT VARCHAR, CHANGEDMONEY DOUBLE, CLASSIFICATIONIDACTUAL INTEGER, DATETIME DATE, DEBT DOUBLE, DEPARTMENTIDACTUAL INTEGER, ENTERPRISEIDACTUAL INTEGER, OPERATIONID VARCHAR, OPERATIONNAME VARCHAR, PAYMENT DOUBLE, PERSONIDACTUAL INTEGER, SALEOFFREALVALUE INTEGER, SALEOFFVALUE DOUBLE, SUMPRICE DOUBLE, TAXESVALUE INTEGER, TYPEOFTAXES DOUBLE, UNITOFMEASUREIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.964--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PERSON" already exists; SQL statement:
+CREATE TABLE PERSON (ID INTEGER IDENTITY NOT NULL, COUNTRYIDACTUAL INTEGER, DEPARTMENTIDACTUAL INTEGER, ENTERPRISEIDACTUAL INTEGER, IMAGE LONGVARBINARY, MISSIONIDACTUAL INTEGER, PERSONID VARCHAR, PERSONNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PERSON (ID INTEGER IDENTITY NOT NULL, COUNTRYIDACTUAL INTEGER, DEPARTMENTIDACTUAL INTEGER, ENTERPRISEIDACTUAL INTEGER, IMAGE LONGVARBINARY, MISSIONIDACTUAL INTEGER, PERSONID VARCHAR, PERSONNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PERSON (ID INTEGER IDENTITY NOT NULL, COUNTRYIDACTUAL INTEGER, DEPARTMENTIDACTUAL INTEGER, ENTERPRISEIDACTUAL INTEGER, IMAGE LONGVARBINARY, MISSIONIDACTUAL INTEGER, PERSONID VARCHAR, PERSONNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.966--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PRODUCT" already exists; SQL statement:
+CREATE TABLE PRODUCT (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, ENTERPRISEIDACTUAL INTEGER, IMAGEPHOTO LONGVARBINARY, PERSONDESIGNIDACTUAL INTEGER, PRODUCTGROUPIDACTUAL INTEGER, PRODUCTID VARCHAR, PRODUCTNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PRODUCT (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, ENTERPRISEIDACTUAL INTEGER, IMAGEPHOTO LONGVARBINARY, PERSONDESIGNIDACTUAL INTEGER, PRODUCTGROUPIDACTUAL INTEGER, PRODUCTID VARCHAR, PRODUCTNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PRODUCT (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, ENTERPRISEIDACTUAL INTEGER, IMAGEPHOTO LONGVARBINARY, PERSONDESIGNIDACTUAL INTEGER, PRODUCTGROUPIDACTUAL INTEGER, PRODUCTID VARCHAR, PRODUCTNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.972--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "MISSION" already exists; SQL statement:
+CREATE TABLE MISSION (ID INTEGER IDENTITY NOT NULL, LEVER INTEGER, MISSIONID VARCHAR, MISSIONNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE MISSION (ID INTEGER IDENTITY NOT NULL, LEVER INTEGER, MISSIONID VARCHAR, MISSIONNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE MISSION (ID INTEGER IDENTITY NOT NULL, LEVER INTEGER, MISSIONID VARCHAR, MISSIONNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.975--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "CITY" already exists; SQL statement:
+CREATE TABLE CITY (ID INTEGER IDENTITY NOT NULL, CITYID VARCHAR, CITYNAME VARCHAR, COUNTRYIDACTUAL INTEGER, PARTITIONIDACTUAL INTEGER, POSTALCODE INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE CITY (ID INTEGER IDENTITY NOT NULL, CITYID VARCHAR, CITYNAME VARCHAR, COUNTRYIDACTUAL INTEGER, PARTITIONIDACTUAL INTEGER, POSTALCODE INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE CITY (ID INTEGER IDENTITY NOT NULL, CITYID VARCHAR, CITYNAME VARCHAR, COUNTRYIDACTUAL INTEGER, PARTITIONIDACTUAL INTEGER, POSTALCODE INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.978--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "COUNTRY" already exists; SQL statement:
+CREATE TABLE COUNTRY (ID INTEGER IDENTITY NOT NULL, CITYSIDACTUAL LONGVARBINARY, COUNTRYID VARCHAR, COUNTRYNAME VARCHAR, LANGUAGE VARCHAR, NATIONALFLAG VARCHAR, NATIONALITY VARCHAR, PARTITITIONSIDACTUAL LONGVARBINARY, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE COUNTRY (ID INTEGER IDENTITY NOT NULL, CITYSIDACTUAL LONGVARBINARY, COUNTRYID VARCHAR, COUNTRYNAME VARCHAR, LANGUAGE VARCHAR, NATIONALFLAG VARCHAR, NATIONALITY VARCHAR, PARTITITIONSIDACTUAL LONGVARBINARY, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE COUNTRY (ID INTEGER IDENTITY NOT NULL, CITYSIDACTUAL LONGVARBINARY, COUNTRYID VARCHAR, COUNTRYNAME VARCHAR, LANGUAGE VARCHAR, NATIONALFLAG VARCHAR, NATIONALITY VARCHAR, PARTITITIONSIDACTUAL LONGVARBINARY, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.981--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PARTITION" already exists; SQL statement:
+CREATE TABLE PARTITION (ID INTEGER IDENTITY NOT NULL, COUNTRYIDACTUAL INTEGER, PARTITIONID VARCHAR, PARTITIONNAME VARCHAR, PARTITIONPARENTIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PARTITION (ID INTEGER IDENTITY NOT NULL, COUNTRYIDACTUAL INTEGER, PARTITIONID VARCHAR, PARTITIONNAME VARCHAR, PARTITIONPARENTIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PARTITION (ID INTEGER IDENTITY NOT NULL, COUNTRYIDACTUAL INTEGER, PARTITIONID VARCHAR, PARTITIONNAME VARCHAR, PARTITIONPARENTIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.984--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "KEYGENERATE" already exists; SQL statement:
+CREATE TABLE KEYGENERATE (ID INTEGER IDENTITY NOT NULL, FIRSTNUM INTEGER, FOLLOWNUM INTEGER, PREFIX VARCHAR, PREFIXIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE KEYGENERATE (ID INTEGER IDENTITY NOT NULL, FIRSTNUM INTEGER, FOLLOWNUM INTEGER, PREFIX VARCHAR, PREFIXIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE KEYGENERATE (ID INTEGER IDENTITY NOT NULL, FIRSTNUM INTEGER, FOLLOWNUM INTEGER, PREFIX VARCHAR, PREFIXIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.987--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PREFIXMANAGER" already exists; SQL statement:
+CREATE TABLE PREFIXMANAGER (ID INTEGER IDENTITY NOT NULL, ENTITYTYPENAME VARCHAR, LASTPREFIX VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PREFIXMANAGER (ID INTEGER IDENTITY NOT NULL, ENTITYTYPENAME VARCHAR, LASTPREFIX VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PREFIXMANAGER (ID INTEGER IDENTITY NOT NULL, ENTITYTYPENAME VARCHAR, LASTPREFIX VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.99--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "CLASSIFICATION" already exists; SQL statement:
+CREATE TABLE CLASSIFICATION (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, CLASSIFICATIONNAME VARCHAR, CLASSIFICATIONTYPE VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE CLASSIFICATION (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, CLASSIFICATIONNAME VARCHAR, CLASSIFICATIONTYPE VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE CLASSIFICATION (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, CLASSIFICATIONNAME VARCHAR, CLASSIFICATIONTYPE VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.992--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "UNITSOFMEASUREMENT" already exists; SQL statement:
+CREATE TABLE UNITSOFMEASUREMENT (ID INTEGER IDENTITY NOT NULL, NAMEUNITS VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE UNITSOFMEASUREMENT (ID INTEGER IDENTITY NOT NULL, NAMEUNITS VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE UNITSOFMEASUREMENT (ID INTEGER IDENTITY NOT NULL, NAMEUNITS VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.995--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SYSTEMSOFTWARE" already exists; SQL statement:
+CREATE TABLE SYSTEMSOFTWARE (ID INTEGER IDENTITY NOT NULL, FLAG BOOLEAN, IMAGEBACKGROUND LONGVARBINARY, SIZEWORD INTEGER, WIDTHCOLUMNTABLE INTEGER, WITHROWTABLE INTEGER, COLORBACKGROUND_ID INTEGER, COLORDARK_ID INTEGER, COLORLIGHT_ID INTEGER, COLORMOUSECLICK_ID INTEGER, COLORMOUSEMOVE_ID INTEGER, COLORTITLE_ID INTEGER, COLORWORD_ID INTEGER, FONT_ID INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SYSTEMSOFTWARE (ID INTEGER IDENTITY NOT NULL, FLAG BOOLEAN, IMAGEBACKGROUND LONGVARBINARY, SIZEWORD INTEGER, WIDTHCOLUMNTABLE INTEGER, WITHROWTABLE INTEGER, COLORBACKGROUND_ID INTEGER, COLORDARK_ID INTEGER, COLORLIGHT_ID INTEGER, COLORMOUSECLICK_ID INTEGER, COLORMOUSEMOVE_ID INTEGER, COLORTITLE_ID INTEGER, COLORWORD_ID INTEGER, FONT_ID INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SYSTEMSOFTWARE (ID INTEGER IDENTITY NOT NULL, FLAG BOOLEAN, IMAGEBACKGROUND LONGVARBINARY, SIZEWORD INTEGER, WIDTHCOLUMNTABLE INTEGER, WITHROWTABLE INTEGER, COLORBACKGROUND_ID INTEGER, COLORDARK_ID INTEGER, COLORLIGHT_ID INTEGER, COLORMOUSECLICK_ID INTEGER, COLORMOUSEMOVE_ID INTEGER, COLORTITLE_ID INTEGER, COLORWORD_ID INTEGER, FONT_ID INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:53.997--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "MYCOLOR" already exists; SQL statement:
+CREATE TABLE MYCOLOR (ID INTEGER IDENTITY NOT NULL, BLUE INTEGER, GREEN INTEGER, RED INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE MYCOLOR (ID INTEGER IDENTITY NOT NULL, BLUE INTEGER, GREEN INTEGER, RED INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE MYCOLOR (ID INTEGER IDENTITY NOT NULL, BLUE INTEGER, GREEN INTEGER, RED INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:54.0--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "MYFONT" already exists; SQL statement:
+CREATE TABLE MYFONT (ID INTEGER IDENTITY NOT NULL, FONTNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE MYFONT (ID INTEGER IDENTITY NOT NULL, FONTNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE MYFONT (ID INTEGER IDENTITY NOT NULL, FONTNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:54.003--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "OPERATIONPARTNER" already exists; SQL statement:
+CREATE TABLE OPERATIONPARTNER (ID INTEGER IDENTITY NOT NULL, ENTERPRISEIDACTUAL INTEGER, OPERATIONIDACTUAL INTEGER, PARNERSHIPTYPE VARCHAR, PERSONIDACTUAL INTEGER, SUPPLIERIRREGULARNAME VARCHAR, SUPPLIERTYPE VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE OPERATIONPARTNER (ID INTEGER IDENTITY NOT NULL, ENTERPRISEIDACTUAL INTEGER, OPERATIONIDACTUAL INTEGER, PARNERSHIPTYPE VARCHAR, PERSONIDACTUAL INTEGER, SUPPLIERIRREGULARNAME VARCHAR, SUPPLIERTYPE VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE OPERATIONPARTNER (ID INTEGER IDENTITY NOT NULL, ENTERPRISEIDACTUAL INTEGER, OPERATIONIDACTUAL INTEGER, PARNERSHIPTYPE VARCHAR, PERSONIDACTUAL INTEGER, SUPPLIERIRREGULARNAME VARCHAR, SUPPLIERTYPE VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:54.005--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "TYPEOFBILL" already exists; SQL statement:
+CREATE TABLE TYPEOFBILL (ID INTEGER IDENTITY NOT NULL, TYPEOFBILLID VARCHAR, TYPEOFBILLNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE TYPEOFBILL (ID INTEGER IDENTITY NOT NULL, TYPEOFBILLID VARCHAR, TYPEOFBILLNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE TYPEOFBILL (ID INTEGER IDENTITY NOT NULL, TYPEOFBILLID VARCHAR, TYPEOFBILLNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:54.008--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "STATUATION" already exists; SQL statement:
+CREATE TABLE STATUATION (ID INTEGER IDENTITY NOT NULL, STATUATIONID VARCHAR, STATUATIONNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE STATUATION (ID INTEGER IDENTITY NOT NULL, STATUATIONID VARCHAR, STATUATIONNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE STATUATION (ID INTEGER IDENTITY NOT NULL, STATUATIONID VARCHAR, STATUATIONNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:54.01--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "KINDOFTAX" already exists; SQL statement:
+CREATE TABLE KINDOFTAX (ID INTEGER IDENTITY NOT NULL, KINDOFTAXID VARCHAR, KINDOFTAXNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE KINDOFTAX (ID INTEGER IDENTITY NOT NULL, KINDOFTAXID VARCHAR, KINDOFTAXNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE KINDOFTAX (ID INTEGER IDENTITY NOT NULL, KINDOFTAXID VARCHAR, KINDOFTAXNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:54.013--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "ACCOUNTNUMBER" already exists; SQL statement:
+CREATE TABLE ACCOUNTNUMBER (ID INTEGER IDENTITY NOT NULL, ACCOUNTNUMBERID VARCHAR, ACCOUNTNUMBERNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE ACCOUNTNUMBER (ID INTEGER IDENTITY NOT NULL, ACCOUNTNUMBERID VARCHAR, ACCOUNTNUMBERNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE ACCOUNTNUMBER (ID INTEGER IDENTITY NOT NULL, ACCOUNTNUMBERID VARCHAR, ACCOUNTNUMBERNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:54.015--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "FOREIGNLANGUAGE" already exists; SQL statement:
+CREATE TABLE FOREIGNLANGUAGE (ID INTEGER IDENTITY NOT NULL, COUNTRYIDACTUAL INTEGER, FOREIGNLANGUAGEID VARCHAR, FOREIGNLANGUAGENAME VARCHAR, NOTE VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE FOREIGNLANGUAGE (ID INTEGER IDENTITY NOT NULL, COUNTRYIDACTUAL INTEGER, FOREIGNLANGUAGEID VARCHAR, FOREIGNLANGUAGENAME VARCHAR, NOTE VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE FOREIGNLANGUAGE (ID INTEGER IDENTITY NOT NULL, COUNTRYIDACTUAL INTEGER, FOREIGNLANGUAGEID VARCHAR, FOREIGNLANGUAGENAME VARCHAR, NOTE VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:54.018--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "OPERATIONDETAIL" already exists; SQL statement:
+CREATE TABLE OPERATIONDETAIL (ID INTEGER IDENTITY NOT NULL, OPERATIONIDACTUAL INTEGER, PRICE DOUBLE, PRODUCTIDACTUAL INTEGER, QUANTITY INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE OPERATIONDETAIL (ID INTEGER IDENTITY NOT NULL, OPERATIONIDACTUAL INTEGER, PRICE DOUBLE, PRODUCTIDACTUAL INTEGER, QUANTITY INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE OPERATIONDETAIL (ID INTEGER IDENTITY NOT NULL, OPERATIONIDACTUAL INTEGER, PRICE DOUBLE, PRODUCTIDACTUAL INTEGER, QUANTITY INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:54.021--ServerSession(23848942)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Constraint "FK_SYSTEMSOFTWARE_COLORTITLE_ID" already exists; SQL statement:
+ALTER TABLE SYSTEMSOFTWARE ADD CONSTRAINT FK_SYSTEMSOFTWARE_COLORTITLE_ID FOREIGN KEY (COLORTITLE_ID) REFERENCES MYCOLOR (ID) [90045-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:89)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:68)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 90045
+Call: ALTER TABLE SYSTEMSOFTWARE ADD CONSTRAINT FK_SYSTEMSOFTWARE_COLORTITLE_ID FOREIGN KEY (COLORTITLE_ID) REFERENCES MYCOLOR (ID)
+Query: DataModifyQuery(sql="ALTER TABLE SYSTEMSOFTWARE ADD CONSTRAINT FK_SYSTEMSOFTWARE_COLORTITLE_ID FOREIGN KEY (COLORTITLE_ID) REFERENCES MYCOLOR (ID)")
+[EL Info]: 2012-03-30 14:08:54.658--ServerSession(11616363)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:54.672--ServerSession(11616363)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-subperson.jar_SubPersonServices login successful
+[EL Warning]: 2012-03-30 14:08:54.677--ServerSession(11616363)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SUBPERSON" already exists; SQL statement:
+CREATE TABLE SUBPERSON (ID INTEGER IDENTITY NOT NULL, ADDRESS VARCHAR, BIRTHDAY DATE, CHILDRENNUM INTEGER, CITYIDACTUAL INTEGER, COUNTRYIDACTUAL INTEGER, EMAIL VARCHAR, GENDER VARCHAR, HEIGHT INTEGER, IDENTITYCARD VARCHAR, MARITALSTATUS VARCHAR, MOBILENUMBER VARCHAR, PERSONIDACTUAL INTEGER, PHONENUMBER VARCHAR, WEBNAME VARCHAR, WEIGHT DOUBLE, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SUBPERSON (ID INTEGER IDENTITY NOT NULL, ADDRESS VARCHAR, BIRTHDAY DATE, CHILDRENNUM INTEGER, CITYIDACTUAL INTEGER, COUNTRYIDACTUAL INTEGER, EMAIL VARCHAR, GENDER VARCHAR, HEIGHT INTEGER, IDENTITYCARD VARCHAR, MARITALSTATUS VARCHAR, MOBILENUMBER VARCHAR, PERSONIDACTUAL INTEGER, PHONENUMBER VARCHAR, WEBNAME VARCHAR, WEIGHT DOUBLE, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SUBPERSON (ID INTEGER IDENTITY NOT NULL, ADDRESS VARCHAR, BIRTHDAY DATE, CHILDRENNUM INTEGER, CITYIDACTUAL INTEGER, COUNTRYIDACTUAL INTEGER, EMAIL VARCHAR, GENDER VARCHAR, HEIGHT INTEGER, IDENTITYCARD VARCHAR, MARITALSTATUS VARCHAR, MOBILENUMBER VARCHAR, PERSONIDACTUAL INTEGER, PHONENUMBER VARCHAR, WEBNAME VARCHAR, WEIGHT DOUBLE, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:54.745--ServerSession(14938154)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:54.762--ServerSession(14938154)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-subenterprise13.jar_SubEnterpriseServices13 login successful
+[EL Warning]: 2012-03-30 14:08:54.767--ServerSession(14938154)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SUBENTERPRISE13" already exists; SQL statement:
+CREATE TABLE SUBENTERPRISE13 (ID INTEGER IDENTITY NOT NULL, CHARTERCAPITAL INTEGER, EMPLOYEENUM INTEGER, ENTERPRISEIDACTUAL INTEGER, LEGALCAPITAL INTEGER, PROFIT INTEGER, REVENUE INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SUBENTERPRISE13 (ID INTEGER IDENTITY NOT NULL, CHARTERCAPITAL INTEGER, EMPLOYEENUM INTEGER, ENTERPRISEIDACTUAL INTEGER, LEGALCAPITAL INTEGER, PROFIT INTEGER, REVENUE INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SUBENTERPRISE13 (ID INTEGER IDENTITY NOT NULL, CHARTERCAPITAL INTEGER, EMPLOYEENUM INTEGER, ENTERPRISEIDACTUAL INTEGER, LEGALCAPITAL INTEGER, PROFIT INTEGER, REVENUE INTEGER, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:54.859--ServerSession(28296386)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:54.885--ServerSession(28296386)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-sbenterprise.jar_SubEnterpriseServices11 login successful
+[EL Warning]: 2012-03-30 14:08:54.892--ServerSession(28296386)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SUBENTERPRISE" already exists; SQL statement:
+CREATE TABLE SUBENTERPRISE (ID INTEGER IDENTITY NOT NULL, BOOKREGISTERBUSSINES INTEGER, BUSINESSAREASIDACTUAL LONGVARBINARY, DATEREGISTER DATE, DATESTART DATE, ENTERPRISEIDACTUAL INTEGER, IDTAX INTEGER, NAMEENGLISH VARCHAR, NAMEVN VARCHAR, REGISTER INTEGER, STATE VARCHAR, TYPE VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SUBENTERPRISE (ID INTEGER IDENTITY NOT NULL, BOOKREGISTERBUSSINES INTEGER, BUSINESSAREASIDACTUAL LONGVARBINARY, DATEREGISTER DATE, DATESTART DATE, ENTERPRISEIDACTUAL INTEGER, IDTAX INTEGER, NAMEENGLISH VARCHAR, NAMEVN VARCHAR, REGISTER INTEGER, STATE VARCHAR, TYPE VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SUBENTERPRISE (ID INTEGER IDENTITY NOT NULL, BOOKREGISTERBUSSINES INTEGER, BUSINESSAREASIDACTUAL LONGVARBINARY, DATEREGISTER DATE, DATESTART DATE, ENTERPRISEIDACTUAL INTEGER, IDTAX INTEGER, NAMEENGLISH VARCHAR, NAMEVN VARCHAR, REGISTER INTEGER, STATE VARCHAR, TYPE VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:54.895--ServerSession(28296386)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "BUSINESSAREA" already exists; SQL statement:
+CREATE TABLE BUSINESSAREA (ID INTEGER IDENTITY NOT NULL, BUSINESSCODE VARCHAR, DESCRIPTION VARCHAR, TYPE VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE BUSINESSAREA (ID INTEGER IDENTITY NOT NULL, BUSINESSCODE VARCHAR, DESCRIPTION VARCHAR, TYPE VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE BUSINESSAREA (ID INTEGER IDENTITY NOT NULL, BUSINESSCODE VARCHAR, DESCRIPTION VARCHAR, TYPE VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.038--ServerSession(28296386)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "ENTERPRISESTATUS" already exists; SQL statement:
+CREATE TABLE ENTERPRISESTATUS (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, STATUSNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE ENTERPRISESTATUS (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, STATUSNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE ENTERPRISESTATUS (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, STATUSNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.042--ServerSession(28296386)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "ENTERPRISETYPE" already exists; SQL statement:
+CREATE TABLE ENTERPRISETYPE (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, TYPENAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE ENTERPRISETYPE (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, TYPENAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE ENTERPRISETYPE (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, TYPENAME VARCHAR, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:55.075--ServerSession(28180264)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:55.083--ServerSession(28180264)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-sb51.jar_SB51 login successful
+[EL Warning]: 2012-03-30 14:08:55.087--ServerSession(28180264)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "BILLTYPE" already exists; SQL statement:
+CREATE TABLE BILLTYPE (ID INTEGER IDENTITY NOT NULL, BILLTYPENAME VARCHAR, DESCRIPTION VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE BILLTYPE (ID INTEGER IDENTITY NOT NULL, BILLTYPENAME VARCHAR, DESCRIPTION VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE BILLTYPE (ID INTEGER IDENTITY NOT NULL, BILLTYPENAME VARCHAR, DESCRIPTION VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.089--ServerSession(28180264)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "OPERATIONPAYMENT" already exists; SQL statement:
+CREATE TABLE OPERATIONPAYMENT (ID INTEGER IDENTITY NOT NULL, ACCOUNT INTEGER, BILLCODE VARCHAR, BILLTYPEIDACTUAL INTEGER, CORRESPONDINGACCOUNT INTEGER, DESCRIPTION VARCHAR, OPERATIONIDACTUAL INTEGER, OPERATIONSTATUSIDACTUAL INTEGER, PAYMENTMETHODIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE OPERATIONPAYMENT (ID INTEGER IDENTITY NOT NULL, ACCOUNT INTEGER, BILLCODE VARCHAR, BILLTYPEIDACTUAL INTEGER, CORRESPONDINGACCOUNT INTEGER, DESCRIPTION VARCHAR, OPERATIONIDACTUAL INTEGER, OPERATIONSTATUSIDACTUAL INTEGER, PAYMENTMETHODIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE OPERATIONPAYMENT (ID INTEGER IDENTITY NOT NULL, ACCOUNT INTEGER, BILLCODE VARCHAR, BILLTYPEIDACTUAL INTEGER, CORRESPONDINGACCOUNT INTEGER, DESCRIPTION VARCHAR, OPERATIONIDACTUAL INTEGER, OPERATIONSTATUSIDACTUAL INTEGER, PAYMENTMETHODIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.093--ServerSession(28180264)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PAYMENTMETHOD" already exists; SQL statement:
+CREATE TABLE PAYMENTMETHOD (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PAYMENTMETHODNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PAYMENTMETHOD (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PAYMENTMETHODNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PAYMENTMETHOD (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PAYMENTMETHODNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.096--ServerSession(28180264)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "OPERATIONSTATUS" already exists; SQL statement:
+CREATE TABLE OPERATIONSTATUS (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, STATUSNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE OPERATIONSTATUS (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, STATUSNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE OPERATIONSTATUS (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, STATUSNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:55.261--ServerSession(11985797)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:55.268--ServerSession(11985797)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-sb43.jar_ProductExtService_SB43 login successful
+[EL Warning]: 2012-03-30 14:08:55.271--ServerSession(11985797)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PRODUCTEXT_W52" already exists; SQL statement:
+CREATE TABLE PRODUCTEXT_W52 (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PERCENTPROFIT DOUBLE, PRODUCTIDACTUAL INTEGER, TOTALNUMBEREXPORT DOUBLE, TOTALNUMBERIMPORT DOUBLE, TOTALPROFIT DOUBLE, TOTALVAULEEXPORT DOUBLE, TOTALVAULEIMPORT DOUBLE, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PRODUCTEXT_W52 (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PERCENTPROFIT DOUBLE, PRODUCTIDACTUAL INTEGER, TOTALNUMBEREXPORT DOUBLE, TOTALNUMBERIMPORT DOUBLE, TOTALPROFIT DOUBLE, TOTALVAULEEXPORT DOUBLE, TOTALVAULEIMPORT DOUBLE, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PRODUCTEXT_W52 (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PERCENTPROFIT DOUBLE, PRODUCTIDACTUAL INTEGER, TOTALNUMBEREXPORT DOUBLE, TOTALNUMBERIMPORT DOUBLE, TOTALPROFIT DOUBLE, TOTALVAULEEXPORT DOUBLE, TOTALVAULEIMPORT DOUBLE, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:55.306--ServerSession(730993)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:55.314--ServerSession(730993)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-sb42-pricesheet.jar_PriceSheetService login successful
+[EL Warning]: 2012-03-30 14:08:55.318--ServerSession(730993)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PRICESHEET" already exists; SQL statement:
+CREATE TABLE PRICESHEET (ID INTEGER IDENTITY NOT NULL, AMPLITUDE DOUBLE, AMPLITUDEUNIT VARCHAR, APPLIEDFROM DATE, APPLIEDTO DATE, EXPORTMAX DOUBLE, EXPORTMIN DOUBLE, EXPORTUNIT DOUBLE, IDCLASSIFICATION INTEGER, MONEYUNITID VARCHAR, PRICESHEETID VARCHAR, PRICESHEETNAME VARCHAR, PRODUCTIDACTUAL INTEGER, SYMMETRICALPRICE BOOLEAN, TYPEOFTAXES VARCHAR, UNEQUAL INTEGER, UNITMONEYOFEXPORTMAX VARCHAR, UNITMONEYOFEXPORTMIN VARCHAR, UNITMONEYOFEXPORTUNIT VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PRICESHEET (ID INTEGER IDENTITY NOT NULL, AMPLITUDE DOUBLE, AMPLITUDEUNIT VARCHAR, APPLIEDFROM DATE, APPLIEDTO DATE, EXPORTMAX DOUBLE, EXPORTMIN DOUBLE, EXPORTUNIT DOUBLE, IDCLASSIFICATION INTEGER, MONEYUNITID VARCHAR, PRICESHEETID VARCHAR, PRICESHEETNAME VARCHAR, PRODUCTIDACTUAL INTEGER, SYMMETRICALPRICE BOOLEAN, TYPEOFTAXES VARCHAR, UNEQUAL INTEGER, UNITMONEYOFEXPORTMAX VARCHAR, UNITMONEYOFEXPORTMIN VARCHAR, UNITMONEYOFEXPORTUNIT VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PRICESHEET (ID INTEGER IDENTITY NOT NULL, AMPLITUDE DOUBLE, AMPLITUDEUNIT VARCHAR, APPLIEDFROM DATE, APPLIEDTO DATE, EXPORTMAX DOUBLE, EXPORTMIN DOUBLE, EXPORTUNIT DOUBLE, IDCLASSIFICATION INTEGER, MONEYUNITID VARCHAR, PRICESHEETID VARCHAR, PRICESHEETNAME VARCHAR, PRODUCTIDACTUAL INTEGER, SYMMETRICALPRICE BOOLEAN, TYPEOFTAXES VARCHAR, UNEQUAL INTEGER, UNITMONEYOFEXPORTMAX VARCHAR, UNITMONEYOFEXPORTMIN VARCHAR, UNITMONEYOFEXPORTUNIT VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.321--ServerSession(730993)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PRODUCTINCLUDE" already exists; SQL statement:
+CREATE TABLE PRODUCTINCLUDE (ID INTEGER IDENTITY NOT NULL, PRODUCTIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PRODUCTINCLUDE (ID INTEGER IDENTITY NOT NULL, PRODUCTIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PRODUCTINCLUDE (ID INTEGER IDENTITY NOT NULL, PRODUCTIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.324--ServerSession(730993)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SUPPLEMENTARYPRODUCT" already exists; SQL statement:
+CREATE TABLE SUPPLEMENTARYPRODUCT (ID INTEGER IDENTITY NOT NULL, PRODUCTIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SUPPLEMENTARYPRODUCT (ID INTEGER IDENTITY NOT NULL, PRODUCTIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SUPPLEMENTARYPRODUCT (ID INTEGER IDENTITY NOT NULL, PRODUCTIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:55.377--ServerSession(29839245)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:55.388--ServerSession(29839245)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-sb41.jar_ProductExtService_SB41 login successful
+[EL Warning]: 2012-03-30 14:08:55.392--ServerSession(29839245)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PRODUCTEXT_W48" already exists; SQL statement:
+CREATE TABLE PRODUCTEXT_W48 (ID INTEGER IDENTITY NOT NULL, CITYIDACTUAL INTEGER, COUNTRYIDACTUAL INTEGER, DATEEDIT DATE, DATEOFPRODUCTION DATE, DESCRIPTIVENOTE VARCHAR, EXPIRYDATE DATE, NAMEENGLISH VARCHAR, PRICESHEETIDACTUAL INTEGER, PRODUCTIDACTUAL INTEGER, PROMOTIONIDACTUAL INTEGER, STATUSIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PRODUCTEXT_W48 (ID INTEGER IDENTITY NOT NULL, CITYIDACTUAL INTEGER, COUNTRYIDACTUAL INTEGER, DATEEDIT DATE, DATEOFPRODUCTION DATE, DESCRIPTIVENOTE VARCHAR, EXPIRYDATE DATE, NAMEENGLISH VARCHAR, PRICESHEETIDACTUAL INTEGER, PRODUCTIDACTUAL INTEGER, PROMOTIONIDACTUAL INTEGER, STATUSIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PRODUCTEXT_W48 (ID INTEGER IDENTITY NOT NULL, CITYIDACTUAL INTEGER, COUNTRYIDACTUAL INTEGER, DATEEDIT DATE, DATEOFPRODUCTION DATE, DESCRIPTIVENOTE VARCHAR, EXPIRYDATE DATE, NAMEENGLISH VARCHAR, PRICESHEETIDACTUAL INTEGER, PRODUCTIDACTUAL INTEGER, PROMOTIONIDACTUAL INTEGER, STATUSIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.395--ServerSession(29839245)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PRODUCTEXT_W47" already exists; SQL statement:
+CREATE TABLE PRODUCTEXT_W47 (ID INTEGER IDENTITY NOT NULL, ENTERPRISEIDACTUAL INTEGER, PARNERSHIPTYPE VARCHAR, PERSONIDACTUAL INTEGER, PRODUCTIDACTUAL INTEGER, SUPPLIERIRREGULARNAME VARCHAR, SUPPLIERTYPE VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PRODUCTEXT_W47 (ID INTEGER IDENTITY NOT NULL, ENTERPRISEIDACTUAL INTEGER, PARNERSHIPTYPE VARCHAR, PERSONIDACTUAL INTEGER, PRODUCTIDACTUAL INTEGER, SUPPLIERIRREGULARNAME VARCHAR, SUPPLIERTYPE VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PRODUCTEXT_W47 (ID INTEGER IDENTITY NOT NULL, ENTERPRISEIDACTUAL INTEGER, PARNERSHIPTYPE VARCHAR, PERSONIDACTUAL INTEGER, PRODUCTIDACTUAL INTEGER, SUPPLIERIRREGULARNAME VARCHAR, SUPPLIERTYPE VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.397--ServerSession(29839245)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PRODUCTEXT_W49" already exists; SQL statement:
+CREATE TABLE PRODUCTEXT_W49 (ID INTEGER IDENTITY NOT NULL, DESCRIPTIONS LONGVARBINARY, PARAMETERS LONGVARBINARY, PRODUCTIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PRODUCTEXT_W49 (ID INTEGER IDENTITY NOT NULL, DESCRIPTIONS LONGVARBINARY, PARAMETERS LONGVARBINARY, PRODUCTIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PRODUCTEXT_W49 (ID INTEGER IDENTITY NOT NULL, DESCRIPTIONS LONGVARBINARY, PARAMETERS LONGVARBINARY, PRODUCTIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.401--ServerSession(29839245)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PRODUCTSTATUS" already exists; SQL statement:
+CREATE TABLE PRODUCTSTATUS (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PRODUCTSTATUSNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PRODUCTSTATUS (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PRODUCTSTATUSNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PRODUCTSTATUS (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PRODUCTSTATUSNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:55.439--ServerSession(18357747)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:55.446--ServerSession(18357747)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-sb32.jar_DepartmentExtService_W43 login successful
+[EL Warning]: 2012-03-30 14:08:55.45--ServerSession(18357747)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "DEPARTMENTEXT_W43" already exists; SQL statement:
+CREATE TABLE DEPARTMENTEXT_W43 (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, ESTIMATE VARCHAR, PROPORTIONPROFIT VARCHAR, SUMMONEYEXPORT DOUBLE, SUMMONEYIMPORT DOUBLE, SUMPROFIT DOUBLE, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE DEPARTMENTEXT_W43 (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, ESTIMATE VARCHAR, PROPORTIONPROFIT VARCHAR, SUMMONEYEXPORT DOUBLE, SUMMONEYIMPORT DOUBLE, SUMPROFIT DOUBLE, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE DEPARTMENTEXT_W43 (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, ESTIMATE VARCHAR, PROPORTIONPROFIT VARCHAR, SUMMONEYEXPORT DOUBLE, SUMMONEYIMPORT DOUBLE, SUMPROFIT DOUBLE, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.454--ServerSession(18357747)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "INFORMATION" already exists; SQL statement:
+CREATE TABLE INFORMATION (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, INFORMATIONDESCRIPTION VARCHAR, INFORMATIONNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE INFORMATION (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, INFORMATIONDESCRIPTION VARCHAR, INFORMATIONNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE INFORMATION (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, INFORMATIONDESCRIPTION VARCHAR, INFORMATIONNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:55.522--ServerSession(12092488)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:55.537--ServerSession(12092488)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-sb31.jar_DepartmentExtService_W41 login successful
+[EL Warning]: 2012-03-30 14:08:55.543--ServerSession(12092488)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "DEPARTMENTEXT_W41" already exists; SQL statement:
+CREATE TABLE DEPARTMENTEXT_W41 (ID INTEGER IDENTITY NOT NULL, CUSTOMERNAME VARCHAR, DEPARTMENTIDACTUAL INTEGER, DEPLOYEDDATE DATE, DEPLOYMENTDATE DATE, DESCRIBE VARCHAR, FINISHDATE DATE, FINISHEDDATE DATE, IDENTERPRISE INTEGER, IDPERSON INTEGER, PRINTERNAME VARCHAR, PROGRESS VARCHAR, STATEDEPARTMENTIDACUTAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE DEPARTMENTEXT_W41 (ID INTEGER IDENTITY NOT NULL, CUSTOMERNAME VARCHAR, DEPARTMENTIDACTUAL INTEGER, DEPLOYEDDATE DATE, DEPLOYMENTDATE DATE, DESCRIBE VARCHAR, FINISHDATE DATE, FINISHEDDATE DATE, IDENTERPRISE INTEGER, IDPERSON INTEGER, PRINTERNAME VARCHAR, PROGRESS VARCHAR, STATEDEPARTMENTIDACUTAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE DEPARTMENTEXT_W41 (ID INTEGER IDENTITY NOT NULL, CUSTOMERNAME VARCHAR, DEPARTMENTIDACTUAL INTEGER, DEPLOYEDDATE DATE, DEPLOYMENTDATE DATE, DESCRIBE VARCHAR, FINISHDATE DATE, FINISHEDDATE DATE, IDENTERPRISE INTEGER, IDPERSON INTEGER, PRINTERNAME VARCHAR, PROGRESS VARCHAR, STATEDEPARTMENTIDACUTAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.547--ServerSession(12092488)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "INFORMATION" already exists; SQL statement:
+CREATE TABLE INFORMATION (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, INFORMATIONDESCRIPTION VARCHAR, INFORMATIONNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE INFORMATION (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, INFORMATIONDESCRIPTION VARCHAR, INFORMATIONNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE INFORMATION (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, INFORMATIONDESCRIPTION VARCHAR, INFORMATIONNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.552--ServerSession(12092488)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "DEPARTMENTEXTSB31_W43" already exists; SQL statement:
+CREATE TABLE DEPARTMENTEXTSB31_W43 (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, IDMISSIONIDACTUAL LONGVARBINARY, IDPERSONACTUAL LONGVARBINARY, PERCENT LONGVARBINARY, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE DEPARTMENTEXTSB31_W43 (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, IDMISSIONIDACTUAL LONGVARBINARY, IDPERSONACTUAL LONGVARBINARY, PERCENT LONGVARBINARY, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE DEPARTMENTEXTSB31_W43 (ID INTEGER IDENTITY NOT NULL, DEPARTMENTIDACTUAL INTEGER, IDMISSIONIDACTUAL LONGVARBINARY, IDPERSONACTUAL LONGVARBINARY, PERCENT LONGVARBINARY, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.557--ServerSession(12092488)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PROJECTSTATUS" already exists; SQL statement:
+CREATE TABLE PROJECTSTATUS (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, STATUSNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PROJECTSTATUS (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, STATUSNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PROJECTSTATUS (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, STATUSNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:55.657--ServerSession(7462871)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:55.666--ServerSession(7462871)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-sb25.jar_SubPersonSB25Services login successful
+[EL Warning]: 2012-03-30 14:08:55.67--ServerSession(7462871)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SUBPERSONSB25" already exists; SQL statement:
+CREATE TABLE SUBPERSONSB25 (ID INTEGER IDENTITY NOT NULL, LEARNINGPROCCESSIDACTUAL LONGVARBINARY, OTHERPROFILEIDACTUAL LONGVARBINARY, PERSONIDACTUAL INTEGER, PUBLICATIONIDACTUAL LONGVARBINARY, WORKINGPROCCESSIDACTUAL LONGVARBINARY, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SUBPERSONSB25 (ID INTEGER IDENTITY NOT NULL, LEARNINGPROCCESSIDACTUAL LONGVARBINARY, OTHERPROFILEIDACTUAL LONGVARBINARY, PERSONIDACTUAL INTEGER, PUBLICATIONIDACTUAL LONGVARBINARY, WORKINGPROCCESSIDACTUAL LONGVARBINARY, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SUBPERSONSB25 (ID INTEGER IDENTITY NOT NULL, LEARNINGPROCCESSIDACTUAL LONGVARBINARY, OTHERPROFILEIDACTUAL LONGVARBINARY, PERSONIDACTUAL INTEGER, PUBLICATIONIDACTUAL LONGVARBINARY, WORKINGPROCCESSIDACTUAL LONGVARBINARY, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.673--ServerSession(7462871)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PUBLICATION" already exists; SQL statement:
+CREATE TABLE PUBLICATION (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PUBLICATIONID VARCHAR, RESEARCHRESULT VARCHAR, TIMEPUBLISHED DATE, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PUBLICATION (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PUBLICATIONID VARCHAR, RESEARCHRESULT VARCHAR, TIMEPUBLISHED DATE, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PUBLICATION (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, PUBLICATIONID VARCHAR, RESEARCHRESULT VARCHAR, TIMEPUBLISHED DATE, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.676--ServerSession(7462871)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "OTHERPROFILE" already exists; SQL statement:
+CREATE TABLE OTHERPROFILE (ID INTEGER IDENTITY NOT NULL, DATEOTHER DATE, DESCRIPTION VARCHAR, NOTE VARCHAR, OTHERPROFILEID VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE OTHERPROFILE (ID INTEGER IDENTITY NOT NULL, DATEOTHER DATE, DESCRIPTION VARCHAR, NOTE VARCHAR, OTHERPROFILEID VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE OTHERPROFILE (ID INTEGER IDENTITY NOT NULL, DATEOTHER DATE, DESCRIPTION VARCHAR, NOTE VARCHAR, OTHERPROFILEID VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.678--ServerSession(7462871)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "LEARNINGPROCESS" already exists; SQL statement:
+CREATE TABLE LEARNINGPROCESS (ID INTEGER IDENTITY NOT NULL, ACADEMICTITLE VARCHAR, DESCRIPTION VARCHAR, LEARNINGPROCCESSID VARCHAR, QUALIFICATION VARCHAR, TIMEBEGIN DATE, TIMEEND DATE, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE LEARNINGPROCESS (ID INTEGER IDENTITY NOT NULL, ACADEMICTITLE VARCHAR, DESCRIPTION VARCHAR, LEARNINGPROCCESSID VARCHAR, QUALIFICATION VARCHAR, TIMEBEGIN DATE, TIMEEND DATE, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE LEARNINGPROCESS (ID INTEGER IDENTITY NOT NULL, ACADEMICTITLE VARCHAR, DESCRIPTION VARCHAR, LEARNINGPROCCESSID VARCHAR, QUALIFICATION VARCHAR, TIMEBEGIN DATE, TIMEEND DATE, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.681--ServerSession(7462871)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "WORKINGPROCESS" already exists; SQL statement:
+CREATE TABLE WORKINGPROCESS (ID INTEGER IDENTITY NOT NULL, DATEFROM DATE, DATETO DATE, DESCIPTION VARCHAR, ENTERPRISEIDACTUAL INTEGER, MISSIONIDACTUAL INTEGER, REASON VARCHAR, WORKINGPROCCESSID VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE WORKINGPROCESS (ID INTEGER IDENTITY NOT NULL, DATEFROM DATE, DATETO DATE, DESCIPTION VARCHAR, ENTERPRISEIDACTUAL INTEGER, MISSIONIDACTUAL INTEGER, REASON VARCHAR, WORKINGPROCCESSID VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE WORKINGPROCESS (ID INTEGER IDENTITY NOT NULL, DATEFROM DATE, DATETO DATE, DESCIPTION VARCHAR, ENTERPRISEIDACTUAL INTEGER, MISSIONIDACTUAL INTEGER, REASON VARCHAR, WORKINGPROCCESSID VARCHAR, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:55.768--ServerSession(11767226)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:55.775--ServerSession(11767226)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-sb24.jar_SubPersonSB24Services login successful
+[EL Warning]: 2012-03-30 14:08:55.779--ServerSession(11767226)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SKILL" already exists; SQL statement:
+CREATE TABLE SKILL (ID INTEGER IDENTITY NOT NULL, CAREERINTERESTS VARCHAR, INFORMATICS VARCHAR, PARTICULARITY VARCHAR, PERSONIDACTUAL INTEGER, PERSONALPREFERENCES VARCHAR, RESEARCHINTERESTS VARCHAR, SKILLLANGUAGESIDACTUAL LONGVARBINARY, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SKILL (ID INTEGER IDENTITY NOT NULL, CAREERINTERESTS VARCHAR, INFORMATICS VARCHAR, PARTICULARITY VARCHAR, PERSONIDACTUAL INTEGER, PERSONALPREFERENCES VARCHAR, RESEARCHINTERESTS VARCHAR, SKILLLANGUAGESIDACTUAL LONGVARBINARY, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SKILL (ID INTEGER IDENTITY NOT NULL, CAREERINTERESTS VARCHAR, INFORMATICS VARCHAR, PARTICULARITY VARCHAR, PERSONIDACTUAL INTEGER, PERSONALPREFERENCES VARCHAR, RESEARCHINTERESTS VARCHAR, SKILLLANGUAGESIDACTUAL LONGVARBINARY, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.782--ServerSession(11767226)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SKILLLANGUAGE" already exists; SQL statement:
+CREATE TABLE SKILLLANGUAGE (ID INTEGER IDENTITY NOT NULL, FOREIGNLANGUAGEID INTEGER, LEVELLANGUAGEIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SKILLLANGUAGE (ID INTEGER IDENTITY NOT NULL, FOREIGNLANGUAGEID INTEGER, LEVELLANGUAGEIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SKILLLANGUAGE (ID INTEGER IDENTITY NOT NULL, FOREIGNLANGUAGEID INTEGER, LEVELLANGUAGEIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.785--ServerSession(11767226)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "LEVELLANGUAGE" already exists; SQL statement:
+CREATE TABLE LEVELLANGUAGE (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, LEVELNAME VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE LEVELLANGUAGE (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, LEVELNAME VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE LEVELLANGUAGE (ID INTEGER IDENTITY NOT NULL, DESCRIPTION VARCHAR, LEVELNAME VARCHAR, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:55.845--ServerSession(33296132)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:55.854--ServerSession(33296132)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-sb23.jar_SubPersonSB23Services login successful
+[EL Warning]: 2012-03-30 14:08:55.857--ServerSession(33296132)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SUBPERSONSB23" already exists; SQL statement:
+CREATE TABLE SUBPERSONSB23 (ID INTEGER IDENTITY NOT NULL, AUTORENEWDEADLINE INTEGER, CLASSIFICATION VARCHAR, COEFFICIENTMAX DOUBLE, COEFFICIENTMIN DOUBLE, COMPENSATIONBYFIRED DOUBLE, COMPENSATIONBYQUIT DOUBLE, CYCLEINCREASE INTEGER, ENTERPRISEIDACTUAL INTEGER, FINISHEDDATE DATE, FREQUENCY VARCHAR, INCREASEVALUE DOUBLE, METHODINCREASEANNUALLY VARCHAR, MISSIONIDACTUAL INTEGER, PERSONIDACTUAL INTEGER, SALARYMAX DOUBLE, SALARYMIN DOUBLE, SIGNEDDATE DATE, STARTDATE DATE, TYPEOFCONTRACT VARCHAR, UPDATEDDATE DATE, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SUBPERSONSB23 (ID INTEGER IDENTITY NOT NULL, AUTORENEWDEADLINE INTEGER, CLASSIFICATION VARCHAR, COEFFICIENTMAX DOUBLE, COEFFICIENTMIN DOUBLE, COMPENSATIONBYFIRED DOUBLE, COMPENSATIONBYQUIT DOUBLE, CYCLEINCREASE INTEGER, ENTERPRISEIDACTUAL INTEGER, FINISHEDDATE DATE, FREQUENCY VARCHAR, INCREASEVALUE DOUBLE, METHODINCREASEANNUALLY VARCHAR, MISSIONIDACTUAL INTEGER, PERSONIDACTUAL INTEGER, SALARYMAX DOUBLE, SALARYMIN DOUBLE, SIGNEDDATE DATE, STARTDATE DATE, TYPEOFCONTRACT VARCHAR, UPDATEDDATE DATE, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SUBPERSONSB23 (ID INTEGER IDENTITY NOT NULL, AUTORENEWDEADLINE INTEGER, CLASSIFICATION VARCHAR, COEFFICIENTMAX DOUBLE, COEFFICIENTMIN DOUBLE, COMPENSATIONBYFIRED DOUBLE, COMPENSATIONBYQUIT DOUBLE, CYCLEINCREASE INTEGER, ENTERPRISEIDACTUAL INTEGER, FINISHEDDATE DATE, FREQUENCY VARCHAR, INCREASEVALUE DOUBLE, METHODINCREASEANNUALLY VARCHAR, MISSIONIDACTUAL INTEGER, PERSONIDACTUAL INTEGER, SALARYMAX DOUBLE, SALARYMIN DOUBLE, SIGNEDDATE DATE, STARTDATE DATE, TYPEOFCONTRACT VARCHAR, UPDATEDDATE DATE, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:55.896--ServerSession(3385016)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:55.904--ServerSession(3385016)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-sb22.jar_SubPersonSB22Services login successful
+[EL Warning]: 2012-03-30 14:08:55.907--ServerSession(3385016)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SUBPERSONSB22" already exists; SQL statement:
+CREATE TABLE SUBPERSONSB22 (ID INTEGER IDENTITY NOT NULL, ADDRESSIDACTUAL LONGVARBINARY, COUNTRYIDACTUAL INTEGER, EMAIL VARCHAR, FAX VARCHAR, PERSONIDACTUAL INTEGER, TEL VARCHAR, WEB VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SUBPERSONSB22 (ID INTEGER IDENTITY NOT NULL, ADDRESSIDACTUAL LONGVARBINARY, COUNTRYIDACTUAL INTEGER, EMAIL VARCHAR, FAX VARCHAR, PERSONIDACTUAL INTEGER, TEL VARCHAR, WEB VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SUBPERSONSB22 (ID INTEGER IDENTITY NOT NULL, ADDRESSIDACTUAL LONGVARBINARY, COUNTRYIDACTUAL INTEGER, EMAIL VARCHAR, FAX VARCHAR, PERSONIDACTUAL INTEGER, TEL VARCHAR, WEB VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.91--ServerSession(3385016)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "ADDRESSINFO" already exists; SQL statement:
+CREATE TABLE ADDRESSINFO (ID INTEGER IDENTITY NOT NULL, ADDRESSINFOID INTEGER, ADDRESSINFONAME VARCHAR, CITYIDACTUAL INTEGER, COUNTRYIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE ADDRESSINFO (ID INTEGER IDENTITY NOT NULL, ADDRESSINFOID INTEGER, ADDRESSINFONAME VARCHAR, CITYIDACTUAL INTEGER, COUNTRYIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE ADDRESSINFO (ID INTEGER IDENTITY NOT NULL, ADDRESSINFOID INTEGER, ADDRESSINFONAME VARCHAR, CITYIDACTUAL INTEGER, COUNTRYIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:55.944--ServerSession(23291697)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:55.951--ServerSession(23291697)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-calendaroption-ui.jar_CalendarService login successful
+[EL Warning]: 2012-03-30 14:08:55.955--ServerSession(23291697)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "DAILY" already exists; SQL statement:
+CREATE TABLE DAILY (ID INTEGER IDENTITY NOT NULL, EVERYWEEKDAY BOOLEAN, STEPNUMBER INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE DAILY (ID INTEGER IDENTITY NOT NULL, EVERYWEEKDAY BOOLEAN, STEPNUMBER INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE DAILY (ID INTEGER IDENTITY NOT NULL, EVERYWEEKDAY BOOLEAN, STEPNUMBER INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.958--ServerSession(23291697)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "WEEKLY" already exists; SQL statement:
+CREATE TABLE WEEKLY (ID INTEGER IDENTITY NOT NULL, DAYOFWEEK LONGVARBINARY, STEPNUMBER INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE WEEKLY (ID INTEGER IDENTITY NOT NULL, DAYOFWEEK LONGVARBINARY, STEPNUMBER INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE WEEKLY (ID INTEGER IDENTITY NOT NULL, DAYOFWEEK LONGVARBINARY, STEPNUMBER INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.961--ServerSession(23291697)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "MONTHLY" already exists; SQL statement:
+CREATE TABLE MONTHLY (ID INTEGER IDENTITY NOT NULL, DAY INTEGER, DAYLEVEL INTEGER, DAYOFWEEK LONGVARBINARY, STEPOFMONTH INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE MONTHLY (ID INTEGER IDENTITY NOT NULL, DAY INTEGER, DAYLEVEL INTEGER, DAYOFWEEK LONGVARBINARY, STEPOFMONTH INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE MONTHLY (ID INTEGER IDENTITY NOT NULL, DAY INTEGER, DAYLEVEL INTEGER, DAYOFWEEK LONGVARBINARY, STEPOFMONTH INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:55.964--ServerSession(23291697)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "YEARLY" already exists; SQL statement:
+CREATE TABLE YEARLY (ID INTEGER IDENTITY NOT NULL, DAYLEVEL INTEGER, DAYOFMONTH INTEGER, DAYOFWEEK LONGVARBINARY, MONTHOFYEAR INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE YEARLY (ID INTEGER IDENTITY NOT NULL, DAYLEVEL INTEGER, DAYOFMONTH INTEGER, DAYOFWEEK LONGVARBINARY, MONTHOFYEAR INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE YEARLY (ID INTEGER IDENTITY NOT NULL, DAYLEVEL INTEGER, DAYOFMONTH INTEGER, DAYOFWEEK LONGVARBINARY, MONTHOFYEAR INTEGER, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:55.996--ServerSession(20412177)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:56.022--ServerSession(20412177)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-promotion.jar_PromotionService login successful
+[EL Warning]: 2012-03-30 14:08:56.051--ServerSession(20412177)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "PROMOTION" already exists; SQL statement:
+CREATE TABLE PROMOTION (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONIDACTUAL INTEGER, DATEFINISH DATE, DATESART DATE, HOURFINISH TIME, HOURSTART TIME, IDCLASSIFICATION INTEGER, PROMOTIONID VARCHAR, PROMOTIONNAME VARCHAR, PROMOTIONTYPE VARCHAR, SALEOFFOPTIONIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE PROMOTION (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONIDACTUAL INTEGER, DATEFINISH DATE, DATESART DATE, HOURFINISH TIME, HOURSTART TIME, IDCLASSIFICATION INTEGER, PROMOTIONID VARCHAR, PROMOTIONNAME VARCHAR, PROMOTIONTYPE VARCHAR, SALEOFFOPTIONIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE PROMOTION (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONIDACTUAL INTEGER, DATEFINISH DATE, DATESART DATE, HOURFINISH TIME, HOURSTART TIME, IDCLASSIFICATION INTEGER, PROMOTIONID VARCHAR, PROMOTIONNAME VARCHAR, PROMOTIONTYPE VARCHAR, SALEOFFOPTIONIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:56.074--ServerSession(20412177)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "CLASSIFIEDBYENTERPRISE" already exists; SQL statement:
+CREATE TABLE CLASSIFIEDBYENTERPRISE (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, ENTERPRISEIDACTUALS LONGVARBINARY, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE CLASSIFIEDBYENTERPRISE (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, ENTERPRISEIDACTUALS LONGVARBINARY, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE CLASSIFIEDBYENTERPRISE (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, ENTERPRISEIDACTUALS LONGVARBINARY, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:56.079--ServerSession(20412177)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "CLASSIFIEDBYDEPARTMENT" already exists; SQL statement:
+CREATE TABLE CLASSIFIEDBYDEPARTMENT (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, DEPARTMENTIDACTUALS LONGVARBINARY, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE CLASSIFIEDBYDEPARTMENT (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, DEPARTMENTIDACTUALS LONGVARBINARY, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE CLASSIFIEDBYDEPARTMENT (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, DEPARTMENTIDACTUALS LONGVARBINARY, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:56.082--ServerSession(20412177)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "CLASSIFIEDBYPRODUCT" already exists; SQL statement:
+CREATE TABLE CLASSIFIEDBYPRODUCT (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, PRODUCTIDACTUALS LONGVARBINARY, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE CLASSIFIEDBYPRODUCT (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, PRODUCTIDACTUALS LONGVARBINARY, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE CLASSIFIEDBYPRODUCT (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, PRODUCTIDACTUALS LONGVARBINARY, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:56.086--ServerSession(20412177)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "CLASSIFIEDBYPERSON" already exists; SQL statement:
+CREATE TABLE CLASSIFIEDBYPERSON (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, PERSONIDACTUALS LONGVARBINARY, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE CLASSIFIEDBYPERSON (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, PERSONIDACTUALS LONGVARBINARY, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE CLASSIFIEDBYPERSON (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, PERSONIDACTUALS LONGVARBINARY, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:56.089--ServerSession(20412177)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "CLASSIFIEDBYOPERATION" already exists; SQL statement:
+CREATE TABLE CLASSIFIEDBYOPERATION (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, OPERATIONTYPE VARCHAR, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE CLASSIFIEDBYOPERATION (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, OPERATIONTYPE VARCHAR, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE CLASSIFIEDBYOPERATION (ID INTEGER IDENTITY NOT NULL, CLASSIFICATIONID VARCHAR, OPERATIONTYPE VARCHAR, PROMOTIONIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:56.093--ServerSession(20412177)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SALEOFF" already exists; SQL statement:
+CREATE TABLE SALEOFF (ID INTEGER IDENTITY NOT NULL, CALCULATIONWAY VARCHAR, MONEYUNITIDACTUAL VARCHAR, NOTE VARCHAR, PROMOTIONIDACTUAL INTEGER, REALVALUE INTEGER, VALUE INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SALEOFF (ID INTEGER IDENTITY NOT NULL, CALCULATIONWAY VARCHAR, MONEYUNITIDACTUAL VARCHAR, NOTE VARCHAR, PROMOTIONIDACTUAL INTEGER, REALVALUE INTEGER, VALUE INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SALEOFF (ID INTEGER IDENTITY NOT NULL, CALCULATIONWAY VARCHAR, MONEYUNITIDACTUAL VARCHAR, NOTE VARCHAR, PROMOTIONIDACTUAL INTEGER, REALVALUE INTEGER, VALUE INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:56.108--ServerSession(20412177)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SALEOFFPRODUCT" already exists; SQL statement:
+CREATE TABLE SALEOFFPRODUCT (ID INTEGER IDENTITY NOT NULL, NOTE VARCHAR, PRODUCTMAINIDACTUAL INTEGER, PRODUCTMAINNUM INTEGER, PRODUCTSUBIDACTUAL INTEGER, PROMOTIONIDACTUAL INTEGER, SALEOFFPRODUCTID VARCHAR, SALEOFFPRODUCTNUM INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SALEOFFPRODUCT (ID INTEGER IDENTITY NOT NULL, NOTE VARCHAR, PRODUCTMAINIDACTUAL INTEGER, PRODUCTMAINNUM INTEGER, PRODUCTSUBIDACTUAL INTEGER, PROMOTIONIDACTUAL INTEGER, SALEOFFPRODUCTID VARCHAR, SALEOFFPRODUCTNUM INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SALEOFFPRODUCT (ID INTEGER IDENTITY NOT NULL, NOTE VARCHAR, PRODUCTMAINIDACTUAL INTEGER, PRODUCTMAINNUM INTEGER, PRODUCTSUBIDACTUAL INTEGER, PROMOTIONIDACTUAL INTEGER, SALEOFFPRODUCTID VARCHAR, SALEOFFPRODUCTNUM INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:56.11--ServerSession(20412177)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "SALEOFFOPTION" already exists; SQL statement:
+CREATE TABLE SALEOFFOPTION (ID INTEGER IDENTITY NOT NULL, DAILYID INTEGER, ISDAILY BOOLEAN, ISMONTHLY BOOLEAN, ISWEEKLY BOOLEAN, ISYEARLY BOOLEAN, MONTHLYID INTEGER, SALEOFFOPTIONID VARCHAR, WEEKLYID INTEGER, YEARLYID INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE SALEOFFOPTION (ID INTEGER IDENTITY NOT NULL, DAILYID INTEGER, ISDAILY BOOLEAN, ISMONTHLY BOOLEAN, ISWEEKLY BOOLEAN, ISYEARLY BOOLEAN, MONTHLYID INTEGER, SALEOFFOPTIONID VARCHAR, WEEKLYID INTEGER, YEARLYID INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE SALEOFFOPTION (ID INTEGER IDENTITY NOT NULL, DAILYID INTEGER, ISDAILY BOOLEAN, ISMONTHLY BOOLEAN, ISWEEKLY BOOLEAN, ISYEARLY BOOLEAN, MONTHLYID INTEGER, SALEOFFOPTIONID VARCHAR, WEEKLYID INTEGER, YEARLYID INTEGER, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:56.158--ServerSession(9732986)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:56.167--ServerSession(9732986)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-pilot-history.jar_History login successful
+[EL Warning]: 2012-03-30 14:08:56.17--ServerSession(9732986)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "MODIFICATION" already exists; SQL statement:
+CREATE TABLE MODIFICATION (ID INTEGER IDENTITY NOT NULL, DATA VARCHAR, DATEEND TIMESTAMP, DATESTART TIMESTAMP, DESCRIPTION VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE MODIFICATION (ID INTEGER IDENTITY NOT NULL, DATA VARCHAR, DATEEND TIMESTAMP, DATESTART TIMESTAMP, DESCRIPTION VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE MODIFICATION (ID INTEGER IDENTITY NOT NULL, DATA VARCHAR, DATEEND TIMESTAMP, DATESTART TIMESTAMP, DESCRIPTION VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:56.174--ServerSession(9732986)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "REFERENCE" already exists; SQL statement:
+CREATE TABLE REFERENCE (ID INTEGER IDENTITY NOT NULL, ACCOUNTIDACTUAL INTEGER, FIELDNAME VARCHAR, MODIFICATIONSIDACTUAL LONGVARBINARY, MODULEOBJECT VARCHAR, OBJECTIDACTUAL INTEGER, OBJECTTYPE VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE REFERENCE (ID INTEGER IDENTITY NOT NULL, ACCOUNTIDACTUAL INTEGER, FIELDNAME VARCHAR, MODIFICATIONSIDACTUAL LONGVARBINARY, MODULEOBJECT VARCHAR, OBJECTIDACTUAL INTEGER, OBJECTTYPE VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE REFERENCE (ID INTEGER IDENTITY NOT NULL, ACCOUNTIDACTUAL INTEGER, FIELDNAME VARCHAR, MODIFICATIONSIDACTUAL LONGVARBINARY, MODULEOBJECT VARCHAR, OBJECTIDACTUAL INTEGER, OBJECTTYPE VARCHAR, PRIMARY KEY (ID))")
+[EL Info]: 2012-03-30 14:08:56.312--ServerSession(19468020)--EclipseLink, version: Eclipse Persistence Services - 2.2.0.v20110202-r8913
+[EL Info]: 2012-03-30 14:08:56.32--ServerSession(19468020)--file:/E:/File lam Java/Danh le/danhle/PilotSop/build/cluster/modules/vn-com-hkt-extension.jar_EnterpriseExtensionService login successful
+[EL Warning]: 2012-03-30 14:08:56.324--ServerSession(19468020)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "ENTERPRISEEXT" already exists; SQL statement:
+CREATE TABLE ENTERPRISEEXT (ID INTEGER IDENTITY NOT NULL, ENTERPRISEADDRESSIDACTUAL LONGVARBINARY, ENTERPRISEEMAIL VARCHAR, ENTERPRISEFAX VARCHAR, ENTERPRISEIDACTUAL INTEGER, ENTERPRISENAME VARCHAR, ENTERPRISETEL VARCHAR, ENTERPRISEWEB VARCHAR, EXECUTIVEOFFICESIDACTUAL LONGVARBINARY, POSTALCODE VARCHAR, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE ENTERPRISEEXT (ID INTEGER IDENTITY NOT NULL, ENTERPRISEADDRESSIDACTUAL LONGVARBINARY, ENTERPRISEEMAIL VARCHAR, ENTERPRISEFAX VARCHAR, ENTERPRISEIDACTUAL INTEGER, ENTERPRISENAME VARCHAR, ENTERPRISETEL VARCHAR, ENTERPRISEWEB VARCHAR, EXECUTIVEOFFICESIDACTUAL LONGVARBINARY, POSTALCODE VARCHAR, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE ENTERPRISEEXT (ID INTEGER IDENTITY NOT NULL, ENTERPRISEADDRESSIDACTUAL LONGVARBINARY, ENTERPRISEEMAIL VARCHAR, ENTERPRISEFAX VARCHAR, ENTERPRISEIDACTUAL INTEGER, ENTERPRISENAME VARCHAR, ENTERPRISETEL VARCHAR, ENTERPRISEWEB VARCHAR, EXECUTIVEOFFICESIDACTUAL LONGVARBINARY, POSTALCODE VARCHAR, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:56.328--ServerSession(19468020)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "EXECUTIVEOFFICE" already exists; SQL statement:
+CREATE TABLE EXECUTIVEOFFICE (ID INTEGER IDENTITY NOT NULL, EXECUTIVEOFFICEIDACTUAL INTEGER, EXECUTIVEOFFICENAME INTEGER, MISSIONIDACTUAL INTEGER, PERSONIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE EXECUTIVEOFFICE (ID INTEGER IDENTITY NOT NULL, EXECUTIVEOFFICEIDACTUAL INTEGER, EXECUTIVEOFFICENAME INTEGER, MISSIONIDACTUAL INTEGER, PERSONIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE EXECUTIVEOFFICE (ID INTEGER IDENTITY NOT NULL, EXECUTIVEOFFICEIDACTUAL INTEGER, EXECUTIVEOFFICENAME INTEGER, MISSIONIDACTUAL INTEGER, PERSONIDACTUAL INTEGER, PRIMARY KEY (ID))")
+[EL Warning]: 2012-03-30 14:08:56.341--ServerSession(19468020)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.2.0.v20110202-r8913): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.h2.jdbc.JdbcSQLException: Table "ADDRESSINFOENTERPRISE" already exists; SQL statement:
+CREATE TABLE ADDRESSINFOENTERPRISE (ID INTEGER IDENTITY NOT NULL, ADDRESSINFONAME VARCHAR, CITYIDACTUAL INTEGER, COUNTRYIDACTUAL INTEGER, PRIMARY KEY (ID)) [42101-160]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:108)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:73)
+	at org.h2.command.Command.executeUpdate(Command.java:219)
+	at org.h2.server.TcpServerThread.process(TcpServerThread.java:300)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+Error Code: 42101
+Call: CREATE TABLE ADDRESSINFOENTERPRISE (ID INTEGER IDENTITY NOT NULL, ADDRESSINFONAME VARCHAR, CITYIDACTUAL INTEGER, COUNTRYIDACTUAL INTEGER, PRIMARY KEY (ID))
+Query: DataModifyQuery(sql="CREATE TABLE ADDRESSINFOENTERPRISE (ID INTEGER IDENTITY NOT NULL, ADDRESSINFONAME VARCHAR, CITYIDACTUAL INTEGER, COUNTRYIDACTUAL INTEGER, PRIMARY KEY (ID))")
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.openide.util.lookup [8.8.1 201107282000]
+	org.openide.util [8.15.1 201107282000]
+	org.openide.modules [7.23.1 201107282000]
+	org.openide.filesystems [7.47.1 201107282000]
+	org.openide.awt [7.31.1 201107282000]
+	org.netbeans.api.progress/1 [1.24.1 201107282000]
+	org.openide.dialogs [7.20.1 201107282000]
+	org.openide.nodes [7.21.1 201107282000]
+	org.openide.windows [6.40.1 201107282000]
+	org.netbeans.swing.tabcontrol [1.25.1 201107282000]
+	org.netbeans.swing.outline [1.14.1 201107282000]
+	org.openide.explorer [6.35.1 201107282000]
+	org.netbeans.modules.editor.mimelookup/1 [1.22.1 201107282000]
+	org.openide.text [6.37.1 201107282000]
+	org.openide.actions [6.22.1 201107282000]
+	org.netbeans.bootstrap/1 [2.40.1 201107282000]
+	org.netbeans.core.startup/1 [1.31.1 201107282000]
+	org.netbeans.api.annotations.common/1 [1.9.1 201107282000]
+	org.netbeans.spi.quicksearch [1.10.1 201107282000]
+	org.netbeans.modules.queries/1 [1.23.1 201107282000]
+	org.openide.loaders [7.21.1 201107282000]
+	org.netbeans.modules.keyring [1.6.1 201107282000]
+	org.openide.io [1.27.1 201107282000]
+	org.netbeans.swing.plaf [1.20.1 201107282000]
+	org.netbeans.core/2 [3.25.1 201107282000]
+	org.netbeans.modules.options.api/1 [1.22.1 201107282000]
+	org.netbeans.modules.settings/1 [1.31.1 201107282000]
+	org.netbeans.core.windows/2 [2.28.1 201107282000]
+	com.vn.hkt.core [1.0 120330]
+	vn.com.hkt.pilot.backup [1.0 120330]
+	installerGUI [1.0 120330]
+	vn.com.hkt.license [1.0 120330]
+	vn.com.hkt.erm [1.0 120330]
+	vn.com.hkt.pilot.subperson [1.0 120330]
+	vn.com.hkt.pilot.subenterprise13 [1.0 120330]
+	vn.com.hkt.pilot.sbenterprise [1.0 120330]
+	vn.com.hkt.pilot.sb51 [1.0 120330]
+	vn.com.hkt.pilot.sb43 [1.0 120330]
+	vn.com.hkt.pilot.sb42.pricesheet [1.0 120330]
+	vn.com.hkt.pilot.sb41 [1.0 120330]
+	vn.com.hkt.pilot.sb32 [1.0 120330]
+	vn.com.hkt.pilot.sb31 [1.0 120330]
+	vn.com.hkt.pilot.sb25 [1.0 120330]
+	vn.com.hkt.pilot.sb24 [1.0 120330]
+	vn.com.hkt.pilot.sb23 [1.0 120330]
+	vn.com.hkt.pilot.sb22 [1.0 120330]
+	vn.com.hkt.pilot.resto [1.0 120330]
+	vn.com.hkt.pilot.report [1.0 120330]
+	vn.com.hkt.pilot.calendaroption.ui [1.0 120330]
+	vn.com.hkt.pilot.promotion [1.0 120330]
+	vn.com.hkt.pilot.history [1.0 120330]
+	vn.com.hkt.extension [1.0 120330]
+	vn.com.hkt.ap [1.0 120330]
+	vn.com.hkt.account.manager [1.0 120330]
+	org.netbeans.modules.progress.ui [1.16.1 201107282000]
+	org.netbeans.modules.print [7.9.1 201107282000]
+	org.netbeans.modules.options.keymap [1.14.1 201107282000]
+	org.netbeans.libs.jna/1 [1.14.1 201107282000]
+	org.netbeans.modules.masterfs/2 [2.32.1 201107282000]
+	org.netbeans.modules.keyring.impl [1.3.1 201107282000]
+	org.netbeans.modules.favorites/1 [1.25.1 201107282000]
+	org.netbeans.modules.editor.mimelookup.impl/1 [1.14.1 201107282000]
+	org.netbeans.modules.autoupdate.services [1.26.1 201107282000]
+	org.netbeans.core.ui/1 [1.27.1 201107282000]
+	org.netbeans.modules.autoupdate.ui [1.23.1 201107282000]
+	org.netbeans.libs.osgi [1.5.1 201107282000]
+	org.netbeans.libs.felix [1.5.1 201107282000]
+	org.netbeans.modules.core.kit [1.12.1 201107282000]
+	org.netbeans.core.output2/1 [1.22.1 201107282000]
+	org.netbeans.core.netigso [1.9.1 201107282000]
+	org.netbeans.core.nativeaccess/1 [1.12.1 201107282000]
+	org.netbeans.core.io.ui/1 [1.12.1 201107282000]
+WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/ marked with the position attribute: [HKT, Kinh Doanh, K? toán, Logistics, Nhân s?, Nh?p S? Li?u, Restaurant, S?n Xu?t & ??u Vào, Thông Tin, Th? Tr??ng, Tài Kho?n], but some are: [File, Tools, Window]
+Diagnostic information
+Input arguments:
+	-Dnetbeans.logger.console=true
+	-ea
+	-Djdk.home=C:\Program
+	Files\Java\jdk1.6.0_29
+	-Dnetbeans.home=C:\Program
+	Files\NetBeans
+	7.0.1\platform
+	-Dnetbeans.user=E:\File
+	lam
+	Java\Danh
+	le\danhle\PilotSop\build\testuserdir
+	-XX:+HeapDumpOnOutOfMemoryError
+	-XX:HeapDumpPath=E:\File
+	lam
+	Java\Danh
+	le\danhle\PilotSop\build\testuserdir\var\log\heapdump.hprof
+	-Dnetbeans.system_http_proxy=DIRECT
+	-Dsun.awt.keepWorkingSetOnMinimize=true
+	-Dnetbeans.dirs=E:\File
+	lam
+	Java\Danh
+	le\danhle\PilotSop\build\cluster;C:\Program
+	Files\NetBeans
+	7.0.1\platform
+Compiler: HotSpot Tiered Compilers
+Heap memory usage: initial 30.7MB maximum 437.4MB
+Non heap memory usage: initial 18.2MB maximum 112.0MB
+Garbage collector: PS Scavenge (Collections=18 Total time spent=0s)
+Garbage collector: PS MarkSweep (Collections=2 Total time spent=1s)
+Classes: loaded=5679 total loaded=5679 unloaded 0
+INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 2,061,021,184
+INFO [null]: Total physical memory 2,061,021,184
+WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/Window/ marked with the position attribute: [vn-com-hkt-Help-ui-authorTopComponent.shadow, vn-com-hkt-chart-ui-BieuDoTopComponent.shadow, vn-com-hkt-erm-enterprise-ui-ListEnterpriseTopComponent.shadow, vn-com-hkt-license-gui-TestTopComponent.shadow, vn-com-hkt-pilot-backup-manager-gui-BackupManagerTopComponent.shadow, vn-com-hkt-pilot-backup-presentation-panel-BackUpDataTopComponent.shadow, vn-com-hkt-pilot-backup-presentation-panel-BackupDatabaseTopComponent.shadow, vn-com-hkt-pilot-backup-presentation-panel-RestoreDataTopComponent.shadow, vn-com-hkt-pilot-backup-presentation-panel-RestoreDatabaseTopComponent.shadow, vn-com-hkt-pilot-calendaroption-ui-CalendarOptionCreatorTopComponent.shadow, vn-com-hkt-pilot-history-gui-ExportHistoryTopComponent.shadow, vn-com-hkt-pilot-history-gui-ImportHistoryTopComponent.shadow, vn-com-hkt-pilot-history-manager-gui-HistoryManagerTopComponent.shadow, vn-com-hkt-pilot-promotion-ui-window-OperationSaleCreatorTopComponent.shadow, vn-com-hkt-pilot-promotion-ui-window-PromotionCreatorTopComponent.shadow, vn-com-hkt-pilot-promotion-ui-window-PromotionViewerTopComponent.shadow, vn-com-hkt-pilot-sb23-ui-panel-DemoExtenstionSB23TopComponent.shadow, vn-com-hkt-pilot-sb42-pricesheet-ui-window-PriceSheetCreatorTopComponent.shadow, vn-com-hkt-pilot-sb42-pricesheet-ui-window-PriceSheetViewerTopComponent.shadow, vn-com-hkt-product-extW48-ui-window-ExtensionListProductTopComponent.shadow, vn-com-hkt-product-extw48-ui-window-ExtensionProductTopComponent.shadow, vn-com-hkt-tree-ui-enterprise-thuchi-TreeEnterpriseThuChiTopComponent.shadow, vn-com-hkt-ui-window-ExtensionEnterpriseTopComponent.shadow, vn-com-hkt-ui-window-ExtensionListEnterprise2ndTopComponent.shadow], but some are: [org-netbeans-modules-favorites-View.shadow, org-netbeans-core-windows-actions-GlobalPropertiesAction.shadow, Output, SwitchToRecentDocumentAction.shadow, ProgressListAction.shadow, Separator3.instance, CloseWindowAction.shadow, MaximizeWindowAction.shadow, org-netbeans-core-windows-actions-UndockAction.shadow, Separator4.instance, CloneDocumentAction.shadow, CloseAllDocumentsAction.shadow, CloseAllButThisAction.shadow, DocumentsAction.shadow, Separator5.instance, org-netbeans-core-windows-actions-ResetWindowsAction.shadow]

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="vn_com_hkt_ui_window">
+                <file name="ExtensionEnterprise" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.window.ExtensionEnterpriseTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.window//ExtensionEnterprise//EN"/>
+                </file>
+                <file name="ExtensionListEnterprise2nd" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.window.ExtensionListEnterprise2ndTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.window//ExtensionListEnterprise2nd//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="vn">
+                <folder name="com">
+                    <folder name="hkt">
+                        <folder name="ui">
+                            <folder name="window">
+                                <file name="ExtensionEnterpriseTopComponent">
+                                    <!--vn.com.hkt.ui.window.ExtensionEnterpriseTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_window/ExtensionEnterprise.instance"/>
+                                </file>
+                                <file name="ExtensionListEnterprise2ndTopComponent">
+                                    <!--vn.com.hkt.ui.window.ExtensionListEnterprise2ndTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_window/ExtensionListEnterprise2nd.instance"/>
+                                </file>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="vn_com_hkt_ui_window">
+                <file name="ExtensionEnterprise.instance">
+                    <!--vn.com.hkt.ui.window.ExtensionEnterpriseTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.window.ExtensionEnterpriseTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.window.ExtensionEnterpriseTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="ExtensionListEnterprise2nd.instance">
+                    <!--vn.com.hkt.ui.window.ExtensionListEnterprise2ndTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.window.ExtensionListEnterprise2ndTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.window.ExtensionListEnterprise2ndTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="vn-com-hkt-ui-window-ExtensionEnterpriseTopComponent.shadow">
+                <!--vn.com.hkt.ui.window.ExtensionEnterpriseTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-window-ExtensionEnterpriseTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-ui-window-ExtensionListEnterprise2ndTopComponent.shadow">
+                <!--vn.com.hkt.ui.window.ExtensionListEnterprise2ndTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-window-ExtensionListEnterprise2ndTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="ExtensionEnterpriseTopComponent.settings">
+                <!--vn.com.hkt.ui.window.ExtensionEnterpriseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.window.ExtensionEnterpriseTopComponent"/>
+</settings>
+]]></file>
+            <file name="ExtensionListEnterprise2ndTopComponent.settings">
+                <!--vn.com.hkt.ui.window.ExtensionListEnterprise2ndTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.window.ExtensionListEnterprise2ndTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="ExtensionEnterpriseTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.window.ExtensionEnterpriseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ExtensionEnterpriseTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ExtensionListEnterprise2ndTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.window.ExtensionListEnterprise2ndTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ExtensionListEnterprise2ndTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="vn-com-hkt-ui-window-ExtensionEnterpriseTopComponent.instance">
+                <!--vn.com.hkt.ui.window.ExtensionEnterpriseTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.window.ExtensionEnterpriseTopComponent"/>
+                <attr name="preferredID" stringvalue="ExtensionEnterpriseTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.window.Bundle#CTL_ExtensionEnterpriseAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-window-ExtensionListEnterprise2ndTopComponent.instance">
+                <!--vn.com.hkt.ui.window.ExtensionListEnterprise2ndTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.window.ExtensionListEnterprise2ndTopComponent"/>
+                <attr name="preferredID" stringvalue="ExtensionListEnterprise2ndTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.window.Bundle#CTL_ExtensionListEnterprise2ndAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

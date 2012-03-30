@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.pilot.sb42.pricesheet">
+    <module_version install_time="1333091274892" last="true" origin="installer" specification_version="1.0">
+        <file crc="377796681" name="config/Modules/vn-com-hkt-pilot-sb42-pricesheet.xml"/>
+        <file crc="61254841" name="modules/ext/jcalendar-1.4.jar"/>
+        <file crc="2853004033" name="modules/vn-com-hkt-pilot-sb42-pricesheet.jar"/>
+    </module_version>
+</module>

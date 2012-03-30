@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.pilot.sb22">
+    <module_version install_time="1333091270677" last="true" origin="installer" specification_version="1.0">
+        <file crc="1495931198" name="config/Modules/vn-com-hkt-pilot-sb22.xml"/>
+        <file crc="203268237" name="modules/ext/japura-1.14.3.jar"/>
+        <file crc="1972395691" name="modules/vn-com-hkt-pilot-sb22.jar"/>
+    </module_version>
+</module>

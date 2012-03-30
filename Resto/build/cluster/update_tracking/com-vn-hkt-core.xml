@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="com.vn.hkt.core">
+    <module_version install_time="1333091259967" last="true" origin="installer" specification_version="1.0">
+        <file crc="2016676179" name="config/Modules/com-vn-hkt-core.xml"/>
+        <file crc="4213237551" name="modules/com-vn-hkt-core.jar"/>
+        <file crc="249093668" name="modules/ext/EnterpriseManager.h2.db"/>
+        <file crc="78999437" name="modules/ext/Transparent.jar"/>
+        <file crc="995662278" name="modules/ext/eclipselink-2.2.0.jar"/>
+        <file crc="3929325330" name="modules/ext/eclipselink-javax.persistence-2.0.jar"/>
+        <file crc="3571656764" name="modules/ext/h2-1.2.147.jar"/>
+        <file crc="61254841" name="modules/ext/jcalendar-1.4.jar"/>
+    </module_version>
+</module>

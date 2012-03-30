@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="installerGUI">
+    <module_version install_time="1333091260423" last="true" origin="installer" specification_version="1.0">
+        <file crc="2554114341" name="config/Modules/installerGUI.xml"/>
+        <file crc="2996901032" name="modules/installerGUI.jar"/>
+    </module_version>
+</module>

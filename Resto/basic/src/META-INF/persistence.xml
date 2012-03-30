@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="EnterpriseManagerService" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>vn.com.hkt.pilot.entities.Department</class>
+        <class>vn.com.hkt.pilot.entities.Enterprise</class>
+        <class>vn.com.hkt.pilot.entities.Operation</class>
+        <class>vn.com.hkt.pilot.entities.Person</class>
+        <class>vn.com.hkt.pilot.entities.Product</class>
+        <class>vn.com.hkt.pilot.entities.Mission</class>
+        <class>vn.com.hkt.pilot.entities.City</class>
+        <class>vn.com.hkt.pilot.entities.Country</class> 
+        <class>vn.com.hkt.pilot.entities.Partition</class>
+        <class>vn.com.hkt.pilot.entities.KeyGenerate</class>
+        <class>vn.com.hkt.pilot.entities.PrefixManager</class>
+        <class>vn.com.hkt.pilot.entities.Classification</class>     
+        <class>vn.com.hkt.pilot.entities.UnitsOfMeasurement</class>
+        <class>vn.com.hkt.pilot.entities.system.SystemSoftware</class>
+        <class>vn.com.hkt.pilot.entities.system.MyColor</class>
+        <class>vn.com.hkt.pilot.entities.system.MyFont</class>
+        <class>vn.com.hkt.pilot.entities.OperationPartner</class>
+        <class>vn.com.hkt.pilot.entities.TypeOfBill</class>
+        <class>vn.com.hkt.pilot.entities.Statuation</class>
+        <class>vn.com.hkt.pilot.entities.KindOfTax</class>
+        <class>vn.com.hkt.pilot.entities.AccountNumber</class>
+        <class>vn.com.hkt.pilot.entities.ForeignLanguage</class>
+        <class>vn.com.hkt.pilot.entities.OperationDetail</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/EnterpriseManager"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="sa"/>
+            <property name="eclipselink.ddl-generation" value="create-tables"/>
+        </properties>
+    </persistence-unit>
+</persistence>

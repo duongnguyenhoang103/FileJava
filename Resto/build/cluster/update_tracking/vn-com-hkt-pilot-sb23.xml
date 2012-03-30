@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.pilot.sb23">
+    <module_version install_time="1333091271185" last="true" origin="installer" specification_version="1.0">
+        <file crc="34536179" name="config/Modules/vn-com-hkt-pilot-sb23.xml"/>
+        <file crc="61254841" name="modules/ext/jcalendar-1.4.jar"/>
+        <file crc="1707993660" name="modules/vn-com-hkt-pilot-sb23.jar"/>
+    </module_version>
+</module>

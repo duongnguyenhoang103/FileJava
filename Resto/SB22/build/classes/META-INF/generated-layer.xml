@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="vn_com_hkt_person_extW23_ui_window">
+                <file name="ExtensionListPerson" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionListPersonTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.person.extW23.ui.window//ExtensionListPerson//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_person_extw23_ui_window">
+                <file name="ExtensionPerson" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionPersonTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.person.extw23.ui.window//ExtensionPerson//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="vn">
+                <folder name="com">
+                    <folder name="hkt">
+                        <folder name="pilot">
+                            <folder name="sb22">
+                                <folder name="person">
+                                    <folder name="extW23">
+                                    <folder name="ui">
+                                    <folder name="window">
+                                    <file name="ExtensionListPersonTopComponent">
+                                    <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionListPersonTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_person_extW23_ui_window/ExtensionListPerson.instance"/>
+                                    </file>
+                                    <file name="ExtensionPersonTopComponent">
+                                    <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionPersonTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_person_extw23_ui_window/ExtensionPerson.instance"/>
+                                    </file>
+                                    </folder>
+                                    </folder>
+                                    </folder>
+                                </folder>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="vn_com_hkt_person_extW23_ui_window">
+                <file name="ExtensionListPerson.instance">
+                    <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionListPersonTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionListPersonTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionListPersonTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_person_extw23_ui_window">
+                <file name="ExtensionPerson.instance">
+                    <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionPersonTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionPersonTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionPersonTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name=" ">
+        <file name="vn-com-hkt-person-extW23-ui-window-ExtensionListPersonTopComponent.shadow">
+            <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionListPersonTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-person-extW23-ui-window-ExtensionListPersonTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-person-extw23-ui-window-ExtensionPersonTopComponent.shadow">
+            <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionPersonTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-person-extw23-ui-window-ExtensionPersonTopComponent.instance"/>
+        </file>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="ExtensionListPersonTopComponent.settings">
+                <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionListPersonTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionListPersonTopComponent"/>
+</settings>
+]]></file>
+            <file name="ExtensionPersonTopComponent.settings">
+                <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionPersonTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionPersonTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="ExtensionListPersonTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionListPersonTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ExtensionListPersonTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ExtensionPersonTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionPersonTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ExtensionPersonTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="vn-com-hkt-person-extW23-ui-window-ExtensionListPersonTopComponent.instance">
+                <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionListPersonTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionListPersonTopComponent"/>
+                <attr name="preferredID" stringvalue="ExtensionListPersonTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.sb22.person.extW23.ui.window.Bundle#CTL_ExtensionListPersonAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-person-extw23-ui-window-ExtensionPersonTopComponent.instance">
+                <!--vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionPersonTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.sb22.person.extW23.ui.window.ExtensionPersonTopComponent"/>
+                <attr name="preferredID" stringvalue="ExtensionPersonTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.sb22.person.extW23.ui.window.Bundle#CTL_ExtensionPersonAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

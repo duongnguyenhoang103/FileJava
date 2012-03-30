@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="vn_com_hkt_ui_main_department">
+                <file name="DepartmentCreator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.department.DepartmentCreatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.department//DepartmentCreator//EN"/>
+                </file>
+                <file name="DepartmentTutorialCreator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.department.DepartmentTutorialCreatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.department//DepartmentTutorialCreator//EN"/>
+                </file>
+                <file name="DepartmentViewer" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.department.DepartmentViewerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.department//DepartmentViewer//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_ui_main">
+                <file name="EnterpriseCreator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.enterprise.EnterpriseCreatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main//EnterpriseCreator//EN"/>
+                </file>
+                <file name="EnterpriseViewer" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.enterprise.EnterpriseViewerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main//EnterpriseViewer//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_ui_main_enterprise">
+                <file name="EnterpriseTutorialCreator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.enterprise.EnterpriseTutorialCreatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.enterprise//EnterpriseTutorialCreator//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_ui_main_operation">
+                <file name="OperationCreator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.operation.OperationCreatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.operation//OperationCreator//EN"/>
+                </file>
+                <file name="OperationTutorial" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.operation.OperationTutorialTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.operation//OperationTutorial//EN"/>
+                </file>
+                <file name="OperationViewer" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.operation.OperationViewerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.operation//OperationViewer//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_ui_main_person">
+                <file name="PersonCreator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.person.PersonCreatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.person//PersonCreator//EN"/>
+                </file>
+                <file name="PersonTutorialCreator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.person.PersonTutorialCreatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.person//PersonTutorialCreator//EN"/>
+                </file>
+                <file name="PersonViewer" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.person.PersonViewerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.person//PersonViewer//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_ui_main_product">
+                <file name="ProductCreator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.product.ProductCreatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.product//ProductCreator//EN"/>
+                </file>
+                <file name="ProductTutorialCreator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.product.ProductTutorialCreatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.product//ProductTutorialCreator//EN"/>
+                </file>
+                <file name="ProductViewer" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ui.main.product.ProductViewerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.ui.main.product//ProductViewer//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="vn">
+                <folder name="com">
+                    <folder name="hkt">
+                        <folder name="ui">
+                            <folder name="main">
+                                <folder name="department">
+                                    <file name="DepartmentCreatorTopComponent">
+                                    <!--vn.com.hkt.ui.main.department.DepartmentCreatorTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_department/DepartmentCreator.instance"/>
+                                    </file>
+                                    <file name="DepartmentTutorialCreatorTopComponent">
+                                    <!--vn.com.hkt.ui.main.department.DepartmentTutorialCreatorTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_department/DepartmentTutorialCreator.instance"/>
+                                    </file>
+                                    <file name="DepartmentViewerTopComponent">
+                                    <!--vn.com.hkt.ui.main.department.DepartmentViewerTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_department/DepartmentViewer.instance"/>
+                                    </file>
+                                </folder>
+                                <folder name="enterprise">
+                                    <file name="EnterpriseCreatorTopComponent">
+                                    <!--vn.com.hkt.ui.main.enterprise.EnterpriseCreatorTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main/EnterpriseCreator.instance"/>
+                                    </file>
+                                    <file name="EnterpriseTutorialCreatorTopComponent">
+                                    <!--vn.com.hkt.ui.main.enterprise.EnterpriseTutorialCreatorTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_enterprise/EnterpriseTutorialCreator.instance"/>
+                                    </file>
+                                    <file name="EnterpriseViewerTopComponent">
+                                    <!--vn.com.hkt.ui.main.enterprise.EnterpriseViewerTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main/EnterpriseViewer.instance"/>
+                                    </file>
+                                </folder>
+                                <folder name="operation">
+                                    <file name="OperationCreatorTopComponent">
+                                    <!--vn.com.hkt.ui.main.operation.OperationCreatorTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_operation/OperationCreator.instance"/>
+                                    </file>
+                                    <file name="OperationTutorialTopComponent">
+                                    <!--vn.com.hkt.ui.main.operation.OperationTutorialTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_operation/OperationTutorial.instance"/>
+                                    </file>
+                                    <file name="OperationViewerTopComponent">
+                                    <!--vn.com.hkt.ui.main.operation.OperationViewerTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_operation/OperationViewer.instance"/>
+                                    </file>
+                                </folder>
+                                <folder name="person">
+                                    <file name="PersonCreatorTopComponent">
+                                    <!--vn.com.hkt.ui.main.person.PersonCreatorTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_person/PersonCreator.instance"/>
+                                    </file>
+                                    <file name="PersonTutorialCreatorTopComponent">
+                                    <!--vn.com.hkt.ui.main.person.PersonTutorialCreatorTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_person/PersonTutorialCreator.instance"/>
+                                    </file>
+                                    <file name="PersonViewerTopComponent">
+                                    <!--vn.com.hkt.ui.main.person.PersonViewerTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_person/PersonViewer.instance"/>
+                                    </file>
+                                </folder>
+                                <folder name="product">
+                                    <file name="ProductCreatorTopComponent">
+                                    <!--vn.com.hkt.ui.main.product.ProductCreatorTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_product/ProductCreator.instance"/>
+                                    </file>
+                                    <file name="ProductTutorialCreatorTopComponent">
+                                    <!--vn.com.hkt.ui.main.product.ProductTutorialCreatorTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_product/ProductTutorialCreator.instance"/>
+                                    </file>
+                                    <file name="ProductViewerTopComponent">
+                                    <!--vn.com.hkt.ui.main.product.ProductViewerTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_ui_main_product/ProductViewer.instance"/>
+                                    </file>
+                                </folder>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="vn_com_hkt_ui_main_department">
+                <file name="DepartmentCreator.instance">
+                    <!--vn.com.hkt.ui.main.department.DepartmentCreatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.department.DepartmentCreatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.department.DepartmentCreatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="DepartmentTutorialCreator.instance">
+                    <!--vn.com.hkt.ui.main.department.DepartmentTutorialCreatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.department.DepartmentTutorialCreatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.department.DepartmentTutorialCreatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="DepartmentViewer.instance">
+                    <!--vn.com.hkt.ui.main.department.DepartmentViewerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.department.DepartmentViewerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.department.DepartmentViewerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_ui_main">
+                <file name="EnterpriseCreator.instance">
+                    <!--vn.com.hkt.ui.main.enterprise.EnterpriseCreatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.enterprise.EnterpriseCreatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.enterprise.EnterpriseCreatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="EnterpriseViewer.instance">
+                    <!--vn.com.hkt.ui.main.enterprise.EnterpriseViewerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.enterprise.EnterpriseViewerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.enterprise.EnterpriseViewerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_ui_main_enterprise">
+                <file name="EnterpriseTutorialCreator.instance">
+                    <!--vn.com.hkt.ui.main.enterprise.EnterpriseTutorialCreatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.enterprise.EnterpriseTutorialCreatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.enterprise.EnterpriseTutorialCreatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_ui_main_operation">
+                <file name="OperationCreator.instance">
+                    <!--vn.com.hkt.ui.main.operation.OperationCreatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.operation.OperationCreatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.operation.OperationCreatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="OperationTutorial.instance">
+                    <!--vn.com.hkt.ui.main.operation.OperationTutorialTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.operation.OperationTutorialTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.operation.OperationTutorialTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="OperationViewer.instance">
+                    <!--vn.com.hkt.ui.main.operation.OperationViewerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.operation.OperationViewerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.operation.OperationViewerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_ui_main_person">
+                <file name="PersonCreator.instance">
+                    <!--vn.com.hkt.ui.main.person.PersonCreatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.person.PersonCreatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.person.PersonCreatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="PersonTutorialCreator.instance">
+                    <!--vn.com.hkt.ui.main.person.PersonTutorialCreatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.person.PersonTutorialCreatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.person.PersonTutorialCreatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="PersonViewer.instance">
+                    <!--vn.com.hkt.ui.main.person.PersonViewerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.person.PersonViewerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.person.PersonViewerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_ui_main_product">
+                <file name="ProductCreator.instance">
+                    <!--vn.com.hkt.ui.main.product.ProductCreatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.product.ProductCreatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.product.ProductCreatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="ProductTutorialCreator.instance">
+                    <!--vn.com.hkt.ui.main.product.ProductTutorialCreatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.product.ProductTutorialCreatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.product.ProductTutorialCreatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="ProductViewer.instance">
+                    <!--vn.com.hkt.ui.main.product.ProductViewerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ui.main.product.ProductViewerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ui.main.product.ProductViewerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Nhập Số Liệu">
+            <file name="vn-com-hkt-ui-main-department-DepartmentCreatorTopComponent.shadow">
+                <!--vn.com.hkt.ui.main.department.DepartmentCreatorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-department-DepartmentCreatorTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-EnterpriseCreatorTopComponent.shadow">
+                <!--vn.com.hkt.ui.main.enterprise.EnterpriseCreatorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-EnterpriseCreatorTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-operation-OperationCreatorTopComponent.shadow">
+                <!--vn.com.hkt.ui.main.operation.OperationCreatorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-operation-OperationCreatorTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-person-PersonCreatorTopComponent.shadow">
+                <!--vn.com.hkt.ui.main.person.PersonCreatorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-person-PersonCreatorTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-product-ProductCreatorTopComponent.shadow">
+                <!--vn.com.hkt.ui.main.product.ProductCreatorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-product-ProductCreatorTopComponent.instance"/>
+            </file>
+        </folder>
+        <folder name="Kinh Doanh">
+            <folder name="Quản Lý Dự Án">
+                <file name="vn-com-hkt-ui-main-department-DepartmentViewerTopComponent.shadow">
+                    <!--vn.com.hkt.ui.main.department.DepartmentViewerTopComponent-->
+                    <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-department-DepartmentViewerTopComponent.instance"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="Thị Trường">
+            <file name="vn-com-hkt-ui-main-EnterpriseViewerTopComponent.shadow">
+                <!--vn.com.hkt.ui.main.enterprise.EnterpriseViewerTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-EnterpriseViewerTopComponent.instance"/>
+            </file>
+        </folder>
+        <folder name="Sản Xuất &amp; Đầu Vào">
+            <file name="vn-com-hkt-ui-main-operation-OperationViewerTopComponent.shadow">
+                <!--vn.com.hkt.ui.main.operation.OperationViewerTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-operation-OperationViewerTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-product-ProductViewerTopComponent.shadow">
+                <!--vn.com.hkt.ui.main.product.ProductViewerTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-product-ProductViewerTopComponent.instance"/>
+            </file>
+        </folder>
+        <folder name="Nhân sự">
+            <file name="vn-com-hkt-ui-main-person-PersonViewerTopComponent.shadow">
+                <!--vn.com.hkt.ui.main.person.PersonViewerTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-person-PersonViewerTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name=" ">
+        <file name="vn-com-hkt-ui-main-department-DepartmentTutorialCreatorTopComponent.shadow">
+            <!--vn.com.hkt.ui.main.department.DepartmentTutorialCreatorTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-department-DepartmentTutorialCreatorTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-ui-main-enterprise-EnterpriseTutorialCreatorTopComponent.shadow">
+            <!--vn.com.hkt.ui.main.enterprise.EnterpriseTutorialCreatorTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-enterprise-EnterpriseTutorialCreatorTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-ui-main-operation-OperationTutorialTopComponent.shadow">
+            <!--vn.com.hkt.ui.main.operation.OperationTutorialTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-operation-OperationTutorialTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-ui-main-person-PersonTutorialCreatorTopComponent.shadow">
+            <!--vn.com.hkt.ui.main.person.PersonTutorialCreatorTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-person-PersonTutorialCreatorTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-ui-main-product-ProductTutorialCreatorTopComponent.shadow">
+            <!--vn.com.hkt.ui.main.product.ProductTutorialCreatorTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-ui-main-product-ProductTutorialCreatorTopComponent.instance"/>
+        </file>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="DepartmentCreatorTopComponent.settings">
+                <!--vn.com.hkt.ui.main.department.DepartmentCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.department.DepartmentCreatorTopComponent"/>
+</settings>
+]]></file>
+            <file name="DepartmentTutorialCreatorTopComponent.settings">
+                <!--vn.com.hkt.ui.main.department.DepartmentTutorialCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.department.DepartmentTutorialCreatorTopComponent"/>
+</settings>
+]]></file>
+            <file name="DepartmentViewerTopComponent.settings">
+                <!--vn.com.hkt.ui.main.department.DepartmentViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.department.DepartmentViewerTopComponent"/>
+</settings>
+]]></file>
+            <file name="EnterpriseCreatorTopComponent.settings">
+                <!--vn.com.hkt.ui.main.enterprise.EnterpriseCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.enterprise.EnterpriseCreatorTopComponent"/>
+</settings>
+]]></file>
+            <file name="EnterpriseTutorialCreatorTopComponent.settings">
+                <!--vn.com.hkt.ui.main.enterprise.EnterpriseTutorialCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.enterprise.EnterpriseTutorialCreatorTopComponent"/>
+</settings>
+]]></file>
+            <file name="EnterpriseViewerTopComponent.settings">
+                <!--vn.com.hkt.ui.main.enterprise.EnterpriseViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.enterprise.EnterpriseViewerTopComponent"/>
+</settings>
+]]></file>
+            <file name="OperationCreatorTopComponent.settings">
+                <!--vn.com.hkt.ui.main.operation.OperationCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.operation.OperationCreatorTopComponent"/>
+</settings>
+]]></file>
+            <file name="OperationTutorialTopComponent.settings">
+                <!--vn.com.hkt.ui.main.operation.OperationTutorialTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.operation.OperationTutorialTopComponent"/>
+</settings>
+]]></file>
+            <file name="OperationViewerTopComponent.settings">
+                <!--vn.com.hkt.ui.main.operation.OperationViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.operation.OperationViewerTopComponent"/>
+</settings>
+]]></file>
+            <file name="PersonCreatorTopComponent.settings">
+                <!--vn.com.hkt.ui.main.person.PersonCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.person.PersonCreatorTopComponent"/>
+</settings>
+]]></file>
+            <file name="PersonTutorialCreatorTopComponent.settings">
+                <!--vn.com.hkt.ui.main.person.PersonTutorialCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.person.PersonTutorialCreatorTopComponent"/>
+</settings>
+]]></file>
+            <file name="PersonViewerTopComponent.settings">
+                <!--vn.com.hkt.ui.main.person.PersonViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.person.PersonViewerTopComponent"/>
+</settings>
+]]></file>
+            <file name="ProductCreatorTopComponent.settings">
+                <!--vn.com.hkt.ui.main.product.ProductCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.product.ProductCreatorTopComponent"/>
+</settings>
+]]></file>
+            <file name="ProductTutorialCreatorTopComponent.settings">
+                <!--vn.com.hkt.ui.main.product.ProductTutorialCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.product.ProductTutorialCreatorTopComponent"/>
+</settings>
+]]></file>
+            <file name="ProductViewerTopComponent.settings">
+                <!--vn.com.hkt.ui.main.product.ProductViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ui.main.product.ProductViewerTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="DepartmentCreatorTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.department.DepartmentCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="DepartmentCreatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="DepartmentViewerTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.department.DepartmentViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="DepartmentViewerTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="EnterpriseCreatorTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.enterprise.EnterpriseCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="EnterpriseCreatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="EnterpriseViewerTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.enterprise.EnterpriseViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="EnterpriseViewerTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="OperationCreatorTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.operation.OperationCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="OperationCreatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="OperationViewerTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.operation.OperationViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="OperationViewerTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="PersonCreatorTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.person.PersonCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="PersonCreatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="PersonViewerTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.person.PersonViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="PersonViewerTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ProductCreatorTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.product.ProductCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ProductCreatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ProductViewerTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.product.ProductViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ProductViewerTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+            <folder name="properties">
+                <file name="DepartmentTutorialCreatorTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.department.DepartmentTutorialCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="DepartmentTutorialCreatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="EnterpriseTutorialCreatorTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.enterprise.EnterpriseTutorialCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="EnterpriseTutorialCreatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="OperationTutorialTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.operation.OperationTutorialTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="OperationTutorialTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="PersonTutorialCreatorTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.person.PersonTutorialCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="PersonTutorialCreatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ProductTutorialCreatorTopComponent.wstcref">
+                    <!--vn.com.hkt.ui.main.product.ProductTutorialCreatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ProductTutorialCreatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="vn-com-hkt-ui-main-department-DepartmentCreatorTopComponent.instance">
+                <!--vn.com.hkt.ui.main.department.DepartmentCreatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.department.DepartmentCreatorTopComponent"/>
+                <attr name="preferredID" stringvalue="DepartmentCreatorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.department.Bundle#CTL_DepartmentCreatorAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-department-DepartmentTutorialCreatorTopComponent.instance">
+                <!--vn.com.hkt.ui.main.department.DepartmentTutorialCreatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.department.DepartmentTutorialCreatorTopComponent"/>
+                <attr name="preferredID" stringvalue="DepartmentTutorialCreatorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.department.Bundle#CTL_DepartmentTutorialCreatorAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-department-DepartmentViewerTopComponent.instance">
+                <!--vn.com.hkt.ui.main.department.DepartmentViewerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.department.DepartmentViewerTopComponent"/>
+                <attr name="preferredID" stringvalue="DepartmentViewerTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.department.Bundle#CTL_DepartmentViewerAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-EnterpriseCreatorTopComponent.instance">
+                <!--vn.com.hkt.ui.main.enterprise.EnterpriseCreatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.enterprise.EnterpriseCreatorTopComponent"/>
+                <attr name="preferredID" stringvalue="EnterpriseCreatorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.enterprise.Bundle#CTL_EnterpriseCreatorAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-enterprise-EnterpriseTutorialCreatorTopComponent.instance">
+                <!--vn.com.hkt.ui.main.enterprise.EnterpriseTutorialCreatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.enterprise.EnterpriseTutorialCreatorTopComponent"/>
+                <attr name="preferredID" stringvalue="EnterpriseTutorialCreatorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.enterprise.Bundle#CTL_EnterpriseTutorialCreatorAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-EnterpriseViewerTopComponent.instance">
+                <!--vn.com.hkt.ui.main.enterprise.EnterpriseViewerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.enterprise.EnterpriseViewerTopComponent"/>
+                <attr name="preferredID" stringvalue="EnterpriseViewerTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.enterprise.Bundle#CTL_EnterpriseViewerAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-operation-OperationCreatorTopComponent.instance">
+                <!--vn.com.hkt.ui.main.operation.OperationCreatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.operation.OperationCreatorTopComponent"/>
+                <attr name="preferredID" stringvalue="OperationCreatorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.operation.Bundle#CTL_OperationCreatorAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-operation-OperationTutorialTopComponent.instance">
+                <!--vn.com.hkt.ui.main.operation.OperationTutorialTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.operation.OperationTutorialTopComponent"/>
+                <attr name="preferredID" stringvalue="OperationTutorialTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.operation.Bundle#CTL_OperationTutorialAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-operation-OperationViewerTopComponent.instance">
+                <!--vn.com.hkt.ui.main.operation.OperationViewerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.operation.OperationViewerTopComponent"/>
+                <attr name="preferredID" stringvalue="OperationViewerTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.operation.Bundle#CTL_OperationViewerAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-person-PersonCreatorTopComponent.instance">
+                <!--vn.com.hkt.ui.main.person.PersonCreatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.person.PersonCreatorTopComponent"/>
+                <attr name="preferredID" stringvalue="PersonCreatorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.person.Bundle#CTL_PersonCreatorAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-person-PersonTutorialCreatorTopComponent.instance">
+                <!--vn.com.hkt.ui.main.person.PersonTutorialCreatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.person.PersonTutorialCreatorTopComponent"/>
+                <attr name="preferredID" stringvalue="PersonTutorialCreatorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.person.Bundle#CTL_PersonTutorialCreatorAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-person-PersonViewerTopComponent.instance">
+                <!--vn.com.hkt.ui.main.person.PersonViewerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.person.PersonViewerTopComponent"/>
+                <attr name="preferredID" stringvalue="PersonViewerTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.person.Bundle#CTL_PersonViewerAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-product-ProductCreatorTopComponent.instance">
+                <!--vn.com.hkt.ui.main.product.ProductCreatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.product.ProductCreatorTopComponent"/>
+                <attr name="preferredID" stringvalue="ProductCreatorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.product.Bundle#CTL_ProductCreatorAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-product-ProductTutorialCreatorTopComponent.instance">
+                <!--vn.com.hkt.ui.main.product.ProductTutorialCreatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.product.ProductTutorialCreatorTopComponent"/>
+                <attr name="preferredID" stringvalue="ProductTutorialCreatorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.product.Bundle#CTL_ProductTutorialCreatorAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-ui-main-product-ProductViewerTopComponent.instance">
+                <!--vn.com.hkt.ui.main.product.ProductViewerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ui.main.product.ProductViewerTopComponent"/>
+                <attr name="preferredID" stringvalue="ProductViewerTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ui.main.product.Bundle#CTL_ProductViewerAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="vn_com_hkt_pilot_backup_manager_gui">
+                <file name="BackupManager" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.backup.manager.gui.BackupManagerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.pilot.backup.manager.gui//BackupManager//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_pilot_backup_presentation_panel">
+                <file name="BackupDatabase" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.backup.presentation.panel.BackupDatabaseTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.pilot.backup.presentation.panel//BackupDatabase//EN"/>
+                </file>
+                <file name="BackUpData" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.backup.presentation.panel.ExportDataTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.pilot.backup.presentation.panel//BackUpData//EN"/>
+                </file>
+                <file name="RestoreData" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.backup.presentation.panel.ImportDataTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.pilot.backup.presentation.panel//RestoreData//EN"/>
+                </file>
+                <file name="RestoreDatabase" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.backup.presentation.panel.RestoreDatabaseTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.pilot.backup.presentation.panel//RestoreDatabase//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="vn">
+                <folder name="com">
+                    <folder name="hkt">
+                        <folder name="pilot">
+                            <folder name="backup">
+                                <folder name="manager">
+                                    <folder name="gui">
+                                    <file name="BackupManagerTopComponent">
+                                    <!--vn.com.hkt.pilot.backup.manager.gui.BackupManagerTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_pilot_backup_manager_gui/BackupManager.instance"/>
+                                    </file>
+                                    </folder>
+                                </folder>
+                                <folder name="presentation">
+                                    <folder name="panel">
+                                    <file name="BackupDatabaseTopComponent">
+                                    <!--vn.com.hkt.pilot.backup.presentation.panel.BackupDatabaseTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_pilot_backup_presentation_panel/BackupDatabase.instance"/>
+                                    </file>
+                                    <file name="ExportDataTopComponent">
+                                    <!--vn.com.hkt.pilot.backup.presentation.panel.ExportDataTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_pilot_backup_presentation_panel/BackUpData.instance"/>
+                                    </file>
+                                    <file name="ImportDataTopComponent">
+                                    <!--vn.com.hkt.pilot.backup.presentation.panel.ImportDataTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_pilot_backup_presentation_panel/RestoreData.instance"/>
+                                    </file>
+                                    <file name="RestoreDatabaseTopComponent">
+                                    <!--vn.com.hkt.pilot.backup.presentation.panel.RestoreDatabaseTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_pilot_backup_presentation_panel/RestoreDatabase.instance"/>
+                                    </file>
+                                    </folder>
+                                </folder>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="vn_com_hkt_pilot_backup_manager_gui">
+                <file name="BackupManager.instance">
+                    <!--vn.com.hkt.pilot.backup.manager.gui.BackupManagerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.backup.manager.gui.BackupManagerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.backup.manager.gui.BackupManagerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_pilot_backup_presentation_panel">
+                <file name="BackupDatabase.instance">
+                    <!--vn.com.hkt.pilot.backup.presentation.panel.BackupDatabaseTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.backup.presentation.panel.BackupDatabaseTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.backup.presentation.panel.BackupDatabaseTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="BackUpData.instance">
+                    <!--vn.com.hkt.pilot.backup.presentation.panel.ExportDataTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.backup.presentation.panel.ExportDataTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.backup.presentation.panel.ExportDataTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="RestoreData.instance">
+                    <!--vn.com.hkt.pilot.backup.presentation.panel.ImportDataTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.backup.presentation.panel.ImportDataTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.backup.presentation.panel.ImportDataTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="RestoreDatabase.instance">
+                    <!--vn.com.hkt.pilot.backup.presentation.panel.RestoreDatabaseTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.backup.presentation.panel.RestoreDatabaseTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.backup.presentation.panel.RestoreDatabaseTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="vn-com-hkt-pilot-backup-manager-gui-BackupManagerTopComponent.shadow">
+                <!--vn.com.hkt.pilot.backup.manager.gui.BackupManagerTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-pilot-backup-manager-gui-BackupManagerTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-pilot-backup-presentation-panel-BackupDatabaseTopComponent.shadow">
+                <!--vn.com.hkt.pilot.backup.presentation.panel.BackupDatabaseTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-pilot-backup-presentation-panel-BackupDatabaseTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-pilot-backup-presentation-panel-BackUpDataTopComponent.shadow">
+                <!--vn.com.hkt.pilot.backup.presentation.panel.ExportDataTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-pilot-backup-presentation-panel-BackUpDataTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-pilot-backup-presentation-panel-RestoreDataTopComponent.shadow">
+                <!--vn.com.hkt.pilot.backup.presentation.panel.ImportDataTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-pilot-backup-presentation-panel-RestoreDataTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-pilot-backup-presentation-panel-RestoreDatabaseTopComponent.shadow">
+                <!--vn.com.hkt.pilot.backup.presentation.panel.RestoreDatabaseTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-pilot-backup-presentation-panel-RestoreDatabaseTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="BackupManagerTopComponent.settings">
+                <!--vn.com.hkt.pilot.backup.manager.gui.BackupManagerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.backup.manager.gui.BackupManagerTopComponent"/>
+</settings>
+]]></file>
+            <file name="BackupDatabaseTopComponent.settings">
+                <!--vn.com.hkt.pilot.backup.presentation.panel.BackupDatabaseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.backup.presentation.panel.BackupDatabaseTopComponent"/>
+</settings>
+]]></file>
+            <file name="BackUpDataTopComponent.settings">
+                <!--vn.com.hkt.pilot.backup.presentation.panel.ExportDataTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.backup.presentation.panel.ExportDataTopComponent"/>
+</settings>
+]]></file>
+            <file name="RestoreDataTopComponent.settings">
+                <!--vn.com.hkt.pilot.backup.presentation.panel.ImportDataTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.backup.presentation.panel.ImportDataTopComponent"/>
+</settings>
+]]></file>
+            <file name="RestoreDatabaseTopComponent.settings">
+                <!--vn.com.hkt.pilot.backup.presentation.panel.RestoreDatabaseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.backup.presentation.panel.RestoreDatabaseTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="BackupManagerTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.backup.manager.gui.BackupManagerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="BackupManagerTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="BackupDatabaseTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.backup.presentation.panel.BackupDatabaseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="BackupDatabaseTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="BackUpDataTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.backup.presentation.panel.ExportDataTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="BackUpDataTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="RestoreDataTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.backup.presentation.panel.ImportDataTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="RestoreDataTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="RestoreDatabaseTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.backup.presentation.panel.RestoreDatabaseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="RestoreDatabaseTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="vn-com-hkt-pilot-backup-manager-gui-BackupManagerTopComponent.instance">
+                <!--vn.com.hkt.pilot.backup.manager.gui.BackupManagerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.backup.manager.gui.BackupManagerTopComponent"/>
+                <attr name="preferredID" stringvalue="BackupManagerTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.backup.manager.gui.Bundle#CTL_BackupManagerAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-pilot-backup-presentation-panel-BackupDatabaseTopComponent.instance">
+                <!--vn.com.hkt.pilot.backup.presentation.panel.BackupDatabaseTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.backup.presentation.panel.BackupDatabaseTopComponent"/>
+                <attr name="preferredID" stringvalue="BackupDatabaseTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.backup.presentation.panel.Bundle#CTL_BackupDatabaseAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-pilot-backup-presentation-panel-BackUpDataTopComponent.instance">
+                <!--vn.com.hkt.pilot.backup.presentation.panel.ExportDataTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.backup.presentation.panel.ExportDataTopComponent"/>
+                <attr name="preferredID" stringvalue="BackUpDataTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.backup.presentation.panel.Bundle#CTL_BackUpDataAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-pilot-backup-presentation-panel-RestoreDataTopComponent.instance">
+                <!--vn.com.hkt.pilot.backup.presentation.panel.ImportDataTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.backup.presentation.panel.ImportDataTopComponent"/>
+                <attr name="preferredID" stringvalue="RestoreDataTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.backup.presentation.panel.Bundle#CTL_RestoreDataAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-pilot-backup-presentation-panel-RestoreDatabaseTopComponent.instance">
+                <!--vn.com.hkt.pilot.backup.presentation.panel.RestoreDatabaseTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.backup.presentation.panel.RestoreDatabaseTopComponent"/>
+                <attr name="preferredID" stringvalue="RestoreDatabaseTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.backup.presentation.panel.Bundle#CTL_RestoreDatabaseAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

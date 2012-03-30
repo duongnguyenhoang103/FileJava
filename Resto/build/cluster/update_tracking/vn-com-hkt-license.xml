@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.license">
+    <module_version install_time="1333091261517" last="true" origin="installer" specification_version="1.0">
+        <file crc="824093093" name="config/Modules/vn-com-hkt-license.xml"/>
+        <file crc="2366250872" name="modules/ext/bcprov-ext-jdk16-146.jar"/>
+        <file crc="1427368864" name="modules/ext/bcprov-jdk16-146.jar"/>
+        <file crc="3761697913" name="modules/vn-com-hkt-license.jar"/>
+    </module_version>
+</module>

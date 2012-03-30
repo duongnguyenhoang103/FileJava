@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="vn_com_hkt_product_extW48_ui_window">
+                <file name="ExtensionListProduct" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionListProductTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.product.extW48.ui.window//ExtensionListProduct//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_product_extw48_ui_window">
+                <file name="ExtensionProduct" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionProductTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.product.extw48.ui.window//ExtensionProduct//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="vn">
+                <folder name="com">
+                    <folder name="hkt">
+                        <folder name="pilot">
+                            <folder name="sb41">
+                                <folder name="product">
+                                    <folder name="extW48">
+                                    <folder name="ui">
+                                    <folder name="window">
+                                    <file name="ExtensionListProductTopComponent">
+                                    <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionListProductTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_product_extW48_ui_window/ExtensionListProduct.instance"/>
+                                    </file>
+                                    <file name="ExtensionProductTopComponent">
+                                    <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionProductTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_product_extw48_ui_window/ExtensionProduct.instance"/>
+                                    </file>
+                                    </folder>
+                                    </folder>
+                                    </folder>
+                                </folder>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="vn_com_hkt_product_extW48_ui_window">
+                <file name="ExtensionListProduct.instance">
+                    <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionListProductTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionListProductTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionListProductTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_product_extw48_ui_window">
+                <file name="ExtensionProduct.instance">
+                    <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionProductTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionProductTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionProductTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="vn-com-hkt-product-extW48-ui-window-ExtensionListProductTopComponent.shadow">
+                <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionListProductTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-product-extW48-ui-window-ExtensionListProductTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-product-extw48-ui-window-ExtensionProductTopComponent.shadow">
+                <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionProductTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-product-extw48-ui-window-ExtensionProductTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="ExtensionListProductTopComponent.settings">
+                <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionListProductTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionListProductTopComponent"/>
+</settings>
+]]></file>
+            <file name="ExtensionProductTopComponent.settings">
+                <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionProductTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionProductTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="ExtensionListProductTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionListProductTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ExtensionListProductTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ExtensionProductTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionProductTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ExtensionProductTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="vn-com-hkt-product-extW48-ui-window-ExtensionListProductTopComponent.instance">
+                <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionListProductTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionListProductTopComponent"/>
+                <attr name="preferredID" stringvalue="ExtensionListProductTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.sb41.product.extW48.ui.window.Bundle#CTL_ExtensionListProductAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-product-extw48-ui-window-ExtensionProductTopComponent.instance">
+                <!--vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionProductTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.sb41.product.extW48.ui.window.ExtensionProductTopComponent"/>
+                <attr name="preferredID" stringvalue="ExtensionProductTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.sb41.product.extW48.ui.window.Bundle#CTL_ExtensionProductAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

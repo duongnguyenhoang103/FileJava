@@ -1,0 +1,6 @@
+vn.com.hkt.account.manager.entities.Account
+vn.com.hkt.account.manager.entities.AccountType
+vn.com.hkt.account.manager.entities.InterfacePermission
+vn.com.hkt.account.manager.entities.Module
+vn.com.hkt.account.manager.entities.Permission
+vn.com.hkt.account.manager.entities.UserInterface

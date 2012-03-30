@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="vn_com_hkt_resto_toolbar_gui">
+                <file name="MainMenu" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.resto.toolbar.gui.MainMenuTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.resto.toolbar.gui//MainMenu//EN"/>
+                </file>
+                <file name="MenuFoodTable" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.resto.toolbar.gui.MenuFoodTableTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.resto.toolbar.gui//MenuFoodTable//EN"/>
+                </file>
+                <file name="MenuKitchenManager" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.resto.toolbar.gui.MenuKitchenManagerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.resto.toolbar.gui//MenuKitchenManager//EN"/>
+                </file>
+                <file name="MenuSales" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.resto.toolbar.gui.MenuSalesTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.resto.toolbar.gui//MenuSales//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="vn">
+                <folder name="com">
+                    <folder name="hkt">
+                        <folder name="resto">
+                            <folder name="toolbar">
+                                <folder name="gui">
+                                    <file name="MainMenuTopComponent">
+                                    <!--vn.com.hkt.resto.toolbar.gui.MainMenuTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_resto_toolbar_gui/MainMenu.instance"/>
+                                    </file>
+                                    <file name="MenuFoodTableTopComponent">
+                                    <!--vn.com.hkt.resto.toolbar.gui.MenuFoodTableTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_resto_toolbar_gui/MenuFoodTable.instance"/>
+                                    </file>
+                                    <file name="MenuKitchenManagerTopComponent">
+                                    <!--vn.com.hkt.resto.toolbar.gui.MenuKitchenManagerTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_resto_toolbar_gui/MenuKitchenManager.instance"/>
+                                    </file>
+                                    <file name="MenuSalesTopComponent">
+                                    <!--vn.com.hkt.resto.toolbar.gui.MenuSalesTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_resto_toolbar_gui/MenuSales.instance"/>
+                                    </file>
+                                </folder>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="vn_com_hkt_resto_toolbar_gui">
+                <file name="MainMenu.instance">
+                    <!--vn.com.hkt.resto.toolbar.gui.MainMenuTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.resto.toolbar.gui.MainMenuTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.resto.toolbar.gui.MainMenuTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="MenuFoodTable.instance">
+                    <!--vn.com.hkt.resto.toolbar.gui.MenuFoodTableTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.resto.toolbar.gui.MenuFoodTableTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.resto.toolbar.gui.MenuFoodTableTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="MenuKitchenManager.instance">
+                    <!--vn.com.hkt.resto.toolbar.gui.MenuKitchenManagerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.resto.toolbar.gui.MenuKitchenManagerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.resto.toolbar.gui.MenuKitchenManagerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="MenuSales.instance">
+                    <!--vn.com.hkt.resto.toolbar.gui.MenuSalesTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.resto.toolbar.gui.MenuSalesTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.resto.toolbar.gui.MenuSalesTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Restaurant">
+            <file name="vn-com-hkt-resto-toolbar-gui-MainMenuTopComponent.shadow">
+                <!--vn.com.hkt.resto.toolbar.gui.MainMenuTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-resto-toolbar-gui-MainMenuTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-resto-toolbar-gui-MenuFoodTableTopComponent.shadow">
+                <!--vn.com.hkt.resto.toolbar.gui.MenuFoodTableTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-resto-toolbar-gui-MenuFoodTableTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-resto-toolbar-gui-MenuKitchenManagerTopComponent.shadow">
+                <!--vn.com.hkt.resto.toolbar.gui.MenuKitchenManagerTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-resto-toolbar-gui-MenuKitchenManagerTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-resto-toolbar-gui-MenuSalesTopComponent.shadow">
+                <!--vn.com.hkt.resto.toolbar.gui.MenuSalesTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-resto-toolbar-gui-MenuSalesTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="MainMenuTopComponent.settings">
+                <!--vn.com.hkt.resto.toolbar.gui.MainMenuTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.resto.toolbar.gui.MainMenuTopComponent"/>
+</settings>
+]]></file>
+            <file name="MenuFoodTableTopComponent.settings">
+                <!--vn.com.hkt.resto.toolbar.gui.MenuFoodTableTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.resto.toolbar.gui.MenuFoodTableTopComponent"/>
+</settings>
+]]></file>
+            <file name="MenuKitchenManagerTopComponent.settings">
+                <!--vn.com.hkt.resto.toolbar.gui.MenuKitchenManagerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.resto.toolbar.gui.MenuKitchenManagerTopComponent"/>
+</settings>
+]]></file>
+            <file name="MenuSalesTopComponent.settings">
+                <!--vn.com.hkt.resto.toolbar.gui.MenuSalesTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.resto.toolbar.gui.MenuSalesTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="MainMenuTopComponent.wstcref">
+                    <!--vn.com.hkt.resto.toolbar.gui.MainMenuTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="MainMenuTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="MenuFoodTableTopComponent.wstcref">
+                    <!--vn.com.hkt.resto.toolbar.gui.MenuFoodTableTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="MenuFoodTableTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="MenuKitchenManagerTopComponent.wstcref">
+                    <!--vn.com.hkt.resto.toolbar.gui.MenuKitchenManagerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="MenuKitchenManagerTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="MenuSalesTopComponent.wstcref">
+                    <!--vn.com.hkt.resto.toolbar.gui.MenuSalesTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="MenuSalesTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="vn-com-hkt-resto-toolbar-gui-MainMenuTopComponent.instance">
+                <!--vn.com.hkt.resto.toolbar.gui.MainMenuTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.resto.toolbar.gui.MainMenuTopComponent"/>
+                <attr name="preferredID" stringvalue="MainMenuTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.resto.toolbar.gui.Bundle#CTL_MainMenuAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-resto-toolbar-gui-MenuFoodTableTopComponent.instance">
+                <!--vn.com.hkt.resto.toolbar.gui.MenuFoodTableTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.resto.toolbar.gui.MenuFoodTableTopComponent"/>
+                <attr name="preferredID" stringvalue="MenuFoodTableTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.resto.toolbar.gui.Bundle#CTL_MenuFoodTableAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-resto-toolbar-gui-MenuKitchenManagerTopComponent.instance">
+                <!--vn.com.hkt.resto.toolbar.gui.MenuKitchenManagerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.resto.toolbar.gui.MenuKitchenManagerTopComponent"/>
+                <attr name="preferredID" stringvalue="MenuKitchenManagerTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.resto.toolbar.gui.Bundle#CTL_MenuKitchenManagerAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-resto-toolbar-gui-MenuSalesTopComponent.instance">
+                <!--vn.com.hkt.resto.toolbar.gui.MenuSalesTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.resto.toolbar.gui.MenuSalesTopComponent"/>
+                <attr name="preferredID" stringvalue="MenuSalesTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.resto.toolbar.gui.Bundle#CTL_MenuSalesAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

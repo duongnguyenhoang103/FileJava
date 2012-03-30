@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: vn.com.hkt.erm
+OpenIDE-Module-Install: vn/com/hkt/basic/Installer.class
+OpenIDE-Module-Localizing-Bundle: vn/com/hkt/erm/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+

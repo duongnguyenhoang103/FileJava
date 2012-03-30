@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="vn_com_hkt_wh_gui">
+                <file name="WareHouse" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.ap.gui.WareHouseTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.wh.gui//WareHouse//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="vn">
+                <folder name="com">
+                    <folder name="hkt">
+                        <folder name="ap">
+                            <folder name="gui">
+                                <file name="WareHouseTopComponent">
+                                    <!--vn.com.hkt.ap.gui.WareHouseTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_wh_gui/WareHouse.instance"/>
+                                </file>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="vn_com_hkt_wh_gui">
+                <file name="WareHouse.instance">
+                    <!--vn.com.hkt.ap.gui.WareHouseTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.ap.gui.WareHouseTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.ap.gui.WareHouseTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Kế toán">
+            <file name="vn-com-hkt-wh-gui-WareHouseTopComponent.shadow">
+                <!--vn.com.hkt.ap.gui.WareHouseTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-wh-gui-WareHouseTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="WareHouseTopComponent.settings">
+                <!--vn.com.hkt.ap.gui.WareHouseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.ap.gui.WareHouseTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="WareHouseTopComponent.wstcref">
+                    <!--vn.com.hkt.ap.gui.WareHouseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="WareHouseTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="vn-com-hkt-wh-gui-WareHouseTopComponent.instance">
+                <!--vn.com.hkt.ap.gui.WareHouseTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.ap.gui.WareHouseTopComponent"/>
+                <attr name="preferredID" stringvalue="WareHouseTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.ap.gui.Bundle#CTL_WareHouseAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

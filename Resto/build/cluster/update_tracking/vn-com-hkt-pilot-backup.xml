@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.pilot.backup">
+    <module_version install_time="1333091262084" last="true" origin="installer" specification_version="1.0">
+        <file crc="178142209" name="config/Modules/vn-com-hkt-pilot-backup.xml"/>
+        <file crc="2913998947" name="modules/ext/jxl.jar"/>
+        <file crc="1181764101" name="modules/ext/poi-3.5-FINAL.jar"/>
+        <file crc="871700164" name="modules/vn-com-hkt-pilot-backup.jar"/>
+    </module_version>
+</module>

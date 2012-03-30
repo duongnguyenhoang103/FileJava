@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="vn.com.hkt.pilot.calendaroption.ui">
+    <module_version install_time="1333091266010" last="true" origin="installer" specification_version="1.0">
+        <file crc="3397499779" name="config/Modules/vn-com-hkt-pilot-calendaroption-ui.xml"/>
+        <file crc="2297196454" name="modules/vn-com-hkt-pilot-calendaroption-ui.jar"/>
+    </module_version>
+</module>

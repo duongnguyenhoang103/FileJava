@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: vn.com.hkt.pilot.subenterprise13
+OpenIDE-Module-Install: vn/com/hkt/pilot/subenterprise13/Installer.class
+OpenIDE-Module-Localizing-Bundle: vn/com/hkt/pilot/subenterprise13/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

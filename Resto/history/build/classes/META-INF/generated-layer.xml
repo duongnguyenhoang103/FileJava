@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="vn_com_hkt_pilot_history_gui">
+                <file name="ExportHistory" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.history.gui.ExportHistoryTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.pilot.history.gui//ExportHistory//EN"/>
+                </file>
+                <file name="ImportHistory" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.history.gui.ImportHistoryTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.pilot.history.gui//ImportHistory//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_pilot_history_manager_gui">
+                <file name="HistoryManager" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.pilot.history.manager.gui.HistoryManagerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.pilot.history.manager.gui//HistoryManager//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="vn">
+                <folder name="com">
+                    <folder name="hkt">
+                        <folder name="pilot">
+                            <folder name="history">
+                                <folder name="gui">
+                                    <file name="ExportHistoryTopComponent">
+                                    <!--vn.com.hkt.pilot.history.gui.ExportHistoryTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_pilot_history_gui/ExportHistory.instance"/>
+                                    </file>
+                                    <file name="ImportHistoryTopComponent">
+                                    <!--vn.com.hkt.pilot.history.gui.ImportHistoryTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_pilot_history_gui/ImportHistory.instance"/>
+                                    </file>
+                                </folder>
+                                <folder name="manager">
+                                    <folder name="gui">
+                                    <file name="HistoryManagerTopComponent">
+                                    <!--vn.com.hkt.pilot.history.manager.gui.HistoryManagerTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_pilot_history_manager_gui/HistoryManager.instance"/>
+                                    </file>
+                                    </folder>
+                                </folder>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="vn_com_hkt_pilot_history_gui">
+                <file name="ExportHistory.instance">
+                    <!--vn.com.hkt.pilot.history.gui.ExportHistoryTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.history.gui.ExportHistoryTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.history.gui.ExportHistoryTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="ImportHistory.instance">
+                    <!--vn.com.hkt.pilot.history.gui.ImportHistoryTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.history.gui.ImportHistoryTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.history.gui.ImportHistoryTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_pilot_history_manager_gui">
+                <file name="HistoryManager.instance">
+                    <!--vn.com.hkt.pilot.history.manager.gui.HistoryManagerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.pilot.history.manager.gui.HistoryManagerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.pilot.history.manager.gui.HistoryManagerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="vn-com-hkt-pilot-history-gui-ExportHistoryTopComponent.shadow">
+                <!--vn.com.hkt.pilot.history.gui.ExportHistoryTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-pilot-history-gui-ExportHistoryTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-pilot-history-gui-ImportHistoryTopComponent.shadow">
+                <!--vn.com.hkt.pilot.history.gui.ImportHistoryTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-pilot-history-gui-ImportHistoryTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-pilot-history-manager-gui-HistoryManagerTopComponent.shadow">
+                <!--vn.com.hkt.pilot.history.manager.gui.HistoryManagerTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-pilot-history-manager-gui-HistoryManagerTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="ExportHistoryTopComponent.settings">
+                <!--vn.com.hkt.pilot.history.gui.ExportHistoryTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.history.gui.ExportHistoryTopComponent"/>
+</settings>
+]]></file>
+            <file name="ImportHistoryTopComponent.settings">
+                <!--vn.com.hkt.pilot.history.gui.ImportHistoryTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.history.gui.ImportHistoryTopComponent"/>
+</settings>
+]]></file>
+            <file name="HistoryManagerTopComponent.settings">
+                <!--vn.com.hkt.pilot.history.manager.gui.HistoryManagerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.pilot.history.manager.gui.HistoryManagerTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="ExportHistoryTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.history.gui.ExportHistoryTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ExportHistoryTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ImportHistoryTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.history.gui.ImportHistoryTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ImportHistoryTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="HistoryManagerTopComponent.wstcref">
+                    <!--vn.com.hkt.pilot.history.manager.gui.HistoryManagerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="HistoryManagerTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="vn-com-hkt-pilot-history-gui-ExportHistoryTopComponent.instance">
+                <!--vn.com.hkt.pilot.history.gui.ExportHistoryTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.history.gui.ExportHistoryTopComponent"/>
+                <attr name="preferredID" stringvalue="ExportHistoryTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.history.gui.Bundle#CTL_ExportHistoryAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-pilot-history-gui-ImportHistoryTopComponent.instance">
+                <!--vn.com.hkt.pilot.history.gui.ImportHistoryTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.history.gui.ImportHistoryTopComponent"/>
+                <attr name="preferredID" stringvalue="ImportHistoryTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.history.gui.Bundle#CTL_ImportHistoryAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-pilot-history-manager-gui-HistoryManagerTopComponent.instance">
+                <!--vn.com.hkt.pilot.history.manager.gui.HistoryManagerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.pilot.history.manager.gui.HistoryManagerTopComponent"/>
+                <attr name="preferredID" stringvalue="HistoryManagerTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.pilot.history.manager.gui.Bundle#CTL_HistoryManagerAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

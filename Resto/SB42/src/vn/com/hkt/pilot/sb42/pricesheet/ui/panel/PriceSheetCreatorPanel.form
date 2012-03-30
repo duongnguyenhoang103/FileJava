@@ -1,0 +1,84 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.6" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="1"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder justification="2" position="2" title="T&#x1ea1;o M&#x1edb;i B&#x1ea3;ng Gi&#xe1;">
+              <ResourceString PropertyName="titleX" bundle="vn/com/hkt/pilot/sb42/pricesheet/ui/panel/Bundle.properties" key="PriceSheetCreatorPanel.jPanel1.border.title" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+              <Font PropertyName="font" name="Tahoma" size="12" style="1"/>
+              <Color PropertyName="color" blue="ff" green="66" red="0" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane1" alignment="1" pref="910" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane1" alignment="0" pref="383" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tblPricesheet">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.table.DefaultTableModel(&#xd;&#xa;                new Object[][]{&#xd;&#xa;                    {&quot;T&#xea;n b&#x1ea3;ng gi&#xe1;&quot;, &quot; &quot;, &quot;&quot;, &quot; &quot;},&#xd;&#xa;                    {&quot;M&#xe3; b&#x1ea3;ng gi&#xe1;&quot;, &quot; &quot;, &quot;Lo&#x1ea1;i thu&#x1ebf;&quot;, &quot; &quot;},&#xd;&#xa;                    {&quot;Ph&#xe2;n lo&#x1ea1;i&quot;, &quot; &quot;, &quot;SP&quot;, &quot; &quot;},&#xd;&#xa;                    {&quot;&#x110;&#x1a1;n gi&#xe1;&quot;, &quot; &quot;, &quot;&#x110;&#x1a1;n v&#x1ecb; ti&#x1ec1;n&quot;, &quot; &quot;},&#xd;&#xa;                    {&quot;Bi&#xea;n &#x111;&#x1ed9;&quot;, &quot; &quot;, &quot;&quot;, &quot; &quot;},&#xd;&#xa;                    {&quot;Gi&#xe1; min&quot;, &quot; &quot;, &quot;&#x110;&#x1a1;n v&#x1ecb; ti&#x1ec1;n&quot;, &quot; &quot;},&#xd;&#xa;                    {&quot;Gi&#xe1; max&quot;, &quot; &quot;, &quot;&#x110;&#x1a1;n v&#x1ecb; ti&#x1ec1;n&quot;, &quot; &quot;},&#xd;&#xa;                    {&quot;&#xc1;p d&#x1ee5;ng t&#x1eeb;&quot;, &quot; &quot;, &quot;&#x110;&#x1ebf;n&quot;, &quot; &quot;},&#xd;&#xa;                    {&quot;L&#x1ead;p gi&#xe1; &#x111;&#x1ed1;i &#x1ee9;ng&quot;, &quot; &quot;, &quot;Ch&#xea;nh l&#x1ec7;ch&quot;, &quot; &quot;}&#xd;&#xa;                },&#xd;&#xa;                new String[]{&#xd;&#xa;                    &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;&#xd;&#xa;                }) {&#xd;&#xa;&#xd;&#xa;            boolean[] canEdit = new boolean[]{&#xd;&#xa;                false, true, false, true&#xd;&#xa;            };&#xd;&#xa;&#xd;&#xa;            public boolean isCellEditable(int rowIndex, int columnIndex) {&#xd;&#xa;                if ((columnIndex == 0) || ((columnIndex == 2 &amp;&amp; rowIndex != 4))) {&#xd;&#xa;                    return false;&#xd;&#xa;                }&#xd;&#xa;                if (rowIndex&#xd;&#xa;                        == 4 &amp;&amp; columnIndex&#xd;&#xa;                        == 3) {&#xd;&#xa;                    return false;&#xd;&#xa;                }&#xd;&#xa;                return true;&#xd;&#xa;            }&#xd;&#xa;        }" type="code"/>
+                </Property>
+                <Property name="cellSelectionEnabled" type="boolean" value="true"/>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0"/>
+                </Property>
+                <Property name="selectionModel" type="javax.swing.ListSelectionModel" editor="org.netbeans.modules.form.editors2.JTableSelectionModelEditor">
+                  <JTableSelectionModel selectionMode="0"/>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tblPricesheetKeyPressed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

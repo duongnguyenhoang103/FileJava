@@ -1,0 +1,2105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="vn_com_hkt_Help_ui">
+                <file name="DepartmentSearch" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.Help.ui.DepartmentSearchTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.Help.ui//DepartmentSearch//EN"/>
+                </file>
+                <file name="EnterpriseSearch" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.Help.ui.EnterpriseSearchTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.Help.ui//EnterpriseSearch//EN"/>
+                </file>
+                <file name="Help" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.Help.ui.HelpTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.Help.ui//Help//EN"/>
+                </file>
+                <file name="OperationsSearch" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.Help.ui.OperationsSearchTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.Help.ui//OperationsSearch//EN"/>
+                </file>
+                <file name="PersonSearch" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.Help.ui.PersonSearchTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.Help.ui//PersonSearch//EN"/>
+                </file>
+                <file name="ProductSearch" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.Help.ui.ProductSearchTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.Help.ui//ProductSearch//EN"/>
+                </file>
+                <file name="author" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.Help.ui.authorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.Help.ui//author//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_Information_ui">
+                <file name="History" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.Information.ui.HistoryTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.Information.ui//History//EN"/>
+                </file>
+                <file name="Introduction" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.Information.ui.IntroductionTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.Information.ui//Introduction//EN"/>
+                </file>
+                <file name="Organization" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.Information.ui.OrganizationTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.Information.ui//Organization//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_bom_product_ui">
+                <file name="ListProduct" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.bom.product.ui.ListProductTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.bom.product.ui//ListProduct//EN"/>
+                </file>
+                <file name="Product" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.bom.product.ui.ProductTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.bom.product.ui//Product//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_chart_ui">
+                <file name="BieuDo" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.chart.ui.BieuDoTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.chart.ui//BieuDo//EN"/>
+                </file>
+                <file name="NghiepVu" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.chart.ui.NghiepVuTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.chart.ui//NghiepVu//EN"/>
+                </file>
+                <file name="ThuChi" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.chart.ui.ThuChiTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.chart.ui//ThuChi//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_erm_department_ui">
+                <file name="Department" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.erm.department.ui.DepartmentTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.erm.department.ui//Department//EN"/>
+                </file>
+                <file name="ListDepartment" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.erm.department.ui.ListDepartmentTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.erm.department.ui//ListDepartment//EN"/>
+                </file>
+            </folder>
+            <folder name="com_vn_hkt_ui">
+                <file name="Enterprise" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.erm.enterprise.ui.EnterpriseTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.vn.hkt.ui//Enterprise//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_erm_enterprise_ui">
+                <file name="ListEnterprise" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.erm.enterprise.ui.ListEnterpriseTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.erm.enterprise.ui//ListEnterprise//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_hrm_person_ui">
+                <file name="ListPerson" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.hrm.person.ui.ListPersonTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.hrm.person.ui//ListPerson//EN"/>
+                </file>
+                <file name="Person" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.hrm.person.ui.PersonTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.hrm.person.ui//Person//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_department">
+                <file name="TreeDepartmentAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.departmentAll.TreeDepartmentAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.department//TreeDepartmentAll//EN"/>
+                </file>
+                <file name="TreeDepartment" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.department.TreeDepartmentTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.department//TreeDepartment//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_department_thuchi">
+                <file name="TreeDepartmentCanBangAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentCanBangAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.department.thuchi//TreeDepartmentCanBangAll//EN"/>
+                </file>
+                <file name="TreeDepartmentChiAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentChiAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.department.thuchi//TreeDepartmentChiAll//EN"/>
+                </file>
+                <file name="TreeDepartmentThuAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.department.thuchi//TreeDepartmentThuAll//EN"/>
+                </file>
+                <file name="TreeDepartmentThuChiAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuChiAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.department.thuchi//TreeDepartmentThuChiAll//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_enterpriseAll">
+                <file name="TreeEnterpriseAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.enterpriseAll.TreeEnterpriseAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.enterpriseAll//TreeEnterpriseAll//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui">
+                <file name="TreeEnterprise" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.enterprise.TreeEnterpriseTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui//TreeEnterprise//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_enterprise_thuchi">
+                <file name="TreeEnterpriseThuChi" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.TreeEnterpriseThuChiTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.enterprise.thuchi//TreeEnterpriseThuChi//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_enterprise_thuchi_bytime">
+                <file name="TreeEnterpriseThuChiByYear" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.bytime.TreeEnterpriseThuChiByYearTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.enterprise.thuchi.bytime//TreeEnterpriseThuChiByYear//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_enterprise_thuchi_tongquan">
+                <file name="TreeEnterpriseCanBangAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseCanBangAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.enterprise.thuchi.tongquan//TreeEnterpriseCanBangAll//EN"/>
+                </file>
+                <file name="TreeEnterpriseChiAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseChiAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.enterprise.thuchi.tongquan//TreeEnterpriseChiAll//EN"/>
+                </file>
+                <file name="TreeEnterpriseThuAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.enterprise.thuchi.tongquan//TreeEnterpriseThuAll//EN"/>
+                </file>
+                <file name="TreeEnterpriseThuChiAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuChiAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.enterprise.thuchi.tongquan//TreeEnterpriseThuChiAll//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_operation">
+                <file name="TreeOperation" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.operation.TreeOperationTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.operation//TreeOperation//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_product">
+                <file name="TreeProduct" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.product.TreeProductTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.product//TreeProduct//EN"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_product_thuchi">
+                <file name="TreeProductCanBangAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductCanBangAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.product.thuchi//TreeProductCanBangAll//EN"/>
+                </file>
+                <file name="TreeProductChiAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductChiAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.product.thuchi//TreeProductChiAll//EN"/>
+                </file>
+                <file name="TreeProductThuAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.product.thuchi//TreeProductThuAll//EN"/>
+                </file>
+                <file name="TreeProductThuChiAll" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuChiAllTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//vn.com.hkt.tree.ui.product.thuchi//TreeProductThuChiAll//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="vn">
+                <folder name="com">
+                    <folder name="hkt">
+                        <folder name="Help">
+                            <folder name="ui">
+                                <file name="DepartmentSearchTopComponent">
+                                    <!--vn.com.hkt.Help.ui.DepartmentSearchTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_Help_ui/DepartmentSearch.instance"/>
+                                </file>
+                                <file name="EnterpriseSearchTopComponent">
+                                    <!--vn.com.hkt.Help.ui.EnterpriseSearchTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_Help_ui/EnterpriseSearch.instance"/>
+                                </file>
+                                <file name="HelpTopComponent">
+                                    <!--vn.com.hkt.Help.ui.HelpTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_Help_ui/Help.instance"/>
+                                </file>
+                                <file name="OperationsSearchTopComponent">
+                                    <!--vn.com.hkt.Help.ui.OperationsSearchTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_Help_ui/OperationsSearch.instance"/>
+                                </file>
+                                <file name="PersonSearchTopComponent">
+                                    <!--vn.com.hkt.Help.ui.PersonSearchTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_Help_ui/PersonSearch.instance"/>
+                                </file>
+                                <file name="ProductSearchTopComponent">
+                                    <!--vn.com.hkt.Help.ui.ProductSearchTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_Help_ui/ProductSearch.instance"/>
+                                </file>
+                                <file name="authorTopComponent">
+                                    <!--vn.com.hkt.Help.ui.authorTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_Help_ui/author.instance"/>
+                                </file>
+                            </folder>
+                        </folder>
+                        <folder name="Information">
+                            <folder name="ui">
+                                <file name="HistoryTopComponent">
+                                    <!--vn.com.hkt.Information.ui.HistoryTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_Information_ui/History.instance"/>
+                                </file>
+                                <file name="IntroductionTopComponent">
+                                    <!--vn.com.hkt.Information.ui.IntroductionTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_Information_ui/Introduction.instance"/>
+                                </file>
+                                <file name="OrganizationTopComponent">
+                                    <!--vn.com.hkt.Information.ui.OrganizationTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_Information_ui/Organization.instance"/>
+                                </file>
+                            </folder>
+                        </folder>
+                        <folder name="bom">
+                            <folder name="product">
+                                <folder name="ui">
+                                    <file name="ListProductTopComponent">
+                                    <!--vn.com.hkt.bom.product.ui.ListProductTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_bom_product_ui/ListProduct.instance"/>
+                                    </file>
+                                    <file name="ProductTopComponent">
+                                    <!--vn.com.hkt.bom.product.ui.ProductTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_bom_product_ui/Product.instance"/>
+                                    </file>
+                                </folder>
+                            </folder>
+                        </folder>
+                        <folder name="chart">
+                            <folder name="ui">
+                                <file name="BieuDoTopComponent">
+                                    <!--vn.com.hkt.chart.ui.BieuDoTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_chart_ui/BieuDo.instance"/>
+                                </file>
+                                <file name="NghiepVuTopComponent">
+                                    <!--vn.com.hkt.chart.ui.NghiepVuTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_chart_ui/NghiepVu.instance"/>
+                                </file>
+                                <file name="ThuChiTopComponent">
+                                    <!--vn.com.hkt.chart.ui.ThuChiTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_chart_ui/ThuChi.instance"/>
+                                </file>
+                            </folder>
+                        </folder>
+                        <folder name="erm">
+                            <folder name="department">
+                                <folder name="ui">
+                                    <file name="DepartmentTopComponent">
+                                    <!--vn.com.hkt.erm.department.ui.DepartmentTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_erm_department_ui/Department.instance"/>
+                                    </file>
+                                    <file name="ListDepartmentTopComponent">
+                                    <!--vn.com.hkt.erm.department.ui.ListDepartmentTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_erm_department_ui/ListDepartment.instance"/>
+                                    </file>
+                                </folder>
+                            </folder>
+                            <folder name="enterprise">
+                                <folder name="ui">
+                                    <file name="EnterpriseTopComponent">
+                                    <!--vn.com.hkt.erm.enterprise.ui.EnterpriseTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//com_vn_hkt_ui/Enterprise.instance"/>
+                                    </file>
+                                    <file name="ListEnterpriseTopComponent">
+                                    <!--vn.com.hkt.erm.enterprise.ui.ListEnterpriseTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_erm_enterprise_ui/ListEnterprise.instance"/>
+                                    </file>
+                                </folder>
+                            </folder>
+                        </folder>
+                        <folder name="hrm">
+                            <folder name="person">
+                                <folder name="ui">
+                                    <file name="ListPersonTopComponent">
+                                    <!--vn.com.hkt.hrm.person.ui.ListPersonTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_hrm_person_ui/ListPerson.instance"/>
+                                    </file>
+                                    <file name="PersonTopComponent">
+                                    <!--vn.com.hkt.hrm.person.ui.PersonTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_hrm_person_ui/Person.instance"/>
+                                    </file>
+                                </folder>
+                            </folder>
+                        </folder>
+                        <folder name="tree">
+                            <folder name="ui">
+                                <folder name="departmentAll">
+                                    <file name="TreeDepartmentAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.departmentAll.TreeDepartmentAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_department/TreeDepartmentAll.instance"/>
+                                    </file>
+                                </folder>
+                                <folder name="department">
+                                    <file name="TreeDepartmentTopComponent">
+                                    <!--vn.com.hkt.tree.ui.department.TreeDepartmentTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_department/TreeDepartment.instance"/>
+                                    </file>
+                                    <folder name="thuchi">
+                                    <file name="TreeDepartmentCanBangAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentCanBangAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_department_thuchi/TreeDepartmentCanBangAll.instance"/>
+                                    </file>
+                                    <file name="TreeDepartmentChiAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentChiAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_department_thuchi/TreeDepartmentChiAll.instance"/>
+                                    </file>
+                                    <file name="TreeDepartmentThuAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_department_thuchi/TreeDepartmentThuAll.instance"/>
+                                    </file>
+                                    <file name="TreeDepartmentThuChiAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuChiAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_department_thuchi/TreeDepartmentThuChiAll.instance"/>
+                                    </file>
+                                    </folder>
+                                </folder>
+                                <folder name="enterpriseAll">
+                                    <file name="TreeEnterpriseAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.enterpriseAll.TreeEnterpriseAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_enterpriseAll/TreeEnterpriseAll.instance"/>
+                                    </file>
+                                </folder>
+                                <folder name="enterprise">
+                                    <file name="TreeEnterpriseTopComponent">
+                                    <!--vn.com.hkt.tree.ui.enterprise.TreeEnterpriseTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui/TreeEnterprise.instance"/>
+                                    </file>
+                                    <folder name="thuchi">
+                                    <file name="TreeEnterpriseThuChiTopComponent">
+                                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.TreeEnterpriseThuChiTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_enterprise_thuchi/TreeEnterpriseThuChi.instance"/>
+                                    </file>
+                                    <folder name="bytime">
+                                    <file name="TreeEnterpriseThuChiByYearTopComponent">
+                                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.bytime.TreeEnterpriseThuChiByYearTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_enterprise_thuchi_bytime/TreeEnterpriseThuChiByYear.instance"/>
+                                    </file>
+                                    </folder>
+                                    <folder name="tongquan">
+                                    <file name="TreeEnterpriseCanBangAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseCanBangAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_enterprise_thuchi_tongquan/TreeEnterpriseCanBangAll.instance"/>
+                                    </file>
+                                    <file name="TreeEnterpriseChiAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseChiAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_enterprise_thuchi_tongquan/TreeEnterpriseChiAll.instance"/>
+                                    </file>
+                                    <file name="TreeEnterpriseThuAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_enterprise_thuchi_tongquan/TreeEnterpriseThuAll.instance"/>
+                                    </file>
+                                    <file name="TreeEnterpriseThuChiAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuChiAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_enterprise_thuchi_tongquan/TreeEnterpriseThuChiAll.instance"/>
+                                    </file>
+                                    </folder>
+                                    </folder>
+                                </folder>
+                                <folder name="operation">
+                                    <file name="TreeOperationTopComponent">
+                                    <!--vn.com.hkt.tree.ui.operation.TreeOperationTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_operation/TreeOperation.instance"/>
+                                    </file>
+                                </folder>
+                                <folder name="product">
+                                    <file name="TreeProductTopComponent">
+                                    <!--vn.com.hkt.tree.ui.product.TreeProductTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_product/TreeProduct.instance"/>
+                                    </file>
+                                    <folder name="thuchi">
+                                    <file name="TreeProductCanBangAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductCanBangAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_product_thuchi/TreeProductCanBangAll.instance"/>
+                                    </file>
+                                    <file name="TreeProductChiAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductChiAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_product_thuchi/TreeProductChiAll.instance"/>
+                                    </file>
+                                    <file name="TreeProductThuAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_product_thuchi/TreeProductThuAll.instance"/>
+                                    </file>
+                                    <file name="TreeProductThuChiAllTopComponent">
+                                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuChiAllTopComponent-->
+                                    <attr
+                                    name="settings.providerPath" stringvalue="xml/lookups//vn_com_hkt_tree_ui_product_thuchi/TreeProductThuChiAll.instance"/>
+                                    </file>
+                                    </folder>
+                                </folder>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="vn_com_hkt_Help_ui">
+                <file name="DepartmentSearch.instance">
+                    <!--vn.com.hkt.Help.ui.DepartmentSearchTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.Help.ui.DepartmentSearchTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.Help.ui.DepartmentSearchTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="EnterpriseSearch.instance">
+                    <!--vn.com.hkt.Help.ui.EnterpriseSearchTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.Help.ui.EnterpriseSearchTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.Help.ui.EnterpriseSearchTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="Help.instance">
+                    <!--vn.com.hkt.Help.ui.HelpTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.Help.ui.HelpTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.Help.ui.HelpTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="OperationsSearch.instance">
+                    <!--vn.com.hkt.Help.ui.OperationsSearchTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.Help.ui.OperationsSearchTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.Help.ui.OperationsSearchTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="PersonSearch.instance">
+                    <!--vn.com.hkt.Help.ui.PersonSearchTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.Help.ui.PersonSearchTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.Help.ui.PersonSearchTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="ProductSearch.instance">
+                    <!--vn.com.hkt.Help.ui.ProductSearchTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.Help.ui.ProductSearchTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.Help.ui.ProductSearchTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="author.instance">
+                    <!--vn.com.hkt.Help.ui.authorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.Help.ui.authorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.Help.ui.authorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_Information_ui">
+                <file name="History.instance">
+                    <!--vn.com.hkt.Information.ui.HistoryTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.Information.ui.HistoryTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.Information.ui.HistoryTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="Introduction.instance">
+                    <!--vn.com.hkt.Information.ui.IntroductionTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.Information.ui.IntroductionTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.Information.ui.IntroductionTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="Organization.instance">
+                    <!--vn.com.hkt.Information.ui.OrganizationTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.Information.ui.OrganizationTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.Information.ui.OrganizationTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_bom_product_ui">
+                <file name="ListProduct.instance">
+                    <!--vn.com.hkt.bom.product.ui.ListProductTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.bom.product.ui.ListProductTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.bom.product.ui.ListProductTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="Product.instance">
+                    <!--vn.com.hkt.bom.product.ui.ProductTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.bom.product.ui.ProductTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.bom.product.ui.ProductTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_chart_ui">
+                <file name="BieuDo.instance">
+                    <!--vn.com.hkt.chart.ui.BieuDoTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.chart.ui.BieuDoTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.chart.ui.BieuDoTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="NghiepVu.instance">
+                    <!--vn.com.hkt.chart.ui.NghiepVuTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.chart.ui.NghiepVuTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.chart.ui.NghiepVuTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="ThuChi.instance">
+                    <!--vn.com.hkt.chart.ui.ThuChiTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.chart.ui.ThuChiTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.chart.ui.ThuChiTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_erm_department_ui">
+                <file name="Department.instance">
+                    <!--vn.com.hkt.erm.department.ui.DepartmentTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.erm.department.ui.DepartmentTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.erm.department.ui.DepartmentTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="ListDepartment.instance">
+                    <!--vn.com.hkt.erm.department.ui.ListDepartmentTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.erm.department.ui.ListDepartmentTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.erm.department.ui.ListDepartmentTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="com_vn_hkt_ui">
+                <file name="Enterprise.instance">
+                    <!--vn.com.hkt.erm.enterprise.ui.EnterpriseTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.erm.enterprise.ui.EnterpriseTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.erm.enterprise.ui.EnterpriseTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_erm_enterprise_ui">
+                <file name="ListEnterprise.instance">
+                    <!--vn.com.hkt.erm.enterprise.ui.ListEnterpriseTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.erm.enterprise.ui.ListEnterpriseTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.erm.enterprise.ui.ListEnterpriseTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_hrm_person_ui">
+                <file name="ListPerson.instance">
+                    <!--vn.com.hkt.hrm.person.ui.ListPersonTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.hrm.person.ui.ListPersonTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.hrm.person.ui.ListPersonTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="Person.instance">
+                    <!--vn.com.hkt.hrm.person.ui.PersonTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.hrm.person.ui.PersonTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.hrm.person.ui.PersonTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_department">
+                <file name="TreeDepartmentAll.instance">
+                    <!--vn.com.hkt.tree.ui.departmentAll.TreeDepartmentAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.departmentAll.TreeDepartmentAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.departmentAll.TreeDepartmentAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="TreeDepartment.instance">
+                    <!--vn.com.hkt.tree.ui.department.TreeDepartmentTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.department.TreeDepartmentTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.department.TreeDepartmentTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_department_thuchi">
+                <file name="TreeDepartmentCanBangAll.instance">
+                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentCanBangAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentCanBangAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentCanBangAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="TreeDepartmentChiAll.instance">
+                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentChiAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentChiAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentChiAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="TreeDepartmentThuAll.instance">
+                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="TreeDepartmentThuChiAll.instance">
+                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuChiAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuChiAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuChiAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_enterpriseAll">
+                <file name="TreeEnterpriseAll.instance">
+                    <!--vn.com.hkt.tree.ui.enterpriseAll.TreeEnterpriseAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.enterpriseAll.TreeEnterpriseAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.enterpriseAll.TreeEnterpriseAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui">
+                <file name="TreeEnterprise.instance">
+                    <!--vn.com.hkt.tree.ui.enterprise.TreeEnterpriseTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.enterprise.TreeEnterpriseTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.enterprise.TreeEnterpriseTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_enterprise_thuchi">
+                <file name="TreeEnterpriseThuChi.instance">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.TreeEnterpriseThuChiTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.enterprise.thuchi.TreeEnterpriseThuChiTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.enterprise.thuchi.TreeEnterpriseThuChiTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_enterprise_thuchi_bytime">
+                <file name="TreeEnterpriseThuChiByYear.instance">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.bytime.TreeEnterpriseThuChiByYearTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.enterprise.thuchi.bytime.TreeEnterpriseThuChiByYearTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.enterprise.thuchi.bytime.TreeEnterpriseThuChiByYearTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_enterprise_thuchi_tongquan">
+                <file name="TreeEnterpriseCanBangAll.instance">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseCanBangAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseCanBangAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseCanBangAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="TreeEnterpriseChiAll.instance">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseChiAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseChiAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseChiAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="TreeEnterpriseThuAll.instance">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="TreeEnterpriseThuChiAll.instance">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuChiAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuChiAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuChiAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_operation">
+                <file name="TreeOperation.instance">
+                    <!--vn.com.hkt.tree.ui.operation.TreeOperationTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.operation.TreeOperationTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.operation.TreeOperationTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_product">
+                <file name="TreeProduct.instance">
+                    <!--vn.com.hkt.tree.ui.product.TreeProductTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.product.TreeProductTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.product.TreeProductTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="vn_com_hkt_tree_ui_product_thuchi">
+                <file name="TreeProductCanBangAll.instance">
+                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductCanBangAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.product.thuchi.TreeProductCanBangAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.product.thuchi.TreeProductCanBangAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="TreeProductChiAll.instance">
+                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductChiAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.product.thuchi.TreeProductChiAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.product.thuchi.TreeProductChiAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="TreeProductThuAll.instance">
+                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.product.thuchi.TreeProductThuAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.product.thuchi.TreeProductThuAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="TreeProductThuChiAll.instance">
+                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuChiAllTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="vn.com.hkt.tree.ui.product.thuchi.TreeProductThuChiAllTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="vn.com.hkt.tree.ui.product.thuchi.TreeProductThuChiAllTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="HKT">
+            <folder name="Tìm kiếm (Alt+F)">
+                <file name="vn-com-hkt-Help-ui-DepartmentSearchTopComponent.shadow">
+                    <!--vn.com.hkt.Help.ui.DepartmentSearchTopComponent-->
+                    <attr name="originalFile" stringvalue="Actions/Window/HKT/vn-com-hkt-Help-ui-DepartmentSearchTopComponent.instance"/>
+                </file>
+                <file name="vn-com-hkt-Help-ui-EnterpriseSearchTopComponent.shadow">
+                    <!--vn.com.hkt.Help.ui.EnterpriseSearchTopComponent-->
+                    <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-Help-ui-EnterpriseSearchTopComponent.instance"/>
+                </file>
+                <file name="vn-com-hkt-Help-ui-OperationsSearchTopComponent.shadow">
+                    <!--vn.com.hkt.Help.ui.OperationsSearchTopComponent-->
+                    <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-Help-ui-OperationsSearchTopComponent.instance"/>
+                </file>
+                <file name="vn-com-hkt-Help-ui-PersonSearchTopComponent.shadow">
+                    <!--vn.com.hkt.Help.ui.PersonSearchTopComponent-->
+                    <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-Help-ui-PersonSearchTopComponent.instance"/>
+                </file>
+                <file name="vn-com-hkt-Help-ui-ProductSearchTopComponent.shadow">
+                    <!--vn.com.hkt.Help.ui.ProductSearchTopComponent-->
+                    <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-Help-ui-ProductSearchTopComponent.instance"/>
+                </file>
+            </folder>
+            <file name="vn-com-hkt-Help-ui-HelpTopComponent.shadow">
+                <!--vn.com.hkt.Help.ui.HelpTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-Help-ui-HelpTopComponent.instance"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="vn-com-hkt-Help-ui-authorTopComponent.shadow">
+                <!--vn.com.hkt.Help.ui.authorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-Help-ui-authorTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-chart-ui-BieuDoTopComponent.shadow">
+                <!--vn.com.hkt.chart.ui.BieuDoTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-chart-ui-BieuDoTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-erm-enterprise-ui-ListEnterpriseTopComponent.shadow">
+                <!--vn.com.hkt.erm.enterprise.ui.ListEnterpriseTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-erm-enterprise-ui-ListEnterpriseTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-enterprise-thuchi-TreeEnterpriseThuChiTopComponent.shadow">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.TreeEnterpriseThuChiTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-enterprise-thuchi-TreeEnterpriseThuChiTopComponent.instance"/>
+            </file>
+        </folder>
+        <folder name="Thông Tin">
+            <file name="vn-com-hkt-Information-ui-HistoryTopComponent.shadow">
+                <!--vn.com.hkt.Information.ui.HistoryTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-Information-ui-HistoryTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-Information-ui-IntroductionTopComponent.shadow">
+                <!--vn.com.hkt.Information.ui.IntroductionTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-Information-ui-IntroductionTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-Information-ui-OrganizationTopComponent.shadow">
+                <!--vn.com.hkt.Information.ui.OrganizationTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-Information-ui-OrganizationTopComponent.instance"/>
+            </file>
+        </folder>
+        <folder name="Kinh Doanh">
+            <file name="vn-com-hkt-chart-ui-NghiepVuTopComponent.shadow">
+                <!--vn.com.hkt.chart.ui.NghiepVuTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-chart-ui-NghiepVuTopComponent.instance"/>
+            </file>
+            <folder name="Quản Lý Dự Án">
+                <file name="vn-com-hkt-chart-ui-ThuChiTopComponent.shadow">
+                    <!--vn.com.hkt.chart.ui.ThuChiTopComponent-->
+                    <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-chart-ui-ThuChiTopComponent.instance"/>
+                </file>
+                <file name="vn-com-hkt-tree-ui-department-TreeDepartmentAllTopComponent.shadow">
+                    <!--vn.com.hkt.tree.ui.departmentAll.TreeDepartmentAllTopComponent-->
+                    <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-department-TreeDepartmentAllTopComponent.instance"/>
+                </file>
+                <file name="vn-com-hkt-tree-ui-department-TreeDepartmentTopComponent.shadow">
+                    <!--vn.com.hkt.tree.ui.department.TreeDepartmentTopComponent-->
+                    <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-department-TreeDepartmentTopComponent.instance"/>
+                </file>
+            </folder>
+            <file name="vn-com-hkt-tree-ui-department-thuchi-TreeDepartmentThuChiAllTopComponent.shadow">
+                <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuChiAllTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-department-thuchi-TreeDepartmentThuChiAllTopComponent.instance"/>
+            </file>
+            <folder name="Doanh Thu Theo Lĩnh Vực">
+                <file name="vn-com-hkt-tree-ui-enterprise-thuchi-bytime-TreeEnterpriseThuChiByYearTopComponent.shadow">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.bytime.TreeEnterpriseThuChiByYearTopComponent-->
+                    <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-enterprise-thuchi-bytime-TreeEnterpriseThuChiByYearTopComponent.instance"/>
+                </file>
+            </folder>
+            <file name="vn-com-hkt-tree-ui-enterprise-thuchi-tongquan-TreeEnterpriseThuChiAllTopComponent.shadow">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuChiAllTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-enterprise-thuchi-tongquan-TreeEnterpriseThuChiAllTopComponent.instance"/>
+            </file>
+            <folder name="Doanh Thu Theo Thời Gian">
+                <file name="vn-com-hkt-tree-ui-operation-TreeOperationTopComponent.shadow">
+                    <!--vn.com.hkt.tree.ui.operation.TreeOperationTopComponent-->
+                    <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-operation-TreeOperationTopComponent.instance"/>
+                </file>
+            </folder>
+            <file name="vn-com-hkt-tree-ui-product-thuchi-TreeProductThuChiAllTopComponent.shadow">
+                <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuChiAllTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-product-thuchi-TreeProductThuChiAllTopComponent.instance"/>
+            </file>
+        </folder>
+        <folder name="Thị Trường">
+            <file name="vn-com-hkt-tree-ui-enterpriseAll-TreeEnterpriseAllTopComponent.shadow">
+                <!--vn.com.hkt.tree.ui.enterpriseAll.TreeEnterpriseAllTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-enterpriseAll-TreeEnterpriseAllTopComponent.instance"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-TreeEnterpriseTopComponent.shadow">
+                <!--vn.com.hkt.tree.ui.enterprise.TreeEnterpriseTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-TreeEnterpriseTopComponent.instance"/>
+            </file>
+        </folder>
+        <folder name="Logistics">
+            <folder name="Quản Lý Kho">
+                <file name="vn-com-hkt-tree-ui-product-TreeProductTopComponent.shadow">
+                    <!--vn.com.hkt.tree.ui.product.TreeProductTopComponent-->
+                    <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-product-TreeProductTopComponent.instance"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name=" ">
+        <file name="vn-com-hkt-bom-product-ui-ListProductTopComponent.shadow">
+            <!--vn.com.hkt.bom.product.ui.ListProductTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-bom-product-ui-ListProductTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-bom-product-ui-ProductTopComponent.shadow">
+            <!--vn.com.hkt.bom.product.ui.ProductTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-bom-product-ui-ProductTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-erm-department-ui-DepartmentTopComponent.shadow">
+            <!--vn.com.hkt.erm.department.ui.DepartmentTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-erm-department-ui-DepartmentTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-erm-department-ui-ListDepartmentTopComponent.shadow">
+            <!--vn.com.hkt.erm.department.ui.ListDepartmentTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-erm-department-ui-ListDepartmentTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-erm-enterprise-ui-EnterpriseTopComponent.shadow">
+            <!--vn.com.hkt.erm.enterprise.ui.EnterpriseTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-erm-enterprise-ui-EnterpriseTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-hrm-person-ui-ListPersonTopComponent.shadow">
+            <!--vn.com.hkt.hrm.person.ui.ListPersonTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-hrm-person-ui-ListPersonTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-hrm-person-ui-PersonTopComponent.shadow">
+            <!--vn.com.hkt.hrm.person.ui.PersonTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-hrm-person-ui-PersonTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-tree-ui-department-thuchi-TreeDepartmentCanBangAllTopComponent.shadow">
+            <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentCanBangAllTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-department-thuchi-TreeDepartmentCanBangAllTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-tree-ui-department-thuchi-TreeDepartmentChiAllTopComponent.shadow">
+            <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentChiAllTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-department-thuchi-TreeDepartmentChiAllTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-tree-ui-department-thuchi-TreeDepartmentThuAllTopComponent.shadow">
+            <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuAllTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-department-thuchi-TreeDepartmentThuAllTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-tree-ui-enterprise-thuchi-tongquan-TreeEnterpriseCanBangAllTopComponent.shadow">
+            <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseCanBangAllTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-enterprise-thuchi-tongquan-TreeEnterpriseCanBangAllTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-tree-ui-enterprise-thuchi-tongquan-TreeEnterpriseChiAllTopComponent.shadow">
+            <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseChiAllTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-enterprise-thuchi-tongquan-TreeEnterpriseChiAllTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-tree-ui-enterprise-thuchi-tongquan-TreeEnterpriseThuAllTopComponent.shadow">
+            <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuAllTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-enterprise-thuchi-tongquan-TreeEnterpriseThuAllTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-tree-ui-product-thuchi-TreeProductCanBangAllTopComponent.shadow">
+            <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductCanBangAllTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-product-thuchi-TreeProductCanBangAllTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-tree-ui-product-thuchi-TreeProductChiAllTopComponent.shadow">
+            <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductChiAllTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-product-thuchi-TreeProductChiAllTopComponent.instance"/>
+        </file>
+        <file name="vn-com-hkt-tree-ui-product-thuchi-TreeProductThuAllTopComponent.shadow">
+            <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuAllTopComponent-->
+            <attr name="originalFile" stringvalue="Actions/Window/vn-com-hkt-tree-ui-product-thuchi-TreeProductThuAllTopComponent.instance"/>
+        </file>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="DepartmentSearchTopComponent.settings">
+                <!--vn.com.hkt.Help.ui.DepartmentSearchTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.Help.ui.DepartmentSearchTopComponent"/>
+</settings>
+]]></file>
+            <file name="EnterpriseSearchTopComponent.settings">
+                <!--vn.com.hkt.Help.ui.EnterpriseSearchTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.Help.ui.EnterpriseSearchTopComponent"/>
+</settings>
+]]></file>
+            <file name="HelpTopComponent.settings">
+                <!--vn.com.hkt.Help.ui.HelpTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.Help.ui.HelpTopComponent"/>
+</settings>
+]]></file>
+            <file name="OperationsSearchTopComponent.settings">
+                <!--vn.com.hkt.Help.ui.OperationsSearchTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.Help.ui.OperationsSearchTopComponent"/>
+</settings>
+]]></file>
+            <file name="PersonSearchTopComponent.settings">
+                <!--vn.com.hkt.Help.ui.PersonSearchTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.Help.ui.PersonSearchTopComponent"/>
+</settings>
+]]></file>
+            <file name="ProductSearchTopComponent.settings">
+                <!--vn.com.hkt.Help.ui.ProductSearchTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.Help.ui.ProductSearchTopComponent"/>
+</settings>
+]]></file>
+            <file name="authorTopComponent.settings">
+                <!--vn.com.hkt.Help.ui.authorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.Help.ui.authorTopComponent"/>
+</settings>
+]]></file>
+            <file name="HistoryTopComponent.settings">
+                <!--vn.com.hkt.Information.ui.HistoryTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.Information.ui.HistoryTopComponent"/>
+</settings>
+]]></file>
+            <file name="IntroductionTopComponent.settings">
+                <!--vn.com.hkt.Information.ui.IntroductionTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.Information.ui.IntroductionTopComponent"/>
+</settings>
+]]></file>
+            <file name="OrganizationTopComponent.settings">
+                <!--vn.com.hkt.Information.ui.OrganizationTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.Information.ui.OrganizationTopComponent"/>
+</settings>
+]]></file>
+            <file name="ListProductTopComponent.settings">
+                <!--vn.com.hkt.bom.product.ui.ListProductTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.bom.product.ui.ListProductTopComponent"/>
+</settings>
+]]></file>
+            <file name="ProductTopComponent.settings">
+                <!--vn.com.hkt.bom.product.ui.ProductTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.bom.product.ui.ProductTopComponent"/>
+</settings>
+]]></file>
+            <file name="BieuDoTopComponent.settings">
+                <!--vn.com.hkt.chart.ui.BieuDoTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.chart.ui.BieuDoTopComponent"/>
+</settings>
+]]></file>
+            <file name="NghiepVuTopComponent.settings">
+                <!--vn.com.hkt.chart.ui.NghiepVuTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.chart.ui.NghiepVuTopComponent"/>
+</settings>
+]]></file>
+            <file name="ThuChiTopComponent.settings">
+                <!--vn.com.hkt.chart.ui.ThuChiTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.chart.ui.ThuChiTopComponent"/>
+</settings>
+]]></file>
+            <file name="DepartmentTopComponent.settings">
+                <!--vn.com.hkt.erm.department.ui.DepartmentTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.erm.department.ui.DepartmentTopComponent"/>
+</settings>
+]]></file>
+            <file name="ListDepartmentTopComponent.settings">
+                <!--vn.com.hkt.erm.department.ui.ListDepartmentTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.erm.department.ui.ListDepartmentTopComponent"/>
+</settings>
+]]></file>
+            <file name="EnterpriseTopComponent.settings">
+                <!--vn.com.hkt.erm.enterprise.ui.EnterpriseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.erm.enterprise.ui.EnterpriseTopComponent"/>
+</settings>
+]]></file>
+            <file name="ListEnterpriseTopComponent.settings">
+                <!--vn.com.hkt.erm.enterprise.ui.ListEnterpriseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.erm.enterprise.ui.ListEnterpriseTopComponent"/>
+</settings>
+]]></file>
+            <file name="ListPersonTopComponent.settings">
+                <!--vn.com.hkt.hrm.person.ui.ListPersonTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.hrm.person.ui.ListPersonTopComponent"/>
+</settings>
+]]></file>
+            <file name="PersonTopComponent.settings">
+                <!--vn.com.hkt.hrm.person.ui.PersonTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.hrm.person.ui.PersonTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeDepartmentAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.departmentAll.TreeDepartmentAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.departmentAll.TreeDepartmentAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeDepartmentTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.department.TreeDepartmentTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.department.TreeDepartmentTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeDepartmentCanBangAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentCanBangAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentCanBangAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeDepartmentChiAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentChiAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentChiAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeDepartmentThuAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeDepartmentThuChiAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuChiAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuChiAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeEnterpriseAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.enterpriseAll.TreeEnterpriseAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.enterpriseAll.TreeEnterpriseAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeEnterpriseTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.enterprise.TreeEnterpriseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.enterprise.TreeEnterpriseTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeEnterpriseThuChiTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.TreeEnterpriseThuChiTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.enterprise.thuchi.TreeEnterpriseThuChiTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeEnterpriseThuChiByYearTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.bytime.TreeEnterpriseThuChiByYearTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.enterprise.thuchi.bytime.TreeEnterpriseThuChiByYearTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeEnterpriseCanBangAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseCanBangAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseCanBangAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeEnterpriseChiAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseChiAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseChiAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeEnterpriseThuAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeEnterpriseThuChiAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuChiAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuChiAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeOperationTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.operation.TreeOperationTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.operation.TreeOperationTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeProductTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.product.TreeProductTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.product.TreeProductTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeProductCanBangAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductCanBangAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.product.thuchi.TreeProductCanBangAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeProductChiAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductChiAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.product.thuchi.TreeProductChiAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeProductThuAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.product.thuchi.TreeProductThuAllTopComponent"/>
+</settings>
+]]></file>
+            <file name="TreeProductThuChiAllTopComponent.settings">
+                <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuChiAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="vn.com.hkt.tree.ui.product.thuchi.TreeProductThuChiAllTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="DepartmentSearchTopComponent.wstcref">
+                    <!--vn.com.hkt.Help.ui.DepartmentSearchTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="DepartmentSearchTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="EnterpriseSearchTopComponent.wstcref">
+                    <!--vn.com.hkt.Help.ui.EnterpriseSearchTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="EnterpriseSearchTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="HelpTopComponent.wstcref">
+                    <!--vn.com.hkt.Help.ui.HelpTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="HelpTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="OperationsSearchTopComponent.wstcref">
+                    <!--vn.com.hkt.Help.ui.OperationsSearchTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="OperationsSearchTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="PersonSearchTopComponent.wstcref">
+                    <!--vn.com.hkt.Help.ui.PersonSearchTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="PersonSearchTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ProductSearchTopComponent.wstcref">
+                    <!--vn.com.hkt.Help.ui.ProductSearchTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ProductSearchTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="authorTopComponent.wstcref">
+                    <!--vn.com.hkt.Help.ui.authorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="authorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="HistoryTopComponent.wstcref">
+                    <!--vn.com.hkt.Information.ui.HistoryTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="HistoryTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="IntroductionTopComponent.wstcref">
+                    <!--vn.com.hkt.Information.ui.IntroductionTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="IntroductionTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="OrganizationTopComponent.wstcref">
+                    <!--vn.com.hkt.Information.ui.OrganizationTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="OrganizationTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ListProductTopComponent.wstcref">
+                    <!--vn.com.hkt.bom.product.ui.ListProductTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ListProductTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ProductTopComponent.wstcref">
+                    <!--vn.com.hkt.bom.product.ui.ProductTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ProductTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="BieuDoTopComponent.wstcref">
+                    <!--vn.com.hkt.chart.ui.BieuDoTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="BieuDoTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="NghiepVuTopComponent.wstcref">
+                    <!--vn.com.hkt.chart.ui.NghiepVuTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="NghiepVuTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ThuChiTopComponent.wstcref">
+                    <!--vn.com.hkt.chart.ui.ThuChiTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ThuChiTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="DepartmentTopComponent.wstcref">
+                    <!--vn.com.hkt.erm.department.ui.DepartmentTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="DepartmentTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ListDepartmentTopComponent.wstcref">
+                    <!--vn.com.hkt.erm.department.ui.ListDepartmentTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ListDepartmentTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="EnterpriseTopComponent.wstcref">
+                    <!--vn.com.hkt.erm.enterprise.ui.EnterpriseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="EnterpriseTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ListEnterpriseTopComponent.wstcref">
+                    <!--vn.com.hkt.erm.enterprise.ui.ListEnterpriseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ListEnterpriseTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="ListPersonTopComponent.wstcref">
+                    <!--vn.com.hkt.hrm.person.ui.ListPersonTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ListPersonTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="PersonTopComponent.wstcref">
+                    <!--vn.com.hkt.hrm.person.ui.PersonTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="PersonTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeDepartmentAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.departmentAll.TreeDepartmentAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeDepartmentAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeDepartmentTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.department.TreeDepartmentTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeDepartmentTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeDepartmentCanBangAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentCanBangAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeDepartmentCanBangAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeDepartmentChiAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentChiAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeDepartmentChiAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeDepartmentThuAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeDepartmentThuAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeDepartmentThuChiAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuChiAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeDepartmentThuChiAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeEnterpriseAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.enterpriseAll.TreeEnterpriseAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeEnterpriseAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeEnterpriseTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.enterprise.TreeEnterpriseTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeEnterpriseTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeEnterpriseThuChiTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.TreeEnterpriseThuChiTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeEnterpriseThuChiTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeEnterpriseThuChiByYearTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.bytime.TreeEnterpriseThuChiByYearTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeEnterpriseThuChiByYearTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeEnterpriseCanBangAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseCanBangAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeEnterpriseCanBangAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeEnterpriseChiAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseChiAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeEnterpriseChiAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeEnterpriseThuAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeEnterpriseThuAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeEnterpriseThuChiAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuChiAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeEnterpriseThuChiAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeOperationTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.operation.TreeOperationTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeOperationTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeProductTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.product.TreeProductTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeProductTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeProductCanBangAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductCanBangAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeProductCanBangAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeProductChiAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductChiAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeProductChiAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeProductThuAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeProductThuAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="TreeProductThuChiAllTopComponent.wstcref">
+                    <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuChiAllTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeProductThuChiAllTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <folder name="HKT">
+                <file name="vn-com-hkt-Help-ui-DepartmentSearchTopComponent.instance">
+                    <!--vn.com.hkt.Help.ui.DepartmentSearchTopComponent-->
+                    <attr
+                        methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                    <attr name="component" newvalue="vn.com.hkt.Help.ui.DepartmentSearchTopComponent"/>
+                    <attr name="preferredID" stringvalue="DepartmentSearchTopComponent"/>
+                    <attr
+                        bundlevalue="vn.com.hkt.Help.ui.Bundle#CTL_DepartmentSearchAction" name="displayName"/>
+                </file>
+            </folder>
+            <file name="vn-com-hkt-Help-ui-EnterpriseSearchTopComponent.instance">
+                <!--vn.com.hkt.Help.ui.EnterpriseSearchTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.Help.ui.EnterpriseSearchTopComponent"/>
+                <attr name="preferredID" stringvalue="EnterpriseSearchTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.Help.ui.Bundle#CTL_EnterpriseSearchAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-Help-ui-HelpTopComponent.instance">
+                <!--vn.com.hkt.Help.ui.HelpTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.Help.ui.HelpTopComponent"/>
+                <attr name="preferredID" stringvalue="HelpTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.Help.ui.Bundle#CTL_HelpAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-Help-ui-OperationsSearchTopComponent.instance">
+                <!--vn.com.hkt.Help.ui.OperationsSearchTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.Help.ui.OperationsSearchTopComponent"/>
+                <attr name="preferredID" stringvalue="OperationsSearchTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.Help.ui.Bundle#CTL_OperationsSearchAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-Help-ui-PersonSearchTopComponent.instance">
+                <!--vn.com.hkt.Help.ui.PersonSearchTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.Help.ui.PersonSearchTopComponent"/>
+                <attr name="preferredID" stringvalue="PersonSearchTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.Help.ui.Bundle#CTL_PersonSearchAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-Help-ui-ProductSearchTopComponent.instance">
+                <!--vn.com.hkt.Help.ui.ProductSearchTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.Help.ui.ProductSearchTopComponent"/>
+                <attr name="preferredID" stringvalue="ProductSearchTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.Help.ui.Bundle#CTL_ProductSearchAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-Help-ui-authorTopComponent.instance">
+                <!--vn.com.hkt.Help.ui.authorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.Help.ui.authorTopComponent"/>
+                <attr name="preferredID" stringvalue="authorTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.Help.ui.Bundle#CTL_authorAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-Information-ui-HistoryTopComponent.instance">
+                <!--vn.com.hkt.Information.ui.HistoryTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.Information.ui.HistoryTopComponent"/>
+                <attr name="preferredID" stringvalue="HistoryTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.Information.ui.Bundle#CTL_HistoryAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-Information-ui-IntroductionTopComponent.instance">
+                <!--vn.com.hkt.Information.ui.IntroductionTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.Information.ui.IntroductionTopComponent"/>
+                <attr name="preferredID" stringvalue="IntroductionTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.Information.ui.Bundle#CTL_IntroductionAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-Information-ui-OrganizationTopComponent.instance">
+                <!--vn.com.hkt.Information.ui.OrganizationTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.Information.ui.OrganizationTopComponent"/>
+                <attr name="preferredID" stringvalue="OrganizationTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.Information.ui.Bundle#CTL_OrganizationAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-bom-product-ui-ListProductTopComponent.instance">
+                <!--vn.com.hkt.bom.product.ui.ListProductTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.bom.product.ui.ListProductTopComponent"/>
+                <attr name="preferredID" stringvalue="ListProductTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.bom.product.ui.Bundle#CTL_ListProductAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-bom-product-ui-ProductTopComponent.instance">
+                <!--vn.com.hkt.bom.product.ui.ProductTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.bom.product.ui.ProductTopComponent"/>
+                <attr name="preferredID" stringvalue="ProductTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.bom.product.ui.Bundle#CTL_ProductAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-chart-ui-BieuDoTopComponent.instance">
+                <!--vn.com.hkt.chart.ui.BieuDoTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.chart.ui.BieuDoTopComponent"/>
+                <attr name="preferredID" stringvalue="BieuDoTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.chart.ui.Bundle#CTL_BieuDoAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-chart-ui-NghiepVuTopComponent.instance">
+                <!--vn.com.hkt.chart.ui.NghiepVuTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.chart.ui.NghiepVuTopComponent"/>
+                <attr name="preferredID" stringvalue="NghiepVuTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.chart.ui.Bundle#CTL_NghiepVuAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-chart-ui-ThuChiTopComponent.instance">
+                <!--vn.com.hkt.chart.ui.ThuChiTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.chart.ui.ThuChiTopComponent"/>
+                <attr name="preferredID" stringvalue="ThuChiTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.chart.ui.Bundle#CTL_ThuChiAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-erm-department-ui-DepartmentTopComponent.instance">
+                <!--vn.com.hkt.erm.department.ui.DepartmentTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.erm.department.ui.DepartmentTopComponent"/>
+                <attr name="preferredID" stringvalue="DepartmentTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.erm.department.ui.Bundle#CTL_DepartmentAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-erm-department-ui-ListDepartmentTopComponent.instance">
+                <!--vn.com.hkt.erm.department.ui.ListDepartmentTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.erm.department.ui.ListDepartmentTopComponent"/>
+                <attr name="preferredID" stringvalue="ListDepartmentTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.erm.department.ui.Bundle#CTL_ListDepartmentAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-erm-enterprise-ui-EnterpriseTopComponent.instance">
+                <!--vn.com.hkt.erm.enterprise.ui.EnterpriseTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.erm.enterprise.ui.EnterpriseTopComponent"/>
+                <attr name="preferredID" stringvalue="EnterpriseTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.erm.enterprise.ui.Bundle#CTL_EnterpriseAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-erm-enterprise-ui-ListEnterpriseTopComponent.instance">
+                <!--vn.com.hkt.erm.enterprise.ui.ListEnterpriseTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.erm.enterprise.ui.ListEnterpriseTopComponent"/>
+                <attr name="preferredID" stringvalue="ListEnterpriseTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.erm.enterprise.ui.Bundle#CTL_ListEnterpriseAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-hrm-person-ui-ListPersonTopComponent.instance">
+                <!--vn.com.hkt.hrm.person.ui.ListPersonTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.hrm.person.ui.ListPersonTopComponent"/>
+                <attr name="preferredID" stringvalue="ListPersonTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.hrm.person.ui.Bundle#CTL_ListPersonAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-hrm-person-ui-PersonTopComponent.instance">
+                <!--vn.com.hkt.hrm.person.ui.PersonTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.hrm.person.ui.PersonTopComponent"/>
+                <attr name="preferredID" stringvalue="PersonTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.hrm.person.ui.Bundle#CTL_PersonAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-department-TreeDepartmentAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.departmentAll.TreeDepartmentAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.departmentAll.TreeDepartmentAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeDepartmentAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.departmentAll.Bundle#CTL_TreeDepartmentAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-department-TreeDepartmentTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.department.TreeDepartmentTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.department.TreeDepartmentTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeDepartmentTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.department.Bundle#CTL_TreeDepartmentAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-department-thuchi-TreeDepartmentCanBangAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentCanBangAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentCanBangAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeDepartmentCanBangAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.department.thuchi.Bundle#CTL_TreeDepartmentCanBangAllAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-department-thuchi-TreeDepartmentChiAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentChiAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentChiAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeDepartmentChiAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.department.thuchi.Bundle#CTL_TreeDepartmentChiAllAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-department-thuchi-TreeDepartmentThuAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeDepartmentThuAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.department.thuchi.Bundle#CTL_TreeDepartmentThuAllAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-department-thuchi-TreeDepartmentThuChiAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuChiAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.department.thuchi.TreeDepartmentThuChiAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeDepartmentThuChiAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.department.thuchi.Bundle#CTL_TreeDepartmentThuChiAllAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-enterpriseAll-TreeEnterpriseAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.enterpriseAll.TreeEnterpriseAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.enterpriseAll.TreeEnterpriseAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeEnterpriseAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.enterpriseAll.Bundle#CTL_TreeEnterpriseAllAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-TreeEnterpriseTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.enterprise.TreeEnterpriseTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.enterprise.TreeEnterpriseTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeEnterpriseTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.enterprise.Bundle#CTL_TreeEnterpriseAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-enterprise-thuchi-TreeEnterpriseThuChiTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.TreeEnterpriseThuChiTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.enterprise.thuchi.TreeEnterpriseThuChiTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeEnterpriseThuChiTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.enterprise.thuchi.Bundle#CTL_TreeEnterpriseThuChiAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-enterprise-thuchi-bytime-TreeEnterpriseThuChiByYearTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.bytime.TreeEnterpriseThuChiByYearTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.enterprise.thuchi.bytime.TreeEnterpriseThuChiByYearTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeEnterpriseThuChiByYearTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.enterprise.thuchi.bytime.Bundle#CTL_TreeEnterpriseThuChiByYearAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-enterprise-thuchi-tongquan-TreeEnterpriseCanBangAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseCanBangAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseCanBangAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeEnterpriseCanBangAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.Bundle#CTL_TreeEnterpriseCanBangAllAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-enterprise-thuchi-tongquan-TreeEnterpriseChiAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseChiAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseChiAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeEnterpriseChiAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.Bundle#CTL_TreeEnterpriseChiAllAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-enterprise-thuchi-tongquan-TreeEnterpriseThuAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeEnterpriseThuAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.Bundle#CTL_TreeEnterpriseThuAllAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-enterprise-thuchi-tongquan-TreeEnterpriseThuChiAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuChiAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.TreeEnterpriseThuChiAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeEnterpriseThuChiAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.enterprise.thuchi.tongquan.Bundle#CTL_TreeEnterpriseThuChiAllAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-operation-TreeOperationTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.operation.TreeOperationTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.operation.TreeOperationTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeOperationTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.operation.Bundle#CTL_TreeOperationAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-product-TreeProductTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.product.TreeProductTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.product.TreeProductTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeProductTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.product.Bundle#CTL_TreeProductAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-product-thuchi-TreeProductCanBangAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductCanBangAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.product.thuchi.TreeProductCanBangAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeProductCanBangAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.product.thuchi.Bundle#CTL_TreeProductCanBangAllAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-product-thuchi-TreeProductChiAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductChiAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.product.thuchi.TreeProductChiAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeProductChiAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.product.thuchi.Bundle#CTL_TreeProductChiAllAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-product-thuchi-TreeProductThuAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.product.thuchi.TreeProductThuAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeProductThuAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.product.thuchi.Bundle#CTL_TreeProductThuAllAction" name="displayName"/>
+            </file>
+            <file name="vn-com-hkt-tree-ui-product-thuchi-TreeProductThuChiAllTopComponent.instance">
+                <!--vn.com.hkt.tree.ui.product.thuchi.TreeProductThuChiAllTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="vn.com.hkt.tree.ui.product.thuchi.TreeProductThuChiAllTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeProductThuChiAllTopComponent"/>
+                <attr
+                    bundlevalue="vn.com.hkt.tree.ui.product.thuchi.Bundle#CTL_TreeProductThuChiAllAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
